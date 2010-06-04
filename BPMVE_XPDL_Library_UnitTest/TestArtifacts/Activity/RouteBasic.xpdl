@@ -1,0 +1,1 @@
+﻿<Route GatewayType="AND" ExclusiveType="Event" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition" OutgoingCondition="OutgoingCondition" />

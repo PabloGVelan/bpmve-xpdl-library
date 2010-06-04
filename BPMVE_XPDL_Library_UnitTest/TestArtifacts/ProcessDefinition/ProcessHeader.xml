@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessHeader DurationUnit="Y" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Created>Created1</Created>
+  <Description>Description1</Description>
+  <Priority>Priority1</Priority>
+  <Limit>Limit1</Limit>
+  <ValidFrom>ValidFrom1</ValidFrom>
+  <ValidTo>ValidTo1</ValidTo>
+  <TimeEstimation>
+    <WaitingTime>WaitingTime1</WaitingTime>
+    <WorkingTime>WorkingTime1</WorkingTime>
+    <Duration>Duration1</Duration>
+  </TimeEstimation>
+</ProcessHeader>

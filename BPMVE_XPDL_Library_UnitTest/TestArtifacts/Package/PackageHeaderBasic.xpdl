@@ -1,0 +1,15 @@
+﻿<PackageHeader>
+  <XPDLVersion>Value</XPDLVersion>
+  <Vendor>Value</Vendor>
+  <Created>Value</Created>
+  <ModificationDate>Value</ModificationDate>
+  <Description>Value</Description>
+  <Documentation>Value</Documentation>
+  <PriorityUnit>Value</PriorityUnit>
+  <CostUnit>Value</CostUnit>
+  <VendorExtensions>
+    <VendorExtension ToolId="ToolId" schemaLocation="SchemaNamespace" extensionDescription="ExtendedDescription" />
+    <VendorExtension ToolId="ToolId" schemaLocation="SchemaNamespace" extensionDescription="ExtendedDescription" />
+  </VendorExtensions>
+  <LayoutInfo PixelsPerMillimeter="1" />
+</PackageHeader>

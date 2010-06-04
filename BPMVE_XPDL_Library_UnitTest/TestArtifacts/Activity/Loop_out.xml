@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Loop xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <LoopStandard LoopCounter="1" LoopMaximum="1" TestTime="Before">
+    <LoopCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+  </LoopStandard>
+</Loop>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataObject xmlns:p1="otherNS" Id="Token1" Name="Name1" State="State1" RequiredForStart="true" ProducedAtCompletion="true" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <DataField Id="Token1" />
+  <DataField Id="Token2" />
+  <DataField Id="Token3" />
+</DataObject>

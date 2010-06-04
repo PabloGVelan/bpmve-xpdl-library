@@ -1,0 +1,14 @@
+﻿<Association Id="Id" Name="Name" Source="Source" Target="Target" AssociationDirection="From">
+  <ConnectorGraphicsInfos>
+    <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+    </ConnectorGraphicsInfo>
+  </ConnectorGraphicsInfos>
+</Association>

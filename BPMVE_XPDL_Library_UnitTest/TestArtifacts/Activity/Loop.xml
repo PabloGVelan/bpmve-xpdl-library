@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Loop LoopType="Standard" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <LoopStandard LoopCondition="LoopCondition1" LoopCounter="1" LoopMaximum="1" TestTime="Before">
+    <LoopCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</LoopCondition>
+  </LoopStandard>
+</Loop>

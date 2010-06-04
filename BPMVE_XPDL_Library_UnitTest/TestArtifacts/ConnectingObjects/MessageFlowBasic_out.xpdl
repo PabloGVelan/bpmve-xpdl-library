@@ -1,0 +1,26 @@
+﻿<MessageFlow Id="Id" Name="Name" Source="Source" Target="Target">
+  <ConnectorGraphicsInfos>
+    <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+    </ConnectorGraphicsInfo>
+  </ConnectorGraphicsInfos>
+  <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+    <DataMappings>
+      <DataMapping Formal="Formal" Direction="INOUT">
+        <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </DataMapping>
+      <DataMapping Formal="Formal" Direction="INOUT">
+        <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </DataMapping>
+    </DataMappings>
+  </Message>
+</MessageFlow>

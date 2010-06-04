@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.Association">
+    <Position X="5.25" Y="4" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAgSAAAAggQAAACRAAAQBAIAAAAAAIAAAAAA=</HashCode>
+      <FileName>GraphicElements\Association.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ConnectingObject">
+    <Position X="5.25" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAgAQAAAARAAAQBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicElements\ConnectingObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.MessageFlow">
+    <Position X="10" Y="4" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAgSAAAAggYAAACRAAAQBAIAAAAAAIAAAAAA=</HashCode>
+      <FileName>GraphicElements\MessageFlow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Transition">
+    <Position X="0.5" Y="4" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AgMSAAQAAACgwAAggQAAAARAAAQJAIAAAAAAgAABAAA=</HashCode>
+      <FileName>GraphicElements\Transition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

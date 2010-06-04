@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TaskSend Implementation="WebService" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Message Id="Token1" Name="Name1" From="Token1" To="Token1" FaultName="Token1">
+    <ActualParameters>
+      <ActualParameter ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</ActualParameter>
+      <ActualParameter ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</ActualParameter>
+      <ActualParameter ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</ActualParameter>
+    </ActualParameters>
+  </Message>
+  <WebServiceOperation OperationName="OperationName1">
+    <Partner PartnerLinkId="Token1" RoleType="MyRole" />
+  </WebServiceOperation>
+  <WebServiceFaultCatch FaultName="Token1">
+    <Message Id="Token1" Name="Name1" From="Token1" To="Token1" FaultName="Token1">
+      <ActualParameters>
+        <ActualParameter ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</ActualParameter>
+        <ActualParameter ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</ActualParameter>
+        <ActualParameter ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</ActualParameter>
+      </ActualParameters>
+    </Message>
+    <BlockActivity ActivitySetId="Token1" StartActivityId="Token1" View="COLLAPSED" />
+  </WebServiceFaultCatch>
+  <WebServiceFaultCatch FaultName="Token2">
+    <Message Id="Token2" Name="Name2" From="Token2" To="Token2" FaultName="Token2">
+      <ActualParameters>
+        <ActualParameter ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</ActualParameter>
+        <ActualParameter ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</ActualParameter>
+        <ActualParameter ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</ActualParameter>
+      </ActualParameters>
+    </Message>
+    <BlockActivity ActivitySetId="Token2" StartActivityId="Token2" View="COLLAPSED" />
+  </WebServiceFaultCatch>
+  <WebServiceFaultCatch FaultName="Token3">
+    <Message Id="Token3" Name="Name3" From="Token3" To="Token3" FaultName="Token3">
+      <ActualParameters>
+        <ActualParameter ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" ScriptGrammar="http://uri10">text</ActualParameter>
+        <ActualParameter ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" ScriptGrammar="http://uri11">text</ActualParameter>
+        <ActualParameter ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" ScriptGrammar="http://uri12">text</ActualParameter>
+      </ActualParameters>
+    </Message>
+    <BlockActivity ActivitySetId="Token3" StartActivityId="Token3" View="EXPANDED" />
+  </WebServiceFaultCatch>
+</TaskSend>

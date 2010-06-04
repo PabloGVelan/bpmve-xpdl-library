@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LoopMultiInstance MI_Condition="MI_Condition1" LoopCounter="1" MI_Ordering="Sequential" MI_FlowCondition="All" ComplexMI_FlowCondition="ComplexMI_FlowCondition1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <MI_Condition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</MI_Condition>
+  <ComplexMI_FlowCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</ComplexMI_FlowCondition>
+</LoopMultiInstance>

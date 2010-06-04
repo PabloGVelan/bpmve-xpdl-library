@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InputSet xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Input ArtifactId="Token1" />
+  <Input ArtifactId="Token2" />
+  <Input ArtifactId="Token3" />
+  <ArtifactInput ArtifactId="Token1" RequiredForStart="true" />
+  <ArtifactInput ArtifactId="Token2" RequiredForStart="true" />
+  <ArtifactInput ArtifactId="Token3" RequiredForStart="false" />
+  <PropertyInput PropertyId="Token1" />
+  <PropertyInput PropertyId="Token2" />
+  <PropertyInput PropertyId="Token3" />
+</InputSet>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TimeEstimation xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <WaitingTime>WaitingTime1</WaitingTime>
+  <WorkingTime>WorkingTime1</WorkingTime>
+  <Duration>Duration1</Duration>
+</TimeEstimation>

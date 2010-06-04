@@ -1,0 +1,13 @@
+﻿<ProcessHeader DurationUnit="D">
+  <Created>Value</Created>
+  <Description>Value</Description>
+  <Priority>Value</Priority>
+  <Limit>Value</Limit>
+  <ValidFrom>Value</ValidFrom>
+  <ValidTo>Value</ValidTo>
+  <TimeEstimation>
+    <WaitingTime>Time</WaitingTime>
+    <WorkingTime>Time</WorkingTime>
+    <Duration>Value</Duration>
+  </TimeEstimation>
+</ProcessHeader>

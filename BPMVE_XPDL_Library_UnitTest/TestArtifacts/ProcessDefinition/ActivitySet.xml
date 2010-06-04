@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ActivitySet Id="Token1" Name="Name1" AdHoc="false" AdHocOrdering="Parallel" AdHocCompletionCondition="AdHocCompletionCondition1" DefaultStartActivityId="Token1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Activities>
+    <Activity Id="Token1" IsForCompensation="true" Name="Name1" StartActivity="true" Status="None" StartMode="Automatic" FinishMode="Automatic" StartQuantity="1" CompletionQuantity="1" IsATransaction="false">
+      <Description>Description1</Description>
+      <Limit>Limit1</Limit>
+      <Route GatewayType="Exclusive" XORType="Data" ExclusiveType="Data" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition1" OutgoingCondition="OutgoingCondition1" />
+      <Transaction TransactionId="TransactionId1" TransactionProtocol="TransactionProtocol1" TransactionMethod="Compensate" />
+      <Performers>
+        <Performer>Performer1</Performer>
+        <Performer>Performer2</Performer>
+        <Performer>Performer3</Performer>
+      </Performers>
+      <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <Automatic />
+      </StartMode>
+      <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <Automatic />
+      </FinishMode>
+      <Priority>Priority1</Priority>
+      <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <SimulationInformation Instantiation="ONCE">
+        <Cost>Cost1</Cost>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime1</WaitingTime>
+          <WorkingTime>WorkingTime1</WorkingTime>
+          <Duration>Duration1</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="1" YCOORD="1" WIDTH="1" HEIGHT="1" SHAPE="RoundRectangle">Icon1</Icon>
+      <Documentation>Documentation1</Documentation>
+      <TransitionRestrictions>
+        <TransitionRestriction>
+          <Join Type="XOR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion1" />
+          <Split Type="XOR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition1">
+            <TransitionRefs>
+              <TransitionRef Id="Token1" Name="Name1" />
+              <TransitionRef Id="Token2" Name="Name2" />
+              <TransitionRef Id="Token3" Name="Name3" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join Type="Exclusive" ExclusiveType="Data" IncomingCondtion="IncomingCondtion2" />
+          <Split Type="Exclusive" ExclusiveType="Data" OutgoingCondition="OutgoingCondition2">
+            <TransitionRefs>
+              <TransitionRef Id="Token4" Name="Name4" />
+              <TransitionRef Id="Token5" Name="Name5" />
+              <TransitionRef Id="Token6" Name="Name6" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join Type="OR" ExclusiveType="Event" IncomingCondtion="IncomingCondtion3" />
+          <Split Type="OR" ExclusiveType="Event" OutgoingCondition="OutgoingCondition3">
+            <TransitionRefs>
+              <TransitionRef Id="Token7" Name="Name7" />
+              <TransitionRef Id="Token8" Name="Name8" />
+              <TransitionRef Id="Token9" Name="Name9" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+      </TransitionRestrictions>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token1" Value="Value1">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token2" Value="Value2">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token3" Value="Value3">text</ExtendedAttribute>
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Token1" Name="Name1" ReadOnly="false" IsArray="false" Correlation="false">
+          <InitialValue ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</InitialValue>
+        </DataField>
+        <DataField Id="Token2" Name="Name2" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</InitialValue>
+        </DataField>
+        <DataField Id="Token3" Name="Name3" ReadOnly="false" IsArray="false" Correlation="false">
+          <InitialValue ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</InitialValue>
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet>
+          <Input ArtifactId="Token1" />
+          <Input ArtifactId="Token2" />
+          <Input ArtifactId="Token3" />
+          <ArtifactInput ArtifactId="Token1" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token2" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token3" RequiredForStart="false" />
+          <PropertyInput PropertyId="Token1" />
+          <PropertyInput PropertyId="Token2" />
+          <PropertyInput PropertyId="Token3" />
+        </InputSet>
+        <InputSet>
+          <Input ArtifactId="Token4" />
+          <Input ArtifactId="Token5" />
+          <Input ArtifactId="Token6" />
+          <ArtifactInput ArtifactId="Token4" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token5" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token6" RequiredForStart="true" />
+          <PropertyInput PropertyId="Token4" />
+          <PropertyInput PropertyId="Token5" />
+          <PropertyInput PropertyId="Token6" />
+        </InputSet>
+        <InputSet>
+          <Input ArtifactId="Token7" />
+          <Input ArtifactId="Token8" />
+          <Input ArtifactId="Token9" />
+          <ArtifactInput ArtifactId="Token7" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token8" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token9" RequiredForStart="false" />
+          <PropertyInput PropertyId="Token7" />
+          <PropertyInput PropertyId="Token8" />
+          <PropertyInput PropertyId="Token9" />
+        </InputSet>
+      </InputSets>
+      <OutputSets>
+        <OutputSet>
+          <Output ArtifactId="Token1" />
+          <Output ArtifactId="Token2" />
+          <Output ArtifactId="Token3" />
+        </OutputSet>
+        <OutputSet>
+          <Output ArtifactId="Token4" />
+          <Output ArtifactId="Token5" />
+          <Output ArtifactId="Token6" />
+        </OutputSet>
+        <OutputSet>
+          <Output ArtifactId="Token7" />
+          <Output ArtifactId="Token8" />
+          <Output ArtifactId="Token9" />
+        </OutputSet>
+      </OutputSets>
+      <IORules>
+        <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Expression>
+        <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Expression>
+        <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Expression>
+      </IORules>
+      <Loop LoopType="Standard">
+        <LoopStandard LoopCondition="LoopCondition1" LoopCounter="1" LoopMaximum="1" TestTime="Before">
+          <LoopCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</LoopCondition>
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment AssignTime="Start">
+          <Target ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Target>
+          <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Expression>
+        </Assignment>
+        <Assignment AssignTime="Start">
+          <Target ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Target>
+          <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Expression>
+        </Assignment>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Target>
+          <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Expression>
+        </Assignment>
+      </Assignments>
+      <Object Id="Token1" Name="Name1">
+        <Categories>
+          <Category Id="Token1" Name="Name1" />
+          <Category Id="Token2" Name="Name2" />
+          <Category Id="Token3" Name="Name3" />
+        </Categories>
+      </Object>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId1" IsVisible="true" Page="Token1" PageId="Token1" LaneId="Token1" Height="1" Width="1" BorderColor="BorderColor1" FillColor="FillColor1" Shape="Shape1">
+          <Coordinates XCoordinate="1" YCoordinate="1" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId2" IsVisible="true" Page="Token2" PageId="Token2" LaneId="Token2" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor2" FillColor="FillColor2" Shape="Shape2">
+          <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId3" IsVisible="false" Page="Token3" PageId="Token3" LaneId="Token3" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor3" FillColor="FillColor3" Shape="Shape3">
+          <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Extensions>anyType</Extensions>
+    </Activity>
+    <Activity Id="Token2" IsForCompensation="false" Name="Name2" StartActivity="false" Status="None" StartMode="Manual" FinishMode="Manual" StartQuantity="1" CompletionQuantity="1" IsATransaction="true">
+      <Description>Description2</Description>
+      <Limit>Limit2</Limit>
+      <Route GatewayType="XOR" XORType="Data" ExclusiveType="Data" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition2" OutgoingCondition="OutgoingCondition2" />
+      <Transaction TransactionId="TransactionId2" TransactionProtocol="TransactionProtocol2" TransactionMethod="Store" />
+      <Performers>
+        <Performer>Performer4</Performer>
+        <Performer>Performer5</Performer>
+        <Performer>Performer6</Performer>
+      </Performers>
+      <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <Automatic />
+      </StartMode>
+      <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <Automatic />
+      </FinishMode>
+      <Priority>Priority2</Priority>
+      <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <SimulationInformation Instantiation="MULTIPLE">
+        <Cost>Cost2</Cost>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime2</WaitingTime>
+          <WorkingTime>WorkingTime2</WorkingTime>
+          <Duration>Duration2</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="-79228162514264337593543950335" YCOORD="-79228162514264337593543950335" WIDTH="-79228162514264337593543950335" HEIGHT="-79228162514264337593543950335" SHAPE="RoundRectangle">Icon2</Icon>
+      <Documentation>Documentation2</Documentation>
+      <TransitionRestrictions>
+        <TransitionRestriction>
+          <Join Type="Inclusive" ExclusiveType="Data" IncomingCondtion="IncomingCondtion4" />
+          <Split Type="Inclusive" ExclusiveType="Data" OutgoingCondition="OutgoingCondition4">
+            <TransitionRefs>
+              <TransitionRef Id="Token10" Name="Name10" />
+              <TransitionRef Id="Token11" Name="Name11" />
+              <TransitionRef Id="Token12" Name="Name12" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join Type="Complex" ExclusiveType="Event" IncomingCondtion="IncomingCondtion5" />
+          <Split Type="Complex" ExclusiveType="Event" OutgoingCondition="OutgoingCondition5">
+            <TransitionRefs>
+              <TransitionRef Id="Token13" Name="Name13" />
+              <TransitionRef Id="Token14" Name="Name14" />
+              <TransitionRef Id="Token15" Name="Name15" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join Type="AND" ExclusiveType="Data" IncomingCondtion="IncomingCondtion6" />
+          <Split Type="AND" ExclusiveType="Data" OutgoingCondition="OutgoingCondition6">
+            <TransitionRefs>
+              <TransitionRef Id="Token16" Name="Name16" />
+              <TransitionRef Id="Token17" Name="Name17" />
+              <TransitionRef Id="Token18" Name="Name18" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+      </TransitionRestrictions>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token4" Value="Value4">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token5" Value="Value5">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token6" Value="Value6">text</ExtendedAttribute>
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Token4" Name="Name4" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</InitialValue>
+        </DataField>
+        <DataField Id="Token5" Name="Name5" ReadOnly="false" IsArray="false" Correlation="false">
+          <InitialValue ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</InitialValue>
+        </DataField>
+        <DataField Id="Token6" Name="Name6" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</InitialValue>
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet>
+          <Input ArtifactId="Token10" />
+          <Input ArtifactId="Token11" />
+          <Input ArtifactId="Token12" />
+          <ArtifactInput ArtifactId="Token10" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token11" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token12" RequiredForStart="true" />
+          <PropertyInput PropertyId="Token10" />
+          <PropertyInput PropertyId="Token11" />
+          <PropertyInput PropertyId="Token12" />
+        </InputSet>
+        <InputSet>
+          <Input ArtifactId="Token13" />
+          <Input ArtifactId="Token14" />
+          <Input ArtifactId="Token15" />
+          <ArtifactInput ArtifactId="Token13" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token14" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token15" RequiredForStart="false" />
+          <PropertyInput PropertyId="Token13" />
+          <PropertyInput PropertyId="Token14" />
+          <PropertyInput PropertyId="Token15" />
+        </InputSet>
+        <InputSet>
+          <Input ArtifactId="Token16" />
+          <Input ArtifactId="Token17" />
+          <Input ArtifactId="Token18" />
+          <ArtifactInput ArtifactId="Token16" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token17" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token18" RequiredForStart="true" />
+          <PropertyInput PropertyId="Token16" />
+          <PropertyInput PropertyId="Token17" />
+          <PropertyInput PropertyId="Token18" />
+        </InputSet>
+      </InputSets>
+      <OutputSets>
+        <OutputSet>
+          <Output ArtifactId="Token10" />
+          <Output ArtifactId="Token11" />
+          <Output ArtifactId="Token12" />
+        </OutputSet>
+        <OutputSet>
+          <Output ArtifactId="Token13" />
+          <Output ArtifactId="Token14" />
+          <Output ArtifactId="Token15" />
+        </OutputSet>
+        <OutputSet>
+          <Output ArtifactId="Token16" />
+          <Output ArtifactId="Token17" />
+          <Output ArtifactId="Token18" />
+        </OutputSet>
+      </OutputSets>
+      <IORules>
+        <Expression ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</Expression>
+        <Expression ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</Expression>
+        <Expression ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</Expression>
+      </IORules>
+      <Loop LoopType="MultiInstance">
+        <LoopStandard LoopCondition="LoopCondition2" LoopCounter="-79" LoopMaximum="-79" TestTime="After">
+          <LoopCondition ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</LoopCondition>
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment AssignTime="Start">
+          <Target ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</Target>
+          <Expression ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</Expression>
+        </Assignment>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</Target>
+          <Expression ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</Expression>
+        </Assignment>
+        <Assignment AssignTime="Start">
+          <Target ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</Target>
+          <Expression ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</Expression>
+        </Assignment>
+      </Assignments>
+      <Object Id="Token2" Name="Name2">
+        <Categories>
+          <Category Id="Token4" Name="Name4" />
+          <Category Id="Token5" Name="Name5" />
+          <Category Id="Token6" Name="Name6" />
+        </Categories>
+      </Object>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId4" IsVisible="true" Page="Token4" PageId="Token4" LaneId="Token4" Height="-0.10000002384185791" Width="-0.10000002384185791" BorderColor="BorderColor4" FillColor="FillColor4" Shape="Shape4">
+          <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId5" IsVisible="false" Page="Token5" PageId="Token5" LaneId="Token5" Height="2.1000000238418579" Width="2.1000000238418579" BorderColor="BorderColor5" FillColor="FillColor5" Shape="Shape5">
+          <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId6" IsVisible="true" Page="Token6" PageId="Token6" LaneId="Token6" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor6" FillColor="FillColor6" Shape="Shape6">
+          <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Extensions>anyType</Extensions>
+    </Activity>
+    <Activity Id="Token3" IsForCompensation="true" Name="Name3" StartActivity="true" Status="Ready" StartMode="Automatic" FinishMode="Automatic" StartQuantity="-792" CompletionQuantity="-792" IsATransaction="false">
+      <Description>Description3</Description>
+      <Limit>Limit3</Limit>
+      <Route GatewayType="Exclusive" XORType="Event" ExclusiveType="Event" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition3" OutgoingCondition="OutgoingCondition3" />
+      <Transaction TransactionId="TransactionId3" TransactionProtocol="TransactionProtocol3" TransactionMethod="Image" />
+      <Performers>
+        <Performer>Performer7</Performer>
+        <Performer>Performer8</Performer>
+        <Performer>Performer9</Performer>
+      </Performers>
+      <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <Automatic />
+      </StartMode>
+      <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <Automatic />
+      </FinishMode>
+      <Priority>Priority3</Priority>
+      <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+        <DeadlineCondition>anyType</DeadlineCondition>
+        <ExceptionName>anyType</ExceptionName>
+      </Deadline>
+      <SimulationInformation Instantiation="ONCE">
+        <Cost>Cost3</Cost>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime3</WaitingTime>
+          <WorkingTime>WorkingTime3</WorkingTime>
+          <Duration>Duration3</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Rectangle">Icon3</Icon>
+      <Documentation>Documentation3</Documentation>
+      <TransitionRestrictions>
+        <TransitionRestriction>
+          <Join Type="Parallel" ExclusiveType="Event" IncomingCondtion="IncomingCondtion7" />
+          <Split Type="Parallel" ExclusiveType="Event" OutgoingCondition="OutgoingCondition7">
+            <TransitionRefs>
+              <TransitionRef Id="Token19" Name="Name19" />
+              <TransitionRef Id="Token20" Name="Name20" />
+              <TransitionRef Id="Token21" Name="Name21" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join Type="XOR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion8" />
+          <Split Type="XOR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition8">
+            <TransitionRefs>
+              <TransitionRef Id="Token22" Name="Name22" />
+              <TransitionRef Id="Token23" Name="Name23" />
+              <TransitionRef Id="Token24" Name="Name24" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join Type="Exclusive" ExclusiveType="Event" IncomingCondtion="IncomingCondtion9" />
+          <Split Type="Exclusive" ExclusiveType="Event" OutgoingCondition="OutgoingCondition9">
+            <TransitionRefs>
+              <TransitionRef Id="Token25" Name="Name25" />
+              <TransitionRef Id="Token26" Name="Name26" />
+              <TransitionRef Id="Token27" Name="Name27" />
+            </TransitionRefs>
+          </Split>
+        </TransitionRestriction>
+      </TransitionRestrictions>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token7" Value="Value7">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token8" Value="Value8">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token9" Value="Value9">text</ExtendedAttribute>
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Token7" Name="Name7" ReadOnly="false" IsArray="false" Correlation="false">
+          <InitialValue ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</InitialValue>
+        </DataField>
+        <DataField Id="Token8" Name="Name8" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</InitialValue>
+        </DataField>
+        <DataField Id="Token9" Name="Name9" ReadOnly="false" IsArray="false" Correlation="false">
+          <InitialValue ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</InitialValue>
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet>
+          <Input ArtifactId="Token19" />
+          <Input ArtifactId="Token20" />
+          <Input ArtifactId="Token21" />
+          <ArtifactInput ArtifactId="Token19" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token20" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token21" RequiredForStart="false" />
+          <PropertyInput PropertyId="Token19" />
+          <PropertyInput PropertyId="Token20" />
+          <PropertyInput PropertyId="Token21" />
+        </InputSet>
+        <InputSet>
+          <Input ArtifactId="Token22" />
+          <Input ArtifactId="Token23" />
+          <Input ArtifactId="Token24" />
+          <ArtifactInput ArtifactId="Token22" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token23" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token24" RequiredForStart="true" />
+          <PropertyInput PropertyId="Token22" />
+          <PropertyInput PropertyId="Token23" />
+          <PropertyInput PropertyId="Token24" />
+        </InputSet>
+        <InputSet>
+          <Input ArtifactId="Token25" />
+          <Input ArtifactId="Token26" />
+          <Input ArtifactId="Token27" />
+          <ArtifactInput ArtifactId="Token25" RequiredForStart="false" />
+          <ArtifactInput ArtifactId="Token26" RequiredForStart="true" />
+          <ArtifactInput ArtifactId="Token27" RequiredForStart="false" />
+          <PropertyInput PropertyId="Token25" />
+          <PropertyInput PropertyId="Token26" />
+          <PropertyInput PropertyId="Token27" />
+        </InputSet>
+      </InputSets>
+      <OutputSets>
+        <OutputSet>
+          <Output ArtifactId="Token19" />
+          <Output ArtifactId="Token20" />
+          <Output ArtifactId="Token21" />
+        </OutputSet>
+        <OutputSet>
+          <Output ArtifactId="Token22" />
+          <Output ArtifactId="Token23" />
+          <Output ArtifactId="Token24" />
+        </OutputSet>
+        <OutputSet>
+          <Output ArtifactId="Token25" />
+          <Output ArtifactId="Token26" />
+          <Output ArtifactId="Token27" />
+        </OutputSet>
+      </OutputSets>
+      <IORules>
+        <Expression ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</Expression>
+        <Expression ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</Expression>
+        <Expression ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</Expression>
+      </IORules>
+      <Loop LoopType="Standard">
+        <LoopStandard LoopCondition="LoopCondition3" LoopCounter="792" LoopMaximum="792" TestTime="Before">
+          <LoopCondition ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</LoopCondition>
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</Target>
+          <Expression ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</Expression>
+        </Assignment>
+        <Assignment AssignTime="Start">
+          <Target ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</Target>
+          <Expression ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</Expression>
+        </Assignment>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</Target>
+          <Expression ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</Expression>
+        </Assignment>
+      </Assignments>
+      <Object Id="Token3" Name="Name3">
+        <Categories>
+          <Category Id="Token7" Name="Name7" />
+          <Category Id="Token8" Name="Name8" />
+          <Category Id="Token9" Name="Name9" />
+        </Categories>
+      </Object>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId7" IsVisible="false" Page="Token7" PageId="Token7" LaneId="Token7" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor7" FillColor="FillColor7" Shape="Shape7">
+          <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId8" IsVisible="true" Page="Token8" PageId="Token8" LaneId="Token8" Height="-1.2000000476837158" Width="-1.2000000476837158" BorderColor="BorderColor8" FillColor="FillColor8" Shape="Shape8">
+          <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId9" IsVisible="false" Page="Token9" PageId="Token9" LaneId="Token9" Height="3.2000000476837158" Width="3.2000000476837158" BorderColor="BorderColor9" FillColor="FillColor9" Shape="Shape9">
+          <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Extensions>anyType</Extensions>
+    </Activity>
+  </Activities>
+  <Transitions>
+    <Transition Id="Token1" From="Token1" To="Token1" Name="Name1" Quantity="1">
+      <Condition Type="CONDITION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="Token1" IsVisible="true" Page="Token1" PageId="Token1" Style="Style1" BorderColor="BorderColor1" FillColor="FillColor1" />
+        <ConnectorGraphicsInfo ToolId="Token2" IsVisible="true" Page="Token2" PageId="Token2" Style="Style2" BorderColor="BorderColor2" FillColor="FillColor2" />
+        <ConnectorGraphicsInfo ToolId="Token3" IsVisible="false" Page="Token3" PageId="Token3" Style="Style3" BorderColor="BorderColor3" FillColor="FillColor3" />
+      </ConnectorGraphicsInfos>
+    </Transition>
+    <Transition Id="Token2" From="Token2" To="Token2" Name="Name2" Quantity="1">
+      <Condition Type="OTHERWISE">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="Token4" IsVisible="true" Page="Token4" PageId="Token4" Style="Style4" BorderColor="BorderColor4" FillColor="FillColor4" />
+        <ConnectorGraphicsInfo ToolId="Token5" IsVisible="false" Page="Token5" PageId="Token5" Style="Style5" BorderColor="BorderColor5" FillColor="FillColor5" />
+        <ConnectorGraphicsInfo ToolId="Token6" IsVisible="true" Page="Token6" PageId="Token6" Style="Style6" BorderColor="BorderColor6" FillColor="FillColor6" />
+      </ConnectorGraphicsInfos>
+    </Transition>
+    <Transition Id="Token3" From="Token3" To="Token3" Name="Name3" Quantity="-214">
+      <Condition Type="EXCEPTION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="Token7" IsVisible="false" Page="Token7" PageId="Token7" Style="Style7" BorderColor="BorderColor7" FillColor="FillColor7" />
+        <ConnectorGraphicsInfo ToolId="Token8" IsVisible="true" Page="Token8" PageId="Token8" Style="Style8" BorderColor="BorderColor8" FillColor="FillColor8" />
+        <ConnectorGraphicsInfo ToolId="Token9" IsVisible="false" Page="Token9" PageId="Token9" Style="Style9" BorderColor="BorderColor9" FillColor="FillColor9" />
+      </ConnectorGraphicsInfos>
+    </Transition>
+  </Transitions>
+</ActivitySet>

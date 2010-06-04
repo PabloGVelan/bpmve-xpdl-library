@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageHeader xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <XPDLVersion>XPDLVersion1</XPDLVersion>
+  <Vendor>Vendor1</Vendor>
+  <Created>Created1</Created>
+  <ModificationDate>ModificationDate1</ModificationDate>
+  <Description>Description1</Description>
+  <Documentation>Documentation1</Documentation>
+  <PriorityUnit>PriorityUnit1</PriorityUnit>
+  <CostUnit>CostUnit1</CostUnit>
+  <VendorExtensions>
+    <VendorExtension ToolId="ToolId1" schemaLocation="http://uri1" extensionDescription="http://uri1" />
+    <VendorExtension ToolId="ToolId2" schemaLocation="http://uri2" extensionDescription="http://uri2" />
+    <VendorExtension ToolId="ToolId3" schemaLocation="http://uri3" extensionDescription="http://uri3" />
+  </VendorExtensions>
+  <LayoutInfo PixelsPerMillimeter="1" />
+</PackageHeader>

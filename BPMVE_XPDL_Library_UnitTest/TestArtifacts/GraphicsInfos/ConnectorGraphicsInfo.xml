@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConnectorGraphicsInfo ToolId="Token1" IsVisible="true" Page="Token1" PageId="Token1" Style="Style1" BorderColor="BorderColor1" FillColor="FillColor1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Coordinates XCoordinate="1" YCoordinate="1" />
+  <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+  <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+</ConnectorGraphicsInfo>

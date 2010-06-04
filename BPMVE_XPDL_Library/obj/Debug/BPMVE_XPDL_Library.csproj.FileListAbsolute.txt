@@ -1,0 +1,5 @@
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library\bin\Debug\BPMVE_XPDL_Library.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library\bin\Debug\BPMVE_XPDL_Library.pdb
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library\obj\Debug\BPMVE_XPDL_Library.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library\obj\Debug\BPMVE_XPDL_Library.pdb

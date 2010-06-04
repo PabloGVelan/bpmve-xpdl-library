@@ -1,0 +1,6 @@
+﻿<ExternalPackage href="Href" Id="Id" Name="Name">
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Name" Value="Value" />
+    <ExtendedAttribute Name="Name" Value="Value" />
+  </ExtendedAttributes>
+</ExternalPackage>

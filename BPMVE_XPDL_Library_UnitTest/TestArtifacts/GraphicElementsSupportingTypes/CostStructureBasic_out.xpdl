@@ -1,0 +1,13 @@
+﻿<CostStructure>
+  <ResourceCosts>
+    <ResourceCosts>
+      <ResourceCostName>ResourceCostName</ResourceCostName>
+      <ResourceCost>1.0</ResourceCost>
+    </ResourceCosts>
+    <ResourceCosts>
+      <ResourceCostName>ResourceCostName</ResourceCostName>
+      <ResourceCost>1.0</ResourceCost>
+    </ResourceCosts>
+  </ResourceCosts>
+  <FixedCost>1</FixedCost>
+</CostStructure>

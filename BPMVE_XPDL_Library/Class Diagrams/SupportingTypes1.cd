@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.ActualParameter">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAgACAAAAQAAAAAIAABAAAAgAAAQA=</HashCode>
+      <FileName>SupportingTypes\ActualParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Input">
+    <Position X="10.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAACAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\Input.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Output">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAACAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\Output.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.OutputSet">
+    <Position X="3.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAgAAAAAAAAABAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\OutputSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ParticipantType">
+    <Position X="9.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAQAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\ParticipantType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.PropertyInput">
+    <Position X="6.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgBAAAAAAAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\PropertyInput.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Expression">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAgACAAAAQAAAAAIAABAAAAgAAAQA=</HashCode>
+      <FileName>SupportingTypes\ExpressionType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Object_XPDL">
+    <Position X="7" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAgAAAAAQAAAQUEIAAAAAAAAAEAAA=</HashCode>
+      <FileName>SupportingTypes\Object_XPDL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

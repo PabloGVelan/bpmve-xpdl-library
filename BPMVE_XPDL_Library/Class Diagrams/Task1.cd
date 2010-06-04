@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.TaskManual">
+    <Position X="9.75" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\TaskManual.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TaskReference">
+    <Position X="4.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAgABAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\TaskReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TaskScript">
+    <Position X="7" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAEAAAAAAAAAAIAAAAAAAAAgAAA=</HashCode>
+      <FileName>Implementation\TaskScript.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TaskSend">
+    <Position X="8.5" Y="4.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAQAAAgIAAAQAAACAAAIAAAAAAKAAAAAA=</HashCode>
+      <FileName>Implementation\TaskSend.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TaskUser">
+    <Position X="4.25" Y="4.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAACBAAAAgAAgAQAAAAAAAIAEAAABCAAAAAA=</HashCode>
+      <FileName>Implementation\TaskUser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Task">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <AssociationLine Name="TaskManual" Type="BPMVE_XPDL_Library.TaskManual" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.011" />
+        <Point X="12.188" Y="1.011" />
+        <Point X="12.188" Y="1.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TaskReference" Type="BPMVE_XPDL_Library.TaskReference" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.011" />
+        <Point X="6.375" Y="1.011" />
+        <Point X="6.375" Y="1.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TaskScript" Type="BPMVE_XPDL_Library.TaskScript" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.011" />
+        <Point X="9.062" Y="1.011" />
+        <Point X="9.062" Y="1.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TaskSend" Type="BPMVE_XPDL_Library.TaskSend" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.011" />
+        <Point X="9.5" Y="1.011" />
+        <Point X="9.5" Y="4.125" />
+        <Point X="11.125" Y="4.125" />
+        <Point X="11.125" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TaskUser" Type="BPMVE_XPDL_Library.TaskUser" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.011" />
+        <Point X="6.75" Y="1.011" />
+        <Point X="6.75" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAIAIQAAAACAAAAEgAAAABGgAAAAAIRAAAAYAABAAIE=</HashCode>
+      <FileName>Implementation\Task.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TaskManual" />
+      <Property Name="TaskReference" />
+      <Property Name="TaskScript" />
+      <Property Name="TaskSend" />
+      <Property Name="TaskUser" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

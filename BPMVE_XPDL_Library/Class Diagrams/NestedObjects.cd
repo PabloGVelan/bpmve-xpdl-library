@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.Activities">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Activities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ActualParameters">
+    <Position X="3.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\ActualParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Applications">
+    <Position X="6.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Applications.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Artifacts">
+    <Position X="9.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Artifacts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Assignments">
+    <Position X="0.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Assignments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Associations">
+    <Position X="3.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Associations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Categories">
+    <Position X="6.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ConnectorGraphicsInfos">
+    <Position X="9.5" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\ConnectorGraphicsInfos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.DataMappings">
+    <Position X="0.5" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\DataMappings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ExtendedAttributes">
+    <Position X="3.75" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\ExtendedAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.FormalParameters">
+    <Position X="7.25" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\FormalParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.InputSets">
+    <Position X="10.75" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\InputSets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Lanes">
+    <Position X="0.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Lanes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.MessageFlows">
+    <Position X="3.25" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\MessageFlows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.NodeGraphicsInfos">
+    <Position X="6.5" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\NodeGraphicsInfos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.OutputSets">
+    <Position X="10" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\OutputSets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Pages">
+    <Position X="0.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Pages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Participants">
+    <Position X="3.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Participants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.PartnerLinkTypes">
+    <Position X="6.25" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\PartnerLinkTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Performers">
+    <Position X="9.5" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Performers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Pools">
+    <Position X="0.5" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Pools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Responsibles">
+    <Position X="3.25" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\Responsibles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TransitionRefs">
+    <Position X="6.25" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\TransitionRefs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.VendorExtensions">
+    <Position X="9.5" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>NestedObjects\VendorExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

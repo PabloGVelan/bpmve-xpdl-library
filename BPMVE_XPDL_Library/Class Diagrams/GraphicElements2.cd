@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.CostStructure">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCCAAAAAgAABAAABAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicElements\CostStructure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Deadline">
+    <Position X="4" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAECAAAAAgAAAAAQAAAAAAMAEAAAIAAAAAAA=</HashCode>
+      <FileName>GraphicElements\Deadline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Icon">
+    <Position X="11.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABACAAIAAgACIAEAAQAAAAIAAAAAAAAAABAA=</HashCode>
+      <FileName>GraphicElements\Icon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.IORules">
+    <Position X="0.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAgAAEAA=</HashCode>
+      <FileName>GraphicElements\IORules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.SimulationInformation">
+    <Position X="3.75" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACIAAAAgAAAARAAAQAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicElements\SimulationInformation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Transaction">
+    <Position X="7" Y="3.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAACAAAAAgCAAAAAgAAAAAICAAAAAABAAAAA=</HashCode>
+      <FileName>GraphicElements\Transaction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ResourceCost">
+    <Position X="7.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAACAAAAAhEAAAAAAAAAAAIAAAAAAAAAAAIA=</HashCode>
+      <FileName>GraphicElements\ResourceCost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

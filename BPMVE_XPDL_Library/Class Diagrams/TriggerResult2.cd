@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BPMVE_XPDL_Library.ResultMultiple">
+    <Position X="7.25" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAABCAAAEAgAAoEAAAAAAAAIAgAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\ResultMultiple.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerIntermediateMultiple">
+    <Position X="10.5" Y="2.25" Width="2.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.TriggerResult" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="1.368" />
+        <Point X="12" Y="2.126" />
+        <Point X="12" Y="2.126" />
+        <Point X="12" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAEAAMAABCAAAEAgAAoEAAAAAAAAIAgAAAAAAAAAAE=</HashCode>
+      <FileName>TriggerResult\TriggerIntermediateMultiple.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResult">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResultSignal">
+    <Position X="2.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAQAAQQAAIAAAAAAAACCAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResultSignal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerTimer">
+    <Position X="5" Y="2.25" Width="1.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.TriggerResult" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="1.368" />
+        <Point X="12" Y="1.875" />
+        <Point X="5.835" Y="1.875" />
+        <Point X="5.835" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAADAAAAAgAAAAAIAAAAAAIAAAAAAAABAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerTimer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerRule">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.TriggerResult" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="1.368" />
+        <Point X="12" Y="1.875" />
+        <Point X="1.375" Y="1.875" />
+        <Point X="1.375" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAgAAAAAAAAAAAAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

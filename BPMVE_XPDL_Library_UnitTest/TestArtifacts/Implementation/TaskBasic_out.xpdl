@@ -1,0 +1,211 @@
+﻿<Task>
+  <TaskService Implementation="Unspecified">
+    <MessageIn Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </MessageIn>
+    <MessageOut Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </MessageOut>
+    <WebServiceOperation OperationName="OperationName">
+      <Service ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </Service>
+      <Partner PartnerLinkId="PartnerLinkId" />
+    </WebServiceOperation>
+    <WebServiceFaultCatch>
+      <WebServiceFaultCatch FaultName="FaultName">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <TransitionRef Id="Id" Name="Name" />
+      </WebServiceFaultCatch>
+      <WebServiceFaultCatch FaultName="FaultName">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <TransitionRef Id="Id" Name="Name" />
+      </WebServiceFaultCatch>
+    </WebServiceFaultCatch>
+  </TaskService>
+  <TaskReceive Instantiate="true">
+    <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </Message>
+    <WebServiceOperation OperationName="OperationName">
+      <Service ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </Service>
+      <Partner PartnerLinkId="PartnerLinkId" />
+    </WebServiceOperation>
+  </TaskReceive>
+  <TaskManual>
+    <Performers>
+      <Performer>Value</Performer>
+      <Performer>Value</Performer>
+      <Performer>Value</Performer>
+    </Performers>
+  </TaskManual>
+  <TaskReference TaskRef="TaskRef" />
+  <TaskScript>
+    <Script ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </TaskScript>
+  <TaskSend Implementation="Unspecified">
+    <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </Message>
+    <WebServiceOperation OperationName="OperationName">
+      <Service ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </Service>
+      <Partner PartnerLinkId="PartnerLinkId" />
+    </WebServiceOperation>
+    <WebServiceFaultCatch>
+      <WebServiceFaultCatch FaultName="FaultName">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <TransitionRef Id="Id" Name="Name" />
+      </WebServiceFaultCatch>
+      <WebServiceFaultCatch FaultName="FaultName">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <TransitionRef Id="Id" Name="Name" />
+      </WebServiceFaultCatch>
+    </WebServiceFaultCatch>
+  </TaskSend>
+  <TaskUser Implementation="Unspecified">
+    <Performers>
+      <Performer>Value</Performer>
+      <Performer>Value</Performer>
+      <Performer>Value</Performer>
+    </Performers>
+    <MessageIn Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </MessageIn>
+    <MessageOut Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </MessageOut>
+    <WebServiceOperation OperationName="OperationName">
+      <Service ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </Service>
+      <Partner PartnerLinkId="PartnerLinkId" />
+    </WebServiceOperation>
+  </TaskUser>
+  <TaskApplication Id="Id" Name="Name" PackageRef="PackageRef">
+    <DataMappings>
+      <DataMapping Formal="Formal" Direction="INOUT">
+        <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </DataMapping>
+      <DataMapping Formal="Formal" Direction="INOUT">
+        <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </DataMapping>
+      <DataMapping Formal="Formal" Direction="INOUT">
+        <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </DataMapping>
+    </DataMappings>
+    <Description>Value</Description>
+  </TaskApplication>
+</Task>

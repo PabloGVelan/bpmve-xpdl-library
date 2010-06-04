@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TaskReceive Instantiate="true" Implementation="WebService" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Message Id="Token1" Name="Name1" From="Token1" To="Token1" FaultName="Token1">
+    <ActualParameters>
+      <ActualParameter ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</ActualParameter>
+      <ActualParameter ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</ActualParameter>
+      <ActualParameter ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</ActualParameter>
+    </ActualParameters>
+  </Message>
+  <WebServiceOperation OperationName="OperationName1">
+    <Partner PartnerLinkId="Token1" RoleType="MyRole" />
+  </WebServiceOperation>
+</TaskReceive>

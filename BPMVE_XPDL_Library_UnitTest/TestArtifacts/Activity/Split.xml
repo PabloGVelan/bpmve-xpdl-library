@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Split Type="XOR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <TransitionRefs>
+    <TransitionRef Id="Token1" Name="Name1" />
+    <TransitionRef Id="Token2" Name="Name2" />
+    <TransitionRef Id="Token3" Name="Name3" />
+  </TransitionRefs>
+</Split>

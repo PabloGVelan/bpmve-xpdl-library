@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActivitySet xmlns:p1="otherNS" Id="Token1" Name="Name1" AdHocCompletionCondition="AdHocCompletionCondition1" DefaultStartActivityId="Token1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Activities>
+    <Activity Id="Token1" Name="Name1" IsForCompensation="true" StartActivity="true">
+      <Object Id="Token1" Name="Name1">
+        <Categories>
+          <Category Id="Token1" Name="Name1" />
+          <Category Id="Token2" Name="Name2" />
+          <Category Id="Token3" Name="Name3" />
+        </Categories>
+      </Object>
+      <Description>Description1</Description>
+      <Limit>Limit1</Limit>
+      <Route IncomingCondition="IncomingCondition1" OutgoingCondition="OutgoingCondition1" />
+      <Transaction TransactionId="TransactionId1" TransactionProtocol="TransactionProtocol1" TransactionMethod="Compensate" />
+      <Performers>
+        <Performer>Performer1</Performer>
+        <Performer>Performer2</Performer>
+        <Performer>Performer3</Performer>
+      </Performers>
+      <Priority>Priority1</Priority>
+      <SimulationInformation>
+        <Cost>Cost1</Cost>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime1</WaitingTime>
+          <WorkingTime>WorkingTime1</WorkingTime>
+          <Duration>Duration1</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="1" YCOORD="1" WIDTH="1" HEIGHT="1" />
+      <Documentation>Documentation1</Documentation>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token1" Value="Value1" />
+        <ExtendedAttribute Name="Token2" Value="Value2" />
+        <ExtendedAttribute Name="Token3" Value="Value3" />
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Token1" Name="Name1">
+          <InitialValue ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+        </DataField>
+        <DataField Id="Token2" Name="Name2" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+        </DataField>
+        <DataField Id="Token3" Name="Name3">
+          <InitialValue ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet />
+        <InputSet />
+        <InputSet />
+      </InputSets>
+      <OutputSets>
+        <OutputSet />
+        <OutputSet />
+        <OutputSet />
+      </OutputSets>
+      <IORules />
+      <Loop>
+        <LoopStandard LoopCounter="1" LoopMaximum="1" TestTime="Before">
+          <LoopCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment>
+          <Target ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+          <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+          <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+        </Assignment>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+          <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+        </Assignment>
+      </Assignments>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId1" IsVisible="true" PageId="Token1" BorderColor="BorderColor1" FillColor="FillColor1" LaneId="Token1" Height="1" Width="1" Shape="Shape1">
+          <Coordinates XCoordinate="1" YCoordinate="1" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId2" IsVisible="true" PageId="Token2" BorderColor="BorderColor2" FillColor="FillColor2" LaneId="Token2" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape2">
+          <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId3" IsVisible="false" PageId="Token3" BorderColor="BorderColor3" FillColor="FillColor3" LaneId="Token3" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape3">
+          <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Activity>
+    <Activity Id="Token2" Name="Name2" StartMode="Manual" FinishMode="Manual" IsATransaction="true">
+      <Object Id="Token2" Name="Name2">
+        <Categories>
+          <Category Id="Token4" Name="Name4" />
+          <Category Id="Token5" Name="Name5" />
+          <Category Id="Token6" Name="Name6" />
+        </Categories>
+      </Object>
+      <Description>Description2</Description>
+      <Limit>Limit2</Limit>
+      <Route GatewayType="XOR" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition2" OutgoingCondition="OutgoingCondition2" />
+      <Transaction TransactionId="TransactionId2" TransactionProtocol="TransactionProtocol2" />
+      <Performers>
+        <Performer>Performer4</Performer>
+        <Performer>Performer5</Performer>
+        <Performer>Performer6</Performer>
+      </Performers>
+      <Priority>Priority2</Priority>
+      <SimulationInformation Instantiation="MULTIPLE">
+        <Cost>Cost2</Cost>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime2</WaitingTime>
+          <WorkingTime>WorkingTime2</WorkingTime>
+          <Duration>Duration2</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="-7.9228162514264338E+28" YCOORD="-7.9228162514264338E+28" WIDTH="-7.9228162514264338E+28" HEIGHT="-7.9228162514264338E+28" />
+      <Documentation>Documentation2</Documentation>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token4" Value="Value4" />
+        <ExtendedAttribute Name="Token5" Value="Value5" />
+        <ExtendedAttribute Name="Token6" Value="Value6" />
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Token4" Name="Name4" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+        </DataField>
+        <DataField Id="Token5" Name="Name5">
+          <InitialValue ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+        </DataField>
+        <DataField Id="Token6" Name="Name6" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet />
+        <InputSet />
+        <InputSet />
+      </InputSets>
+      <OutputSets>
+        <OutputSet />
+        <OutputSet />
+        <OutputSet />
+      </OutputSets>
+      <IORules />
+      <Loop LoopType="MultiInstance">
+        <LoopStandard LoopCounter="-79" LoopMaximum="-79">
+          <LoopCondition ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment>
+          <Target ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+          <Expression ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+        </Assignment>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+          <Expression ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+          <Expression ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+        </Assignment>
+      </Assignments>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId4" IsVisible="true" PageId="Token4" BorderColor="BorderColor4" FillColor="FillColor4" LaneId="Token4" Height="-0.10000002384185791" Width="-0.10000002384185791" Shape="Shape4">
+          <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId5" IsVisible="false" PageId="Token5" BorderColor="BorderColor5" FillColor="FillColor5" LaneId="Token5" Height="2.1000000238418579" Width="2.1000000238418579" Shape="Shape5">
+          <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId6" IsVisible="true" PageId="Token6" BorderColor="BorderColor6" FillColor="FillColor6" LaneId="Token6" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape6">
+          <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Activity>
+    <Activity Id="Token3" Name="Name3" IsForCompensation="true" StartActivity="true" Status="Ready" StartQuantity="-792" CompletionQuantity="-792">
+      <Object Id="Token3" Name="Name3">
+        <Categories>
+          <Category Id="Token7" Name="Name7" />
+          <Category Id="Token8" Name="Name8" />
+          <Category Id="Token9" Name="Name9" />
+        </Categories>
+      </Object>
+      <Description>Description3</Description>
+      <Limit>Limit3</Limit>
+      <Route ExclusiveType="Event" IncomingCondition="IncomingCondition3" OutgoingCondition="OutgoingCondition3" />
+      <Transaction TransactionId="TransactionId3" TransactionProtocol="TransactionProtocol3" TransactionMethod="Image" />
+      <Performers>
+        <Performer>Performer7</Performer>
+        <Performer>Performer8</Performer>
+        <Performer>Performer9</Performer>
+      </Performers>
+      <Priority>Priority3</Priority>
+      <SimulationInformation>
+        <Cost>Cost3</Cost>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime3</WaitingTime>
+          <WorkingTime>WorkingTime3</WorkingTime>
+          <Duration>Duration3</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Rectangle" />
+      <Documentation>Documentation3</Documentation>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token7" Value="Value7" />
+        <ExtendedAttribute Name="Token8" Value="Value8" />
+        <ExtendedAttribute Name="Token9" Value="Value9" />
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Token7" Name="Name7">
+          <InitialValue ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+        </DataField>
+        <DataField Id="Token8" Name="Name8" ReadOnly="true" IsArray="true" Correlation="true">
+          <InitialValue ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+        </DataField>
+        <DataField Id="Token9" Name="Name9">
+          <InitialValue ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet />
+        <InputSet />
+        <InputSet />
+      </InputSets>
+      <OutputSets>
+        <OutputSet />
+        <OutputSet />
+        <OutputSet />
+      </OutputSets>
+      <IORules />
+      <Loop>
+        <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+          <LoopCondition ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+          <Expression ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+          <Expression ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+        </Assignment>
+        <Assignment AssignTime="End">
+          <Target ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+          <Expression ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+        </Assignment>
+      </Assignments>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId7" IsVisible="false" PageId="Token7" BorderColor="BorderColor7" FillColor="FillColor7" LaneId="Token7" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape7">
+          <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId8" IsVisible="true" PageId="Token8" BorderColor="BorderColor8" FillColor="FillColor8" LaneId="Token8" Height="-1.2000000476837158" Width="-1.2000000476837158" Shape="Shape8">
+          <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId9" IsVisible="false" PageId="Token9" BorderColor="BorderColor9" FillColor="FillColor9" LaneId="Token9" Height="3.2000000476837158" Width="3.2000000476837158" Shape="Shape9">
+          <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Activity>
+  </Activities>
+</ActivitySet>

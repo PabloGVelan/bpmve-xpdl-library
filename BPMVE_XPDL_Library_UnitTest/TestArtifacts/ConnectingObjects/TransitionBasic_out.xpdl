@@ -1,0 +1,32 @@
+﻿<Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+  <ConnectorGraphicsInfos>
+    <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+      <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+    </ConnectorGraphicsInfo>
+  </ConnectorGraphicsInfos>
+  <Condition>
+    <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </Condition>
+  <Description>Value</Description>
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Name" Value="Value" />
+    <ExtendedAttribute Name="Name" Value="Value" />
+  </ExtendedAttributes>
+  <Assignments>
+    <Assignment>
+      <Target ScriptVersion="2.1" />
+      <Expression ScriptType="UnknownType" />
+    </Assignment>
+    <Assignment>
+      <Target ScriptVersion="2.1" />
+      <Expression ScriptType="UnknownType" />
+    </Assignment>
+  </Assignments>
+</Transition>

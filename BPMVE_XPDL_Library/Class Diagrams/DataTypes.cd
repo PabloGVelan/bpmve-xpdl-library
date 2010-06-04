@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.ArrayType">
+    <Position X="10.5" Y="3.5" Width="2.5" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.ComplexType" FixedFromPoint="true">
+      <Path>
+        <Point X="10.312" Y="3.247" />
+        <Point X="10.312" Y="3.34" />
+        <Point X="11.75" Y="3.34" />
+        <Point X="11.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAEBAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\ArrayType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.BasicType">
+    <Position X="3" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAQAAAAIAEAA=</HashCode>
+      <FileName>DataTypes\BasicType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ComplexType">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\ComplexType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.DataType">
+    <Position X="4.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\DataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.DeclaredType">
+    <Position X="0.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\DeclaredType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.EnumerationType">
+    <Position X="12.75" Y="7.5" Width="3.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.ComplexType" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="10.312" Y="3.247" />
+        <Point X="10.312" Y="7.308" />
+        <Point X="14.625" Y="7.308" />
+        <Point X="14.625" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\EnumerationType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.EnumerationValue">
+    <Position X="0.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\EnumerationValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ListType">
+    <Position X="13.5" Y="5.75" Width="2.5" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.ComplexType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.312" Y="3.247" />
+        <Point X="10.312" Y="5.51" />
+        <Point X="14.75" Y="5.51" />
+        <Point X="14.75" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\ListType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Member">
+    <Position X="3" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.RecordType">
+    <Position X="10.5" Y="5.75" Width="2.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.ComplexType" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.312" Y="3.247" />
+        <Point X="10.312" Y="5.51" />
+        <Point X="11.875" Y="5.51" />
+        <Point X="11.875" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>DataTypes\RecordType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.SchemaType">
+    <Position X="10.5" Y="7.5" Width="2" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.ComplexType" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.312" Y="3.247" />
+        <Point X="10.312" Y="7.308" />
+        <Point X="11.562" Y="7.308" />
+        <Point X="11.562" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\SchemaType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TypeDeclaration">
+    <Position X="5.75" Y="2.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAIgAAAgAAAAAEQAAAQAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>DataTypes\TypeDeclaration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.UnionType">
+    <Position X="13.25" Y="3.5" Width="2.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.ComplexType" FixedFromPoint="true">
+      <Path>
+        <Point X="10.312" Y="3.247" />
+        <Point X="10.312" Y="3.34" />
+        <Point X="14.625" Y="3.34" />
+        <Point X="14.625" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>DataTypes\UnionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

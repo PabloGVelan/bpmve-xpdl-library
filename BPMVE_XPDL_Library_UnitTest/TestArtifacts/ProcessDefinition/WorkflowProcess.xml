@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorkflowProcess Id="Token1" Name="Name1" AccessLevel="PUBLIC" ProcessType="None" Status="None" SuppressJoinFailure="false" EnableInstanceCompensation="false" AdHoc="false" AdHocOrdering="Parallel" AdHocCompletionCondition="AdHocCompletionCondition1" DefaultStartActivitySetId="Token1" DefaultStartActivityId="Token1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <ProcessHeader DurationUnit="Y">
+    <Created>Created1</Created>
+    <Description>Description1</Description>
+    <Priority>Priority1</Priority>
+    <Limit>Limit1</Limit>
+    <ValidFrom>ValidFrom1</ValidFrom>
+    <ValidTo>ValidTo1</ValidTo>
+    <TimeEstimation>
+      <WaitingTime>WaitingTime1</WaitingTime>
+      <WorkingTime>WorkingTime1</WorkingTime>
+      <Duration>Duration1</Duration>
+    </TimeEstimation>
+  </ProcessHeader>
+  <RedefinableHeader PublicationStatus="UNDER_REVISION">
+    <Author>Author1</Author>
+    <Version>Version1</Version>
+    <Codepage>Codepage1</Codepage>
+    <Countrykey>Countrykey1</Countrykey>
+    <Responsibles>
+      <Responsible>Responsible1</Responsible>
+      <Responsible>Responsible2</Responsible>
+      <Responsible>Responsible3</Responsible>
+    </Responsibles>
+  </RedefinableHeader>
+  <FormalParameters>
+    <FormalParameter Id="Token1" Index="Token1" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+      <Description>Description1</Description>
+    </FormalParameter>
+    <FormalParameter Id="Token2" Index="Token2" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+      <Description>Description2</Description>
+    </FormalParameter>
+    <FormalParameter Id="Token3" Index="Token3" Mode="OUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+      <Description>Description3</Description>
+    </FormalParameter>
+    <Extensions>anyType</Extensions>
+  </FormalParameters>
+  <InputSets>
+    <InputSet>
+      <Input ArtifactId="Token1" />
+      <Input ArtifactId="Token2" />
+      <Input ArtifactId="Token3" />
+      <ArtifactInput ArtifactId="Token1" RequiredForStart="true" />
+      <ArtifactInput ArtifactId="Token2" RequiredForStart="true" />
+      <ArtifactInput ArtifactId="Token3" RequiredForStart="false" />
+      <PropertyInput PropertyId="Token1" />
+      <PropertyInput PropertyId="Token2" />
+      <PropertyInput PropertyId="Token3" />
+    </InputSet>
+    <InputSet>
+      <Input ArtifactId="Token4" />
+      <Input ArtifactId="Token5" />
+      <Input ArtifactId="Token6" />
+      <ArtifactInput ArtifactId="Token4" RequiredForStart="true" />
+      <ArtifactInput ArtifactId="Token5" RequiredForStart="false" />
+      <ArtifactInput ArtifactId="Token6" RequiredForStart="true" />
+      <PropertyInput PropertyId="Token4" />
+      <PropertyInput PropertyId="Token5" />
+      <PropertyInput PropertyId="Token6" />
+    </InputSet>
+    <InputSet>
+      <Input ArtifactId="Token7" />
+      <Input ArtifactId="Token8" />
+      <Input ArtifactId="Token9" />
+      <ArtifactInput ArtifactId="Token7" RequiredForStart="false" />
+      <ArtifactInput ArtifactId="Token8" RequiredForStart="true" />
+      <ArtifactInput ArtifactId="Token9" RequiredForStart="false" />
+      <PropertyInput PropertyId="Token7" />
+      <PropertyInput PropertyId="Token8" />
+      <PropertyInput PropertyId="Token9" />
+    </InputSet>
+  </InputSets>
+  <OutputSets>
+    <OutputSet>
+      <Output ArtifactId="Token1" />
+      <Output ArtifactId="Token2" />
+      <Output ArtifactId="Token3" />
+    </OutputSet>
+    <OutputSet>
+      <Output ArtifactId="Token4" />
+      <Output ArtifactId="Token5" />
+      <Output ArtifactId="Token6" />
+    </OutputSet>
+    <OutputSet>
+      <Output ArtifactId="Token7" />
+      <Output ArtifactId="Token8" />
+      <Output ArtifactId="Token9" />
+    </OutputSet>
+  </OutputSets>
+  <Participants>
+    <Participant Id="Token1" Name="Name1">
+      <ParticipantType Type="RESOURCE_SET" />
+      <ExternalReference xref="Token1" location="http://uri1" namespace="http://uri1" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token1" Value="Value1">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token2" Value="Value2">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token3" Value="Value3">text</ExtendedAttribute>
+      </ExtendedAttributes>
+    </Participant>
+    <Participant Id="Token2" Name="Name2">
+      <ParticipantType Type="RESOURCE" />
+      <ExternalReference xref="Token2" location="http://uri2" namespace="http://uri2" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token4" Value="Value4">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token5" Value="Value5">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token6" Value="Value6">text</ExtendedAttribute>
+      </ExtendedAttributes>
+    </Participant>
+    <Participant Id="Token3" Name="Name3">
+      <ParticipantType Type="ROLE" />
+      <ExternalReference xref="Token3" location="http://uri3" namespace="http://uri3" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token7" Value="Value7">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token8" Value="Value8">text</ExtendedAttribute>
+        <ExtendedAttribute Name="Token9" Value="Value9">text</ExtendedAttribute>
+      </ExtendedAttributes>
+    </Participant>
+  </Participants>
+  <Applications>
+    <Application Id="Token1" Name="Name1">
+      <Type>
+        <Ejb>
+          <JndiName>JndiName1</JndiName>
+          <HomeClass>HomeClass1</HomeClass>
+          <Method>Method1</Method>
+        </Ejb>
+      </Type>
+      <FormalParameters>
+        <FormalParameter Id="Token4" Index="Token4" Mode="INOUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description4</Description>
+        </FormalParameter>
+        <FormalParameter Id="Token5" Index="Token5" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description5</Description>
+        </FormalParameter>
+        <FormalParameter Id="Token6" Index="Token6" Mode="OUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description6</Description>
+        </FormalParameter>
+        <Extensions>anyType</Extensions>
+      </FormalParameters>
+    </Application>
+    <Application Id="Token2" Name="Name2">
+      <Type>
+        <Ejb>
+          <JndiName>JndiName2</JndiName>
+          <HomeClass>HomeClass2</HomeClass>
+          <Method>Method2</Method>
+        </Ejb>
+      </Type>
+      <FormalParameters>
+        <FormalParameter Id="Token7" Index="Token7" Mode="INOUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description7</Description>
+        </FormalParameter>
+        <FormalParameter Id="Token8" Index="Token8" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description8</Description>
+        </FormalParameter>
+        <FormalParameter Id="Token9" Index="Token9" Mode="OUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description9</Description>
+        </FormalParameter>
+        <Extensions>anyType</Extensions>
+      </FormalParameters>
+    </Application>
+    <Application Id="Token3" Name="Name3">
+      <Type>
+        <Ejb>
+          <JndiName>JndiName3</JndiName>
+          <HomeClass>HomeClass3</HomeClass>
+          <Method>Method3</Method>
+        </Ejb>
+      </Type>
+      <FormalParameters>
+        <FormalParameter Id="Token10" Index="Token10" Mode="INOUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description10</Description>
+        </FormalParameter>
+        <FormalParameter Id="Token11" Index="Token11" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description11</Description>
+        </FormalParameter>
+        <FormalParameter Id="Token12" Index="Token12" Mode="OUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+          <Description>Description12</Description>
+        </FormalParameter>
+        <Extensions>anyType</Extensions>
+      </FormalParameters>
+    </Application>
+  </Applications>
+  <DataFields>
+    <DataField Id="Token1" Name="Name1" ReadOnly="false" IsArray="false" Correlation="false">
+      <InitialValue ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</InitialValue>
+    </DataField>
+    <DataField Id="Token2" Name="Name2" ReadOnly="true" IsArray="true" Correlation="true">
+      <InitialValue ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</InitialValue>
+    </DataField>
+    <DataField Id="Token3" Name="Name3" ReadOnly="false" IsArray="false" Correlation="false">
+      <InitialValue ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</InitialValue>
+    </DataField>
+  </DataFields>
+  <ActivitySets>
+    <ActivitySet Id="Token1" Name="Name1" AdHoc="false" AdHocOrdering="Parallel" AdHocCompletionCondition="AdHocCompletionCondition1" DefaultStartActivityId="Token1">
+      <Activities>
+        <Activity Id="Token1" IsForCompensation="true" Name="Name1" StartActivity="true" Status="None" StartMode="Automatic" FinishMode="Automatic" StartQuantity="1" CompletionQuantity="1" IsATransaction="false">
+          <Route GatewayType="Exclusive" XORType="Data" ExclusiveType="Data" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition1" OutgoingCondition="OutgoingCondition1" />
+          <Transaction TransactionId="TransactionId1" TransactionProtocol="TransactionProtocol1" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Performer1</Performer>
+            <Performer>Performer2</Performer>
+            <Performer>Performer3</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="ONCE">
+            <Cost>Cost1</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime2</WaitingTime>
+              <WorkingTime>WorkingTime2</WorkingTime>
+              <Duration>Duration2</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="1" YCOORD="1" WIDTH="1" HEIGHT="1" SHAPE="RoundRectangle">Icon1</Icon>
+          <Documentation>Documentation1</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="XOR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion1" />
+              <Split Type="XOR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition1">
+                <TransitionRefs>
+                  <TransitionRef Id="Token1" Name="Name1" />
+                  <TransitionRef Id="Token2" Name="Name2" />
+                  <TransitionRef Id="Token3" Name="Name3" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Exclusive" ExclusiveType="Data" IncomingCondtion="IncomingCondtion2" />
+              <Split Type="Exclusive" ExclusiveType="Data" OutgoingCondition="OutgoingCondition2">
+                <TransitionRefs>
+                  <TransitionRef Id="Token4" Name="Name4" />
+                  <TransitionRef Id="Token5" Name="Name5" />
+                  <TransitionRef Id="Token6" Name="Name6" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="OR" ExclusiveType="Event" IncomingCondtion="IncomingCondtion3" />
+              <Split Type="OR" ExclusiveType="Event" OutgoingCondition="OutgoingCondition3">
+                <TransitionRefs>
+                  <TransitionRef Id="Token7" Name="Name7" />
+                  <TransitionRef Id="Token8" Name="Name8" />
+                  <TransitionRef Id="Token9" Name="Name9" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Expression>
+            <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Expression>
+            <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Expression>
+          </IORules>
+          <Loop LoopType="Standard">
+            <LoopStandard LoopCondition="LoopCondition1" LoopCounter="1" LoopMaximum="1" TestTime="Before">
+              <LoopCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Target>
+              <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Target>
+              <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Target>
+              <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token1" Name="Name1">
+            <Categories>
+              <Category Id="Token1" Name="Name1" />
+              <Category Id="Token2" Name="Name2" />
+              <Category Id="Token3" Name="Name3" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId1" IsVisible="true" Page="Token1" PageId="Token1" LaneId="Token1" Height="1" Width="1" BorderColor="BorderColor1" FillColor="FillColor1" Shape="Shape1">
+              <Coordinates XCoordinate="1" YCoordinate="1" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId2" IsVisible="true" Page="Token2" PageId="Token2" LaneId="Token2" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor2" FillColor="FillColor2" Shape="Shape2">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId3" IsVisible="false" Page="Token3" PageId="Token3" LaneId="Token3" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor3" FillColor="FillColor3" Shape="Shape3">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+        <Activity Id="Token2" IsForCompensation="false" Name="Name2" StartActivity="false" Status="None" StartMode="Manual" FinishMode="Manual" StartQuantity="1" CompletionQuantity="1" IsATransaction="true">
+          <Route GatewayType="XOR" XORType="Data" ExclusiveType="Data" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition2" OutgoingCondition="OutgoingCondition2" />
+          <Transaction TransactionId="TransactionId2" TransactionProtocol="TransactionProtocol2" TransactionMethod="Store" />
+          <Performers>
+            <Performer>Performer4</Performer>
+            <Performer>Performer5</Performer>
+            <Performer>Performer6</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Cost2</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime3</WaitingTime>
+              <WorkingTime>WorkingTime3</WorkingTime>
+              <Duration>Duration3</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="RoundRectangle">Icon2</Icon>
+          <Documentation>Documentation2</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="Inclusive" ExclusiveType="Data" IncomingCondtion="IncomingCondtion4" />
+              <Split Type="Inclusive" ExclusiveType="Data" OutgoingCondition="OutgoingCondition4">
+                <TransitionRefs>
+                  <TransitionRef Id="Token10" Name="Name10" />
+                  <TransitionRef Id="Token11" Name="Name11" />
+                  <TransitionRef Id="Token12" Name="Name12" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Complex" ExclusiveType="Event" IncomingCondtion="IncomingCondtion5" />
+              <Split Type="Complex" ExclusiveType="Event" OutgoingCondition="OutgoingCondition5">
+                <TransitionRefs>
+                  <TransitionRef Id="Token13" Name="Name13" />
+                  <TransitionRef Id="Token14" Name="Name14" />
+                  <TransitionRef Id="Token15" Name="Name15" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="AND" ExclusiveType="Data" IncomingCondtion="IncomingCondtion6" />
+              <Split Type="AND" ExclusiveType="Data" OutgoingCondition="OutgoingCondition6">
+                <TransitionRefs>
+                  <TransitionRef Id="Token16" Name="Name16" />
+                  <TransitionRef Id="Token17" Name="Name17" />
+                  <TransitionRef Id="Token18" Name="Name18" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</Expression>
+            <Expression ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</Expression>
+            <Expression ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopStandard LoopCondition="LoopCondition2" LoopCounter="-792" LoopMaximum="-792" TestTime="After">
+              <LoopCondition ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</Target>
+              <Expression ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</Target>
+              <Expression ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</Target>
+              <Expression ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token2" Name="Name2">
+            <Categories>
+              <Category Id="Token4" Name="Name4" />
+              <Category Id="Token5" Name="Name5" />
+              <Category Id="Token6" Name="Name6" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId4" IsVisible="true" Page="Token4" PageId="Token4" LaneId="Token4" Height="-0.10000002384185791" Width="-0.10000002384185791" BorderColor="BorderColor4" FillColor="FillColor4" Shape="Shape4">
+              <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId5" IsVisible="false" Page="Token5" PageId="Token5" LaneId="Token5" Height="2.1000000238418579" Width="2.1000000238418579" BorderColor="BorderColor5" FillColor="FillColor5" Shape="Shape5">
+              <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId6" IsVisible="true" Page="Token6" PageId="Token6" LaneId="Token6" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor6" FillColor="FillColor6" Shape="Shape6">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+        <Activity Id="Token3" IsForCompensation="true" Name="Name3" StartActivity="true" Status="Ready" StartMode="Automatic" FinishMode="Automatic" StartQuantity="-792" CompletionQuantity="-792" IsATransaction="false">
+          <Route GatewayType="Exclusive" XORType="Event" ExclusiveType="Event" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition3" OutgoingCondition="OutgoingCondition3" />
+          <Transaction TransactionId="TransactionId3" TransactionProtocol="TransactionProtocol3" TransactionMethod="Image" />
+          <Performers>
+            <Performer>Performer7</Performer>
+            <Performer>Performer8</Performer>
+            <Performer>Performer9</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="ONCE">
+            <Cost>Cost3</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime4</WaitingTime>
+              <WorkingTime>WorkingTime4</WorkingTime>
+              <Duration>Duration4</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Rectangle">Icon3</Icon>
+          <Documentation>Documentation3</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="Parallel" ExclusiveType="Event" IncomingCondtion="IncomingCondtion7" />
+              <Split Type="Parallel" ExclusiveType="Event" OutgoingCondition="OutgoingCondition7">
+                <TransitionRefs>
+                  <TransitionRef Id="Token19" Name="Name19" />
+                  <TransitionRef Id="Token20" Name="Name20" />
+                  <TransitionRef Id="Token21" Name="Name21" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="XOR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion8" />
+              <Split Type="XOR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition8">
+                <TransitionRefs>
+                  <TransitionRef Id="Token22" Name="Name22" />
+                  <TransitionRef Id="Token23" Name="Name23" />
+                  <TransitionRef Id="Token24" Name="Name24" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Exclusive" ExclusiveType="Event" IncomingCondtion="IncomingCondtion9" />
+              <Split Type="Exclusive" ExclusiveType="Event" OutgoingCondition="OutgoingCondition9">
+                <TransitionRefs>
+                  <TransitionRef Id="Token25" Name="Name25" />
+                  <TransitionRef Id="Token26" Name="Name26" />
+                  <TransitionRef Id="Token27" Name="Name27" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</Expression>
+            <Expression ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</Expression>
+            <Expression ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</Expression>
+          </IORules>
+          <Loop LoopType="Standard">
+            <LoopStandard LoopCondition="LoopCondition3" LoopCounter="792" LoopMaximum="792" TestTime="Before">
+              <LoopCondition ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</Target>
+              <Expression ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</Target>
+              <Expression ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</Target>
+              <Expression ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token3" Name="Name3">
+            <Categories>
+              <Category Id="Token7" Name="Name7" />
+              <Category Id="Token8" Name="Name8" />
+              <Category Id="Token9" Name="Name9" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId7" IsVisible="false" Page="Token7" PageId="Token7" LaneId="Token7" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor7" FillColor="FillColor7" Shape="Shape7">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId8" IsVisible="true" Page="Token8" PageId="Token8" LaneId="Token8" Height="-1.2000000476837158" Width="-1.2000000476837158" BorderColor="BorderColor8" FillColor="FillColor8" Shape="Shape8">
+              <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId9" IsVisible="false" Page="Token9" PageId="Token9" LaneId="Token9" Height="3.2000000476837158" Width="3.2000000476837158" BorderColor="BorderColor9" FillColor="FillColor9" Shape="Shape9">
+              <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="Token1" From="Token1" To="Token1" Name="Name1" Quantity="1">
+          <Condition Type="CONDITION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token1" IsVisible="true" Page="Token1" PageId="Token1" Style="Style1" BorderColor="BorderColor1" FillColor="FillColor1" />
+            <ConnectorGraphicsInfo ToolId="Token2" IsVisible="true" Page="Token2" PageId="Token2" Style="Style2" BorderColor="BorderColor2" FillColor="FillColor2" />
+            <ConnectorGraphicsInfo ToolId="Token3" IsVisible="false" Page="Token3" PageId="Token3" Style="Style3" BorderColor="BorderColor3" FillColor="FillColor3" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="Token2" From="Token2" To="Token2" Name="Name2" Quantity="1">
+          <Condition Type="OTHERWISE">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token4" IsVisible="true" Page="Token4" PageId="Token4" Style="Style4" BorderColor="BorderColor4" FillColor="FillColor4" />
+            <ConnectorGraphicsInfo ToolId="Token5" IsVisible="false" Page="Token5" PageId="Token5" Style="Style5" BorderColor="BorderColor5" FillColor="FillColor5" />
+            <ConnectorGraphicsInfo ToolId="Token6" IsVisible="true" Page="Token6" PageId="Token6" Style="Style6" BorderColor="BorderColor6" FillColor="FillColor6" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="Token3" From="Token3" To="Token3" Name="Name3" Quantity="-21">
+          <Condition Type="EXCEPTION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token7" IsVisible="false" Page="Token7" PageId="Token7" Style="Style7" BorderColor="BorderColor7" FillColor="FillColor7" />
+            <ConnectorGraphicsInfo ToolId="Token8" IsVisible="true" Page="Token8" PageId="Token8" Style="Style8" BorderColor="BorderColor8" FillColor="FillColor8" />
+            <ConnectorGraphicsInfo ToolId="Token9" IsVisible="false" Page="Token9" PageId="Token9" Style="Style9" BorderColor="BorderColor9" FillColor="FillColor9" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+    </ActivitySet>
+    <ActivitySet Id="Token2" Name="Name2" AdHoc="true" AdHocOrdering="Sequential" AdHocCompletionCondition="AdHocCompletionCondition2" DefaultStartActivityId="Token2">
+      <Activities>
+        <Activity Id="Token4" IsForCompensation="false" Name="Name4" StartActivity="false" Status="Active" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+          <Route GatewayType="OR" XORType="Data" ExclusiveType="Data" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition4" OutgoingCondition="OutgoingCondition4" />
+          <Transaction TransactionId="TransactionId4" TransactionProtocol="TransactionProtocol4" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Performer10</Performer>
+            <Performer>Performer11</Performer>
+            <Performer>Performer12</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Cost4</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime5</WaitingTime>
+              <WorkingTime>WorkingTime5</WorkingTime>
+              <Duration>Duration5</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="0" YCOORD="0" WIDTH="0" HEIGHT="0" SHAPE="Ellipse">Icon4</Icon>
+          <Documentation>Documentation4</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="OR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion10" />
+              <Split Type="OR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition10">
+                <TransitionRefs>
+                  <TransitionRef Id="Token28" Name="Name28" />
+                  <TransitionRef Id="Token29" Name="Name29" />
+                  <TransitionRef Id="Token30" Name="Name30" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Inclusive" ExclusiveType="Event" IncomingCondtion="IncomingCondtion11" />
+              <Split Type="Inclusive" ExclusiveType="Event" OutgoingCondition="OutgoingCondition11">
+                <TransitionRefs>
+                  <TransitionRef Id="Token31" Name="Name31" />
+                  <TransitionRef Id="Token32" Name="Name32" />
+                  <TransitionRef Id="Token33" Name="Name33" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Complex" ExclusiveType="Data" IncomingCondtion="IncomingCondtion12" />
+              <Split Type="Complex" ExclusiveType="Data" OutgoingCondition="OutgoingCondition12">
+                <TransitionRefs>
+                  <TransitionRef Id="Token34" Name="Name34" />
+                  <TransitionRef Id="Token35" Name="Name35" />
+                  <TransitionRef Id="Token36" Name="Name36" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" ScriptGrammar="http://uri10">text</Expression>
+            <Expression ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" ScriptGrammar="http://uri11">text</Expression>
+            <Expression ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" ScriptGrammar="http://uri12">text</Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopStandard LoopCondition="LoopCondition4" LoopCounter="0" LoopMaximum="0" TestTime="After">
+              <LoopCondition ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" ScriptGrammar="http://uri4">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" ScriptGrammar="http://uri10">text</Target>
+              <Expression ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" ScriptGrammar="http://uri10">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" ScriptGrammar="http://uri11">text</Target>
+              <Expression ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" ScriptGrammar="http://uri11">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" ScriptGrammar="http://uri12">text</Target>
+              <Expression ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" ScriptGrammar="http://uri12">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token4" Name="Name4">
+            <Categories>
+              <Category Id="Token10" Name="Name10" />
+              <Category Id="Token11" Name="Name11" />
+              <Category Id="Token12" Name="Name12" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId10" IsVisible="true" Page="Token10" PageId="Token10" LaneId="Token10" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor10" FillColor="FillColor10" Shape="Shape10">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId11" IsVisible="false" Page="Token11" PageId="Token11" LaneId="Token11" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor11" FillColor="FillColor11" Shape="Shape11">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId12" IsVisible="true" Page="Token12" PageId="Token12" LaneId="Token12" Height="-2.3000000715255737" Width="-2.3000000715255737" BorderColor="BorderColor12" FillColor="FillColor12" Shape="Shape12">
+              <Coordinates XCoordinate="-2.3000000715255737" YCoordinate="-2.3000000715255737" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+        <Activity Id="Token5" IsForCompensation="true" Name="Name5" StartActivity="true" Status="Cancelled" StartMode="Automatic" FinishMode="Automatic" StartQuantity="0" CompletionQuantity="0" IsATransaction="false">
+          <Route GatewayType="Inclusive" XORType="Event" ExclusiveType="Event" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition5" OutgoingCondition="OutgoingCondition5" />
+          <Transaction TransactionId="TransactionId5" TransactionProtocol="TransactionProtocol5" TransactionMethod="Store" />
+          <Performers>
+            <Performer>Performer13</Performer>
+            <Performer>Performer14</Performer>
+            <Performer>Performer15</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="ONCE">
+            <Cost>Cost5</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime6</WaitingTime>
+              <WorkingTime>WorkingTime6</WorkingTime>
+              <Duration>Duration6</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="2" YCOORD="2" WIDTH="2" HEIGHT="2" SHAPE="Diamond">Icon5</Icon>
+          <Documentation>Documentation5</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="AND" ExclusiveType="Event" IncomingCondtion="IncomingCondtion13" />
+              <Split Type="AND" ExclusiveType="Event" OutgoingCondition="OutgoingCondition13">
+                <TransitionRefs>
+                  <TransitionRef Id="Token37" Name="Name37" />
+                  <TransitionRef Id="Token38" Name="Name38" />
+                  <TransitionRef Id="Token39" Name="Name39" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Parallel" ExclusiveType="Data" IncomingCondtion="IncomingCondtion14" />
+              <Split Type="Parallel" ExclusiveType="Data" OutgoingCondition="OutgoingCondition14">
+                <TransitionRefs>
+                  <TransitionRef Id="Token40" Name="Name40" />
+                  <TransitionRef Id="Token41" Name="Name41" />
+                  <TransitionRef Id="Token42" Name="Name42" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="XOR" ExclusiveType="Event" IncomingCondtion="IncomingCondtion15" />
+              <Split Type="XOR" ExclusiveType="Event" OutgoingCondition="OutgoingCondition15">
+                <TransitionRefs>
+                  <TransitionRef Id="Token43" Name="Name43" />
+                  <TransitionRef Id="Token44" Name="Name44" />
+                  <TransitionRef Id="Token45" Name="Name45" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType13" ScriptVersion="ScriptVersion13" ScriptGrammar="http://uri13">text</Expression>
+            <Expression ScriptType="ScriptType14" ScriptVersion="ScriptVersion14" ScriptGrammar="http://uri14">text</Expression>
+            <Expression ScriptType="ScriptType15" ScriptVersion="ScriptVersion15" ScriptGrammar="http://uri15">text</Expression>
+          </IORules>
+          <Loop LoopType="Standard">
+            <LoopStandard LoopCondition="LoopCondition5" LoopCounter="2" LoopMaximum="2" TestTime="Before">
+              <LoopCondition ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" ScriptGrammar="http://uri5">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType13" ScriptVersion="ScriptVersion13" ScriptGrammar="http://uri13">text</Target>
+              <Expression ScriptType="ScriptType13" ScriptVersion="ScriptVersion13" ScriptGrammar="http://uri13">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType14" ScriptVersion="ScriptVersion14" ScriptGrammar="http://uri14">text</Target>
+              <Expression ScriptType="ScriptType14" ScriptVersion="ScriptVersion14" ScriptGrammar="http://uri14">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType15" ScriptVersion="ScriptVersion15" ScriptGrammar="http://uri15">text</Target>
+              <Expression ScriptType="ScriptType15" ScriptVersion="ScriptVersion15" ScriptGrammar="http://uri15">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token5" Name="Name5">
+            <Categories>
+              <Category Id="Token13" Name="Name13" />
+              <Category Id="Token14" Name="Name14" />
+              <Category Id="Token15" Name="Name15" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId13" IsVisible="false" Page="Token13" PageId="Token13" LaneId="Token13" Height="4.3000000715255737" Width="4.3000000715255737" BorderColor="BorderColor13" FillColor="FillColor13" Shape="Shape13">
+              <Coordinates XCoordinate="4.3000000715255737" YCoordinate="4.3000000715255737" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId14" IsVisible="true" Page="Token14" PageId="Token14" LaneId="Token14" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor14" FillColor="FillColor14" Shape="Shape14">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId15" IsVisible="false" Page="Token15" PageId="Token15" LaneId="Token15" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor15" FillColor="FillColor15" Shape="Shape15">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+        <Activity Id="Token6" IsForCompensation="false" Name="Name6" StartActivity="false" Status="Aborting" StartMode="Manual" FinishMode="Manual" StartQuantity="2" CompletionQuantity="2" IsATransaction="true">
+          <Route GatewayType="Complex" XORType="Data" ExclusiveType="Data" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition6" OutgoingCondition="OutgoingCondition6" />
+          <Transaction TransactionId="TransactionId6" TransactionProtocol="TransactionProtocol6" TransactionMethod="Image" />
+          <Performers>
+            <Performer>Performer16</Performer>
+            <Performer>Performer17</Performer>
+            <Performer>Performer18</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Cost6</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime7</WaitingTime>
+              <WorkingTime>WorkingTime7</WorkingTime>
+              <Duration>Duration7</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="Ellipse">Icon6</Icon>
+          <Documentation>Documentation6</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="Exclusive" ExclusiveType="Data" IncomingCondtion="IncomingCondtion16" />
+              <Split Type="Exclusive" ExclusiveType="Data" OutgoingCondition="OutgoingCondition16">
+                <TransitionRefs>
+                  <TransitionRef Id="Token46" Name="Name46" />
+                  <TransitionRef Id="Token47" Name="Name47" />
+                  <TransitionRef Id="Token48" Name="Name48" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="OR" ExclusiveType="Event" IncomingCondtion="IncomingCondtion17" />
+              <Split Type="OR" ExclusiveType="Event" OutgoingCondition="OutgoingCondition17">
+                <TransitionRefs>
+                  <TransitionRef Id="Token49" Name="Name49" />
+                  <TransitionRef Id="Token50" Name="Name50" />
+                  <TransitionRef Id="Token51" Name="Name51" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Inclusive" ExclusiveType="Data" IncomingCondtion="IncomingCondtion18" />
+              <Split Type="Inclusive" ExclusiveType="Data" OutgoingCondition="OutgoingCondition18">
+                <TransitionRefs>
+                  <TransitionRef Id="Token52" Name="Name52" />
+                  <TransitionRef Id="Token53" Name="Name53" />
+                  <TransitionRef Id="Token54" Name="Name54" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType16" ScriptVersion="ScriptVersion16" ScriptGrammar="http://uri16">text</Expression>
+            <Expression ScriptType="ScriptType17" ScriptVersion="ScriptVersion17" ScriptGrammar="http://uri17">text</Expression>
+            <Expression ScriptType="ScriptType18" ScriptVersion="ScriptVersion18" ScriptGrammar="http://uri18">text</Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopStandard LoopCondition="LoopCondition6" LoopCounter="-792" LoopMaximum="-792" TestTime="After">
+              <LoopCondition ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" ScriptGrammar="http://uri6">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType16" ScriptVersion="ScriptVersion16" ScriptGrammar="http://uri16">text</Target>
+              <Expression ScriptType="ScriptType16" ScriptVersion="ScriptVersion16" ScriptGrammar="http://uri16">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType17" ScriptVersion="ScriptVersion17" ScriptGrammar="http://uri17">text</Target>
+              <Expression ScriptType="ScriptType17" ScriptVersion="ScriptVersion17" ScriptGrammar="http://uri17">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType18" ScriptVersion="ScriptVersion18" ScriptGrammar="http://uri18">text</Target>
+              <Expression ScriptType="ScriptType18" ScriptVersion="ScriptVersion18" ScriptGrammar="http://uri18">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token6" Name="Name6">
+            <Categories>
+              <Category Id="Token16" Name="Name16" />
+              <Category Id="Token17" Name="Name17" />
+              <Category Id="Token18" Name="Name18" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId16" IsVisible="true" Page="Token16" PageId="Token16" LaneId="Token16" Height="-3.4000000953674316" Width="-3.4000000953674316" BorderColor="BorderColor16" FillColor="FillColor16" Shape="Shape16">
+              <Coordinates XCoordinate="-3.4000000953674316" YCoordinate="-3.4000000953674316" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId17" IsVisible="false" Page="Token17" PageId="Token17" LaneId="Token17" Height="5.4000000953674316" Width="5.4000000953674316" BorderColor="BorderColor17" FillColor="FillColor17" Shape="Shape17">
+              <Coordinates XCoordinate="5.4000000953674316" YCoordinate="5.4000000953674316" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId18" IsVisible="true" Page="Token18" PageId="Token18" LaneId="Token18" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor18" FillColor="FillColor18" Shape="Shape18">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="Token4" From="Token4" To="Token4" Name="Name4" Quantity="214">
+          <Condition Type="DEFAULTEXCEPTION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token10" IsVisible="true" Page="Token10" PageId="Token10" Style="Style10" BorderColor="BorderColor10" FillColor="FillColor10" />
+            <ConnectorGraphicsInfo ToolId="Token11" IsVisible="false" Page="Token11" PageId="Token11" Style="Style11" BorderColor="BorderColor11" FillColor="FillColor11" />
+            <ConnectorGraphicsInfo ToolId="Token12" IsVisible="true" Page="Token12" PageId="Token12" Style="Style12" BorderColor="BorderColor12" FillColor="FillColor12" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="Token5" From="Token5" To="Token5" Name="Name5" Quantity="0">
+          <Condition Type="CONDITION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token13" IsVisible="false" Page="Token13" PageId="Token13" Style="Style13" BorderColor="BorderColor13" FillColor="FillColor13" />
+            <ConnectorGraphicsInfo ToolId="Token14" IsVisible="true" Page="Token14" PageId="Token14" Style="Style14" BorderColor="BorderColor14" FillColor="FillColor14" />
+            <ConnectorGraphicsInfo ToolId="Token15" IsVisible="false" Page="Token15" PageId="Token15" Style="Style15" BorderColor="BorderColor15" FillColor="FillColor15" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="Token6" From="Token6" To="Token6" Name="Name6" Quantity="2">
+          <Condition Type="OTHERWISE">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token16" IsVisible="true" Page="Token16" PageId="Token16" Style="Style16" BorderColor="BorderColor16" FillColor="FillColor16" />
+            <ConnectorGraphicsInfo ToolId="Token17" IsVisible="false" Page="Token17" PageId="Token17" Style="Style17" BorderColor="BorderColor17" FillColor="FillColor17" />
+            <ConnectorGraphicsInfo ToolId="Token18" IsVisible="true" Page="Token18" PageId="Token18" Style="Style18" BorderColor="BorderColor18" FillColor="FillColor18" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+    </ActivitySet>
+    <ActivitySet Id="Token3" Name="Name3" AdHoc="false" AdHocOrdering="Parallel" AdHocCompletionCondition="AdHocCompletionCondition3" DefaultStartActivityId="Token3">
+      <Activities>
+        <Activity Id="Token7" IsForCompensation="true" Name="Name7" StartActivity="true" Status="Aborted" StartMode="Automatic" FinishMode="Automatic" StartQuantity="-794" CompletionQuantity="-792" IsATransaction="false">
+          <Route GatewayType="AND" XORType="Event" ExclusiveType="Event" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition7" OutgoingCondition="OutgoingCondition7" />
+          <Transaction TransactionId="TransactionId7" TransactionProtocol="TransactionProtocol7" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Performer19</Performer>
+            <Performer>Performer20</Performer>
+            <Performer>Performer21</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="ONCE">
+            <Cost>Cost7</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime8</WaitingTime>
+              <WorkingTime>WorkingTime8</WorkingTime>
+              <Duration>Duration8</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="UpTriangle">Icon7</Icon>
+          <Documentation>Documentation7</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="Complex" ExclusiveType="Event" IncomingCondtion="IncomingCondtion19" />
+              <Split Type="Complex" ExclusiveType="Event" OutgoingCondition="OutgoingCondition19">
+                <TransitionRefs>
+                  <TransitionRef Id="Token55" Name="Name55" />
+                  <TransitionRef Id="Token56" Name="Name56" />
+                  <TransitionRef Id="Token57" Name="Name57" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="AND" ExclusiveType="Data" IncomingCondtion="IncomingCondtion20" />
+              <Split Type="AND" ExclusiveType="Data" OutgoingCondition="OutgoingCondition20">
+                <TransitionRefs>
+                  <TransitionRef Id="Token58" Name="Name58" />
+                  <TransitionRef Id="Token59" Name="Name59" />
+                  <TransitionRef Id="Token60" Name="Name60" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Parallel" ExclusiveType="Event" IncomingCondtion="IncomingCondtion21" />
+              <Split Type="Parallel" ExclusiveType="Event" OutgoingCondition="OutgoingCondition21">
+                <TransitionRefs>
+                  <TransitionRef Id="Token61" Name="Name61" />
+                  <TransitionRef Id="Token62" Name="Name62" />
+                  <TransitionRef Id="Token63" Name="Name63" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType19" ScriptVersion="ScriptVersion19" ScriptGrammar="http://uri19">text</Expression>
+            <Expression ScriptType="ScriptType20" ScriptVersion="ScriptVersion20" ScriptGrammar="http://uri20">text</Expression>
+            <Expression ScriptType="ScriptType21" ScriptVersion="ScriptVersion21" ScriptGrammar="http://uri21">text</Expression>
+          </IORules>
+          <Loop LoopType="Standard">
+            <LoopStandard LoopCondition="LoopCondition7" LoopCounter="792" LoopMaximum="792" TestTime="Before">
+              <LoopCondition ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" ScriptGrammar="http://uri7">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType19" ScriptVersion="ScriptVersion19" ScriptGrammar="http://uri19">text</Target>
+              <Expression ScriptType="ScriptType19" ScriptVersion="ScriptVersion19" ScriptGrammar="http://uri19">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType20" ScriptVersion="ScriptVersion20" ScriptGrammar="http://uri20">text</Target>
+              <Expression ScriptType="ScriptType20" ScriptVersion="ScriptVersion20" ScriptGrammar="http://uri20">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType21" ScriptVersion="ScriptVersion21" ScriptGrammar="http://uri21">text</Target>
+              <Expression ScriptType="ScriptType21" ScriptVersion="ScriptVersion21" ScriptGrammar="http://uri21">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token7" Name="Name7">
+            <Categories>
+              <Category Id="Token19" Name="Name19" />
+              <Category Id="Token20" Name="Name20" />
+              <Category Id="Token21" Name="Name21" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId19" IsVisible="false" Page="Token19" PageId="Token19" LaneId="Token19" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor19" FillColor="FillColor19" Shape="Shape19">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId20" IsVisible="true" Page="Token20" PageId="Token20" LaneId="Token20" Height="-4.5000001192092896" Width="-4.5000001192092896" BorderColor="BorderColor20" FillColor="FillColor20" Shape="Shape20">
+              <Coordinates XCoordinate="-4.5000001192092896" YCoordinate="-4.5000001192092896" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId21" IsVisible="false" Page="Token21" PageId="Token21" LaneId="Token21" Height="6.5000001192092896" Width="6.5000001192092896" BorderColor="BorderColor21" FillColor="FillColor21" Shape="Shape21">
+              <Coordinates XCoordinate="6.5000001192092896" YCoordinate="6.5000001192092896" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+        <Activity Id="Token8" IsForCompensation="false" Name="Name8" StartActivity="false" Status="Completing" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+          <Route GatewayType="Parallel" XORType="Data" ExclusiveType="Data" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition8" OutgoingCondition="OutgoingCondition8" />
+          <Transaction TransactionId="TransactionId8" TransactionProtocol="TransactionProtocol8" TransactionMethod="Store" />
+          <Performers>
+            <Performer>Performer22</Performer>
+            <Performer>Performer23</Performer>
+            <Performer>Performer24</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Cost8</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime9</WaitingTime>
+              <WorkingTime>WorkingTime9</WorkingTime>
+              <Duration>Duration9</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="-1" YCOORD="-1" WIDTH="-1" HEIGHT="-1" SHAPE="DownTriangle">Icon8</Icon>
+          <Documentation>Documentation8</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="XOR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion22" />
+              <Split Type="XOR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition22">
+                <TransitionRefs>
+                  <TransitionRef Id="Token64" Name="Name64" />
+                  <TransitionRef Id="Token65" Name="Name65" />
+                  <TransitionRef Id="Token66" Name="Name66" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Exclusive" ExclusiveType="Event" IncomingCondtion="IncomingCondtion23" />
+              <Split Type="Exclusive" ExclusiveType="Event" OutgoingCondition="OutgoingCondition23">
+                <TransitionRefs>
+                  <TransitionRef Id="Token67" Name="Name67" />
+                  <TransitionRef Id="Token68" Name="Name68" />
+                  <TransitionRef Id="Token69" Name="Name69" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="OR" ExclusiveType="Data" IncomingCondtion="IncomingCondtion24" />
+              <Split Type="OR" ExclusiveType="Data" OutgoingCondition="OutgoingCondition24">
+                <TransitionRefs>
+                  <TransitionRef Id="Token70" Name="Name70" />
+                  <TransitionRef Id="Token71" Name="Name71" />
+                  <TransitionRef Id="Token72" Name="Name72" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType22" ScriptVersion="ScriptVersion22" ScriptGrammar="http://uri22">text</Expression>
+            <Expression ScriptType="ScriptType23" ScriptVersion="ScriptVersion23" ScriptGrammar="http://uri23">text</Expression>
+            <Expression ScriptType="ScriptType24" ScriptVersion="ScriptVersion24" ScriptGrammar="http://uri24">text</Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopStandard LoopCondition="LoopCondition8" LoopCounter="-1" LoopMaximum="-1" TestTime="After">
+              <LoopCondition ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" ScriptGrammar="http://uri8">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType22" ScriptVersion="ScriptVersion22" ScriptGrammar="http://uri22">text</Target>
+              <Expression ScriptType="ScriptType22" ScriptVersion="ScriptVersion22" ScriptGrammar="http://uri22">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType23" ScriptVersion="ScriptVersion23" ScriptGrammar="http://uri23">text</Target>
+              <Expression ScriptType="ScriptType23" ScriptVersion="ScriptVersion23" ScriptGrammar="http://uri23">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType24" ScriptVersion="ScriptVersion24" ScriptGrammar="http://uri24">text</Target>
+              <Expression ScriptType="ScriptType24" ScriptVersion="ScriptVersion24" ScriptGrammar="http://uri24">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token8" Name="Name8">
+            <Categories>
+              <Category Id="Token22" Name="Name22" />
+              <Category Id="Token23" Name="Name23" />
+              <Category Id="Token24" Name="Name24" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId22" IsVisible="true" Page="Token22" PageId="Token22" LaneId="Token22" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor22" FillColor="FillColor22" Shape="Shape22">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId23" IsVisible="false" Page="Token23" PageId="Token23" LaneId="Token23" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor23" FillColor="FillColor23" Shape="Shape23">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId24" IsVisible="true" Page="Token24" PageId="Token24" LaneId="Token24" Height="-5.6000001430511475" Width="-5.6000001430511475" BorderColor="BorderColor24" FillColor="FillColor24" Shape="Shape24">
+              <Coordinates XCoordinate="-5.6000001430511475" YCoordinate="-5.6000001430511475" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+        <Activity Id="Token9" IsForCompensation="true" Name="Name9" StartActivity="true" Status="Completed" StartMode="Automatic" FinishMode="Automatic" StartQuantity="-1" CompletionQuantity="-1" IsATransaction="false">
+          <Route GatewayType="XOR" XORType="Event" ExclusiveType="Event" Instantiate="false" MarkerVisible="false" IncomingCondition="IncomingCondition9" OutgoingCondition="OutgoingCondition9" />
+          <Transaction TransactionId="TransactionId9" TransactionProtocol="TransactionProtocol9" TransactionMethod="Image" />
+          <Performers>
+            <Performer>Performer25</Performer>
+            <Performer>Performer26</Performer>
+            <Performer>Performer27</Performer>
+          </Performers>
+          <StartMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </StartMode>
+          <FinishMode xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <Automatic />
+          </FinishMode>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="SYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <Deadline Execution="ASYNCHR" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+            <DeadlineCondition>anyType</DeadlineCondition>
+            <ExceptionName>anyType</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="ONCE">
+            <Cost>Cost9</Cost>
+            <TimeEstimation>
+              <WaitingTime>WaitingTime10</WaitingTime>
+              <WorkingTime>WorkingTime10</WorkingTime>
+              <Duration>Duration10</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="3" YCOORD="3" WIDTH="3" HEIGHT="3" SHAPE="RoundRectangle">Icon9</Icon>
+          <Documentation>Documentation9</Documentation>
+          <TransitionRestrictions>
+            <TransitionRestriction>
+              <Join Type="Inclusive" ExclusiveType="Event" IncomingCondtion="IncomingCondtion25" />
+              <Split Type="Inclusive" ExclusiveType="Event" OutgoingCondition="OutgoingCondition25">
+                <TransitionRefs>
+                  <TransitionRef Id="Token73" Name="Name73" />
+                  <TransitionRef Id="Token74" Name="Name74" />
+                  <TransitionRef Id="Token75" Name="Name75" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="Complex" ExclusiveType="Data" IncomingCondtion="IncomingCondtion26" />
+              <Split Type="Complex" ExclusiveType="Data" OutgoingCondition="OutgoingCondition26">
+                <TransitionRefs>
+                  <TransitionRef Id="Token76" Name="Name76" />
+                  <TransitionRef Id="Token77" Name="Name77" />
+                  <TransitionRef Id="Token78" Name="Name78" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join Type="AND" ExclusiveType="Event" IncomingCondtion="IncomingCondtion27" />
+              <Split Type="AND" ExclusiveType="Event" OutgoingCondition="OutgoingCondition27">
+                <TransitionRefs>
+                  <TransitionRef Id="Token79" Name="Name79" />
+                  <TransitionRef Id="Token80" Name="Name80" />
+                  <TransitionRef Id="Token81" Name="Name81" />
+                </TransitionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransitionRestrictions>
+          <IORules>
+            <Expression ScriptType="ScriptType25" ScriptVersion="ScriptVersion25" ScriptGrammar="http://uri25">text</Expression>
+            <Expression ScriptType="ScriptType26" ScriptVersion="ScriptVersion26" ScriptGrammar="http://uri26">text</Expression>
+            <Expression ScriptType="ScriptType27" ScriptVersion="ScriptVersion27" ScriptGrammar="http://uri27">text</Expression>
+          </IORules>
+          <Loop LoopType="Standard">
+            <LoopStandard LoopCondition="LoopCondition9" LoopCounter="3" LoopMaximum="3" TestTime="Before">
+              <LoopCondition ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" ScriptGrammar="http://uri9">text</LoopCondition>
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType25" ScriptVersion="ScriptVersion25" ScriptGrammar="http://uri25">text</Target>
+              <Expression ScriptType="ScriptType25" ScriptVersion="ScriptVersion25" ScriptGrammar="http://uri25">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="Start">
+              <Target ScriptType="ScriptType26" ScriptVersion="ScriptVersion26" ScriptGrammar="http://uri26">text</Target>
+              <Expression ScriptType="ScriptType26" ScriptVersion="ScriptVersion26" ScriptGrammar="http://uri26">text</Expression>
+            </Assignment>
+            <Assignment AssignTime="End">
+              <Target ScriptType="ScriptType27" ScriptVersion="ScriptVersion27" ScriptGrammar="http://uri27">text</Target>
+              <Expression ScriptType="ScriptType27" ScriptVersion="ScriptVersion27" ScriptGrammar="http://uri27">text</Expression>
+            </Assignment>
+          </Assignments>
+          <Object Id="Token9" Name="Name9">
+            <Categories>
+              <Category Id="Token25" Name="Name25" />
+              <Category Id="Token26" Name="Name26" />
+              <Category Id="Token27" Name="Name27" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId25" IsVisible="false" Page="Token25" PageId="Token25" LaneId="Token25" Height="7.6000001430511475" Width="7.6000001430511475" BorderColor="BorderColor25" FillColor="FillColor25" Shape="Shape25">
+              <Coordinates XCoordinate="7.6000001430511475" YCoordinate="7.6000001430511475" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId26" IsVisible="true" Page="Token26" PageId="Token26" LaneId="Token26" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor26" FillColor="FillColor26" Shape="Shape26">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId27" IsVisible="false" Page="Token27" PageId="Token27" LaneId="Token27" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor27" FillColor="FillColor27" Shape="Shape27">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Extensions>anyType</Extensions>
+        </Activity>
+      </Activities>
+      <Transitions>
+        <Transition Id="Token7" From="Token7" To="Token7" Name="Name7" Quantity="-21">
+          <Condition Type="EXCEPTION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token19" IsVisible="false" Page="Token19" PageId="Token19" Style="Style19" BorderColor="BorderColor19" FillColor="FillColor19" />
+            <ConnectorGraphicsInfo ToolId="Token20" IsVisible="true" Page="Token20" PageId="Token20" Style="Style20" BorderColor="BorderColor20" FillColor="FillColor20" />
+            <ConnectorGraphicsInfo ToolId="Token21" IsVisible="false" Page="Token21" PageId="Token21" Style="Style21" BorderColor="BorderColor21" FillColor="FillColor21" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="Token8" From="Token8" To="Token8" Name="Name8" Quantity="21">
+          <Condition Type="DEFAULTEXCEPTION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token22" IsVisible="true" Page="Token22" PageId="Token22" Style="Style22" BorderColor="BorderColor22" FillColor="FillColor22" />
+            <ConnectorGraphicsInfo ToolId="Token23" IsVisible="false" Page="Token23" PageId="Token23" Style="Style23" BorderColor="BorderColor23" FillColor="FillColor23" />
+            <ConnectorGraphicsInfo ToolId="Token24" IsVisible="true" Page="Token24" PageId="Token24" Style="Style24" BorderColor="BorderColor24" FillColor="FillColor24" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+        <Transition Id="Token9" From="Token9" To="Token9" Name="Name9" Quantity="-1">
+          <Condition Type="CONDITION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="Token25" IsVisible="false" Page="Token25" PageId="Token25" Style="Style25" BorderColor="BorderColor25" FillColor="FillColor25" />
+            <ConnectorGraphicsInfo ToolId="Token26" IsVisible="true" Page="Token26" PageId="Token26" Style="Style26" BorderColor="BorderColor26" FillColor="FillColor26" />
+            <ConnectorGraphicsInfo ToolId="Token27" IsVisible="false" Page="Token27" PageId="Token27" Style="Style27" BorderColor="BorderColor27" FillColor="FillColor27" />
+          </ConnectorGraphicsInfos>
+        </Transition>
+      </Transitions>
+    </ActivitySet>
+  </ActivitySets>
+  <PartnerLinks>
+    <PartnerLink name="name1" Id="Token1" PartnerLinkTypeId="Token1">
+      <MyRole RoleName="RoleName1" />
+      <PartnerRole RoleName="RoleName1" ServiceName="ServiceName1" PortName="PortName1">
+        <EndPoint EndPointType="WSDL">
+          <ExternalReference xref="Token4" location="http://uri4" namespace="http://uri4" />
+        </EndPoint>
+      </PartnerRole>
+    </PartnerLink>
+    <PartnerLink name="name2" Id="Token2" PartnerLinkTypeId="Token2">
+      <MyRole RoleName="RoleName2" />
+      <PartnerRole RoleName="RoleName2" ServiceName="ServiceName2" PortName="PortName2">
+        <EndPoint EndPointType="WSDL">
+          <ExternalReference xref="Token5" location="http://uri5" namespace="http://uri5" />
+        </EndPoint>
+      </PartnerRole>
+    </PartnerLink>
+    <PartnerLink name="name3" Id="Token3" PartnerLinkTypeId="Token3">
+      <MyRole RoleName="RoleName3" />
+      <PartnerRole RoleName="RoleName3" ServiceName="ServiceName3" PortName="PortName3">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Token6" location="http://uri6" namespace="http://uri6" />
+        </EndPoint>
+      </PartnerRole>
+    </PartnerLink>
+  </PartnerLinks>
+  <Extensions>anyType</Extensions>
+</WorkflowProcess>

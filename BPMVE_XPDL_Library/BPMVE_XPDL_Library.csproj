@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B50FF06-8A31-4DF6-BF53-1527EAEEB699}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BPMVE_XPDL_Library</RootNamespace>
+    <AssemblyName>BPMVE_XPDL_Library</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <Description>This project converts XPDL 2.1 file to C# data structure, and vice versa.</Description>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ReleaseVersion>1.4</ReleaseVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\LoopTypeEnum.cs" />
+    <Compile Include="IValidate.cs" />
+    <Compile Include="SupportingTypes\MyRole.cs" />
+    <Compile Include="NestedObjects\Activities.cs" />
+    <Compile Include="GraphicElements\Activity.cs" />
+    <Compile Include="Implementation\NoImplementation.cs" />
+    <Compile Include="ProcessDefinition\ActivitySet.cs" />
+    <Compile Include="SupportingTypes\ActualParameter.cs" />
+    <Compile Include="NestedObjects\ActualParameters.cs" />
+    <Compile Include="ProcessDefinition\Application.cs" />
+    <Compile Include="NestedObjects\Applications.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_BusinessRule.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_EJB.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_Form.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_POJO.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_Script.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_WebService.cs" />
+    <Compile Include="ProcessDefinition\ApplicationType_XSLT.cs" />
+    <Compile Include="DataTypes\ArrayType.cs" />
+    <Compile Include="GraphicElements\Artifact.cs" />
+    <Compile Include="SupportingTypes\ArtifactInput.cs" />
+    <Compile Include="NestedObjects\Artifacts.cs" />
+    <Compile Include="Enums\ArtifactTypeEnum.cs" />
+    <Compile Include="SupportingTypes\Assignment.cs" />
+    <Compile Include="NestedObjects\Assignments.cs" />
+    <Compile Include="Enums\AssignmentTimeEnum.cs" />
+    <Compile Include="GraphicElements\Association.cs" />
+    <Compile Include="Enums\AssociationDirectionEnum.cs" />
+    <Compile Include="NestedObjects\Associations.cs" />
+    <Compile Include="SupportingTypes\Author.cs" />
+    <Compile Include="DataTypes\BasicType.cs" />
+    <Compile Include="Enums\BasicTypeEnum.cs" />
+    <Compile Include="GraphicElements\BlockActivity.cs" />
+    <Compile Include="Enums\BPMNConformanceEnum.cs" />
+    <Compile Include="Enums\CatchThrowEnum.cs" />
+    <Compile Include="NestedObjects\Categories.cs" />
+    <Compile Include="SupportingTypes\Category.cs" />
+    <Compile Include="SupportingTypes\Codepage.cs" />
+    <Compile Include="SupportingTypes\Color.cs" />
+    <Compile Include="DataTypes\ComplexType.cs" />
+    <Compile Include="SupportingTypes\Condition.cs" />
+    <Compile Include="Enums\ConditionTypeEnum.cs" />
+    <Compile Include="PackageDefinition\ConformanceClass.cs" />
+    <Compile Include="GraphicElements\ConnectingObject.cs" />
+    <Compile Include="GraphicElements\ConnectorGraphicsInfo.cs" />
+    <Compile Include="NestedObjects\ConnectorGraphicsInfos.cs" />
+    <Compile Include="SupportingTypes\Coordinates.cs" />
+    <Compile Include="SupportingTypes\SimpleType.cs" />
+    <Compile Include="SupportingTypes\ValidTo.cs" />
+    <Compile Include="SupportingTypes\Cost.cs" />
+    <Compile Include="GraphicElements\CostStructure.cs" />
+    <Compile Include="Enums\CostUnitOfTimeEnum.cs" />
+    <Compile Include="SupportingTypes\CountryKey.cs" />
+    <Compile Include="SupportingTypes\DataField.cs" />
+    <Compile Include="SupportingTypes\DataMapping.cs" />
+    <Compile Include="NestedObjects\DataMappings.cs" />
+    <Compile Include="GraphicElements\DataObject.cs" />
+    <Compile Include="DataTypes\DataType.cs" />
+    <Compile Include="SupportingTypes\Date.cs" />
+    <Compile Include="GraphicElements\Deadline.cs" />
+    <Compile Include="DataTypes\DeclaredType.cs" />
+    <Compile Include="SupportingTypes\Description.cs" />
+    <Compile Include="Enums\DirectionEnum.cs" />
+    <Compile Include="SupportingTypes\Documentation.cs" />
+    <Compile Include="SupportingTypes\Duration.cs" />
+    <Compile Include="Enums\DurationUnitEnum.cs" />
+    <Compile Include="GraphicElements\EndEvent.cs" />
+    <Compile Include="Enums\EndEventTriggerEnum.cs" />
+    <Compile Include="SupportingTypes\EndPoint.cs" />
+    <Compile Include="Enums\EndPointTypeEnum.cs" />
+    <Compile Include="DataTypes\EnumerationType.cs" />
+    <Compile Include="DataTypes\EnumerationValue.cs" />
+    <Compile Include="GraphicElements\Event.cs" />
+    <Compile Include="Enums\ExclusiveTypeEnum.cs" />
+    <Compile Include="Enums\ExecutionSyncMode.cs" />
+    <Compile Include="SupportingTypes\ExpressionType.cs" />
+    <Compile Include="SupportingTypes\ExtendedAttribute.cs" />
+    <Compile Include="NestedObjects\ExtendedAttributes.cs" />
+    <Compile Include="PackageDefinition\ExternalPackage.cs" />
+    <Compile Include="SupportingTypes\ExternalReference.cs" />
+    <Compile Include="SupportingTypes\FormalParameter.cs" />
+    <Compile Include="Enums\FormalParameterMode.cs" />
+    <Compile Include="NestedObjects\FormalParameters.cs" />
+    <Compile Include="Enums\GatewayTypeEnum.cs" />
+    <Compile Include="Enums\GraphConformanceEnum.cs" />
+    <Compile Include="GraphicElements\GraphicalObject.cs" />
+    <Compile Include="GraphicElements\GraphicsInfo.cs" />
+    <Compile Include="GraphicElements\Group.cs" />
+    <Compile Include="GraphicElements\Icon.cs" />
+    <Compile Include="Enums\IconShapeEnum.cs" />
+    <Compile Include="SupportingTypes\Id.cs" />
+    <Compile Include="Implementation\Implementation.cs" />
+    <Compile Include="Enums\ImplementationEnum.cs" />
+    <Compile Include="SupportingTypes\Input.cs" />
+    <Compile Include="SupportingTypes\InputSet.cs" />
+    <Compile Include="NestedObjects\InputSets.cs" />
+    <Compile Include="Enums\InstantiationEnum.cs" />
+    <Compile Include="GraphicElements\IntermediateEvent.cs" />
+    <Compile Include="Enums\IntermediateEventTriggerEnum.cs" />
+    <Compile Include="GraphicElements\IORules.cs" />
+    <Compile Include="GraphicElements\Join.cs" />
+    <Compile Include="GraphicElements\Lane.cs" />
+    <Compile Include="NestedObjects\Lanes.cs" />
+    <Compile Include="PackageDefinition\LayoutInfo.cs" />
+    <Compile Include="SupportingTypes\Limit.cs" />
+    <Compile Include="DataTypes\ListType.cs" />
+    <Compile Include="GraphicElements\Loop.cs" />
+    <Compile Include="GraphicElements\LoopMultiInstance.cs" />
+    <Compile Include="GraphicElements\LoopStandard.cs" />
+    <Compile Include="DataTypes\Member.cs" />
+    <Compile Include="GraphicElements\MessageFlow.cs" />
+    <Compile Include="NestedObjects\MessageFlows.cs" />
+    <Compile Include="SupportingTypes\MessageType.cs" />
+    <Compile Include="Enums\MI_FlowConditionEnum.cs" />
+    <Compile Include="GraphicElements\NodeGraphicsInfo.cs" />
+    <Compile Include="NestedObjects\NodeGraphicsInfos.cs" />
+    <Compile Include="Enums\OrderingEnum.cs" />
+    <Compile Include="Enums\OrientationEnum.cs" />
+    <Compile Include="SupportingTypes\Object_XPDL.cs" />
+    <Compile Include="SupportingTypes\Output.cs" />
+    <Compile Include="SupportingTypes\OutputSet.cs" />
+    <Compile Include="NestedObjects\OutputSets.cs" />
+    <Compile Include="PackageDefinition\Package.cs" />
+    <Compile Include="PackageDefinition\PackageHeader.cs" />
+    <Compile Include="SupportingTypes\Page.cs" />
+    <Compile Include="NestedObjects\Pages.cs" />
+    <Compile Include="SupportingTypes\Participant.cs" />
+    <Compile Include="NestedObjects\Participants.cs" />
+    <Compile Include="SupportingTypes\ParticipantType.cs" />
+    <Compile Include="Enums\ParticipantTypeEnum.cs" />
+    <Compile Include="SupportingTypes\Partner.cs" />
+    <Compile Include="SupportingTypes\PartnerLink.cs" />
+    <Compile Include="SupportingTypes\PartnerLinkType.cs" />
+    <Compile Include="NestedObjects\PartnerLinkTypes.cs" />
+    <Compile Include="SupportingTypes\PartnerRole.cs" />
+    <Compile Include="SupportingTypes\Performer.cs" />
+    <Compile Include="NestedObjects\Performers.cs" />
+    <Compile Include="GraphicElements\Pool.cs" />
+    <Compile Include="NestedObjects\Pools.cs" />
+    <Compile Include="SupportingTypes\Priority.cs" />
+    <Compile Include="Enums\ProcessAccessLevelEnum.cs" />
+    <Compile Include="ProcessDefinition\ProcessHeader.cs" />
+    <Compile Include="Enums\ProcessStatusEnum.cs" />
+    <Compile Include="Enums\ProcessTypeEnum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SupportingTypes\PropertyInput.cs" />
+    <Compile Include="Enums\PublicationStatusEnum.cs" />
+    <Compile Include="DataTypes\RecordType.cs" />
+    <Compile Include="SupportingTypes\RedefinableHeader.cs" />
+    <Compile Include="Implementation\Reference.cs" />
+    <Compile Include="GraphicElements\ResourceCost.cs" />
+    <Compile Include="SupportingTypes\Responsible.cs" />
+    <Compile Include="NestedObjects\Responsibles.cs" />
+    <Compile Include="TriggerResult\ResultError.cs" />
+    <Compile Include="TriggerResult\ResultMultiple.cs" />
+    <Compile Include="SupportingTypes\Role.cs" />
+    <Compile Include="Enums\RoleTypeEnum.cs" />
+    <Compile Include="GraphicElements\Route.cs" />
+    <Compile Include="DataTypes\SchemaType.cs" />
+    <Compile Include="SupportingTypes\Script.cs" />
+    <Compile Include="SupportingTypes\Service.cs" />
+    <Compile Include="GraphicElements\SimulationInformation.cs" />
+    <Compile Include="GraphicElements\Split.cs" />
+    <Compile Include="Enums\StartAndFinishModeEnum.cs" />
+    <Compile Include="GraphicElements\StartEvent.cs" />
+    <Compile Include="Enums\StartEventTriggerEnum.cs" />
+    <Compile Include="Implementation\SubFlow.cs" />
+    <Compile Include="GraphicElements\Swinlane.cs" />
+    <Compile Include="Implementation\Task.cs" />
+    <Compile Include="Implementation\TaskApplication.cs" />
+    <Compile Include="Implementation\TaskManual.cs" />
+    <Compile Include="Implementation\TaskReceive.cs" />
+    <Compile Include="Implementation\TaskReference.cs" />
+    <Compile Include="Implementation\TaskScript.cs" />
+    <Compile Include="Implementation\TaskSend.cs" />
+    <Compile Include="Implementation\TaskService.cs" />
+    <Compile Include="Implementation\TaskUser.cs" />
+    <Compile Include="Enums\TestTimeEnum.cs" />
+    <Compile Include="SupportingTypes\Time.cs" />
+    <Compile Include="SupportingTypes\TimeEstimation.cs" />
+    <Compile Include="GraphicElements\Transaction.cs" />
+    <Compile Include="Enums\TransactionMethodEnum.cs" />
+    <Compile Include="GraphicElements\Transition.cs" />
+    <Compile Include="SupportingTypes\TransitionRef.cs" />
+    <Compile Include="NestedObjects\TransitionRefs.cs" />
+    <Compile Include="GraphicElements\TransitionRestriction.cs" />
+    <Compile Include="TriggerResult\TriggerConditional.cs" />
+    <Compile Include="TriggerResult\TriggerIntermediateMultiple.cs" />
+    <Compile Include="TriggerResult\TriggerMultiple.cs" />
+    <Compile Include="TriggerResult\TriggerResult.cs" />
+    <Compile Include="TriggerResult\TriggerResultCancel.cs" />
+    <Compile Include="TriggerResult\TriggerResultCompensation.cs" />
+    <Compile Include="TriggerResult\TriggerResultLink.cs" />
+    <Compile Include="TriggerResult\TriggerResultMessage.cs" />
+    <Compile Include="TriggerResult\TriggerResultSignal.cs" />
+    <Compile Include="TriggerResult\TriggerTimer.cs" />
+    <Compile Include="DataTypes\TypeDeclaration.cs" />
+    <Compile Include="DataTypes\UnionType.cs" />
+    <Compile Include="SupportingTypes\Unit.cs" />
+    <Compile Include="SupportingTypes\ValidFrom.cs" />
+    <Compile Include="SupportingTypes\Vendor.cs" />
+    <Compile Include="PackageDefinition\VendorExtension.cs" />
+    <Compile Include="NestedObjects\VendorExtensions.cs" />
+    <Compile Include="SupportingTypes\Version_XPDL.cs" />
+    <Compile Include="Enums\ViewEnum.cs" />
+    <Compile Include="SupportingTypes\WebServiceFaultCatch.cs" />
+    <Compile Include="SupportingTypes\WebServiceOperation.cs" />
+    <Compile Include="ProcessDefinition\WorkflowProcess.cs" />
+    <Compile Include="TriggerResult\TriggerRule.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagrams\Activity1.cd" />
+    <None Include="Class Diagrams\ApplicationType.cd" />
+    <None Include="Class Diagrams\Artifacts.cd" />
+    <None Include="Class Diagrams\ConnectingObjects.cd" />
+    <None Include="Class Diagrams\Activity2.cd" />
+    <None Include="Class Diagrams\Event.cd" />
+    <None Include="Class Diagrams\GraphicElements2.cd" />
+    <None Include="Class Diagrams\SupportingTypes6.cd" />
+    <None Include="Class Diagrams\SupportingTypes3.cd" />
+    <None Include="Class Diagrams\SupportingTypes4.cd" />
+    <None Include="Class Diagrams\SupportingTypes5.cd" />
+    <None Include="Class Diagrams\SupportingTypes2.cd" />
+    <None Include="Class Diagrams\SupportingTypes1.cd" />
+    <None Include="Class Diagrams\Task2.cd" />
+    <None Include="Class Diagrams\DataTypes.cd" />
+    <None Include="Class Diagrams\Enums.cd" />
+    <None Include="Class Diagrams\GraphicElements1.cd" />
+    <None Include="Class Diagrams\GraphicsInfos.cd" />
+    <None Include="Class Diagrams\Implementation.cd" />
+    <None Include="Class Diagrams\NestedObjects.cd" />
+    <None Include="Class Diagrams\PackageDefinition.cd" />
+    <None Include="Class Diagrams\ProcessDefinition.cd" />
+    <None Include="Class Diagrams\Swinlanes.cd" />
+    <None Include="Class Diagrams\Task1.cd" />
+    <None Include="Class Diagrams\TriggerResult1.cd" />
+    <None Include="Class Diagrams\TriggerResult2.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio />
+  </ProjectExtensions>
+</Project>

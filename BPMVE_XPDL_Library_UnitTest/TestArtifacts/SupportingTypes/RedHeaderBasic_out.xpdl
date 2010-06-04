@@ -1,0 +1,8 @@
+﻿<RedefinableHeader PublicationStatus="UNDER_REVISION">
+  <Author>Author</Author>
+  <Codepage>Value</Codepage>
+  <Countrykey>Value</Countrykey>
+  <Responsibles>
+    <Responsible>Value</Responsible>
+  </Responsibles>
+</RedefinableHeader>

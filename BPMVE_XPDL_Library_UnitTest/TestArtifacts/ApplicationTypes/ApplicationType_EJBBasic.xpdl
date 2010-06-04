@@ -1,0 +1,5 @@
+﻿<Ejb>
+  <JndiName>JndiName</JndiName>
+  <HomeClass>HomeClass</HomeClass>
+  <Method>Method</Method>
+</Ejb>

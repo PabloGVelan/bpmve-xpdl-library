@@ -1,0 +1,11 @@
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\BPMVE_XPDL_Library_UnitTest.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\BPMVE_XPDL_Library_UnitTest.pdb
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\BPMVE_XPDL_Library.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\nunit.core.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\nunit.framework.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\nunit.core.interfaces.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\BPMVE_XPDL_Library.pdb
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\nunit.framework.xml
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\obj\Debug\BPMVE_XPDL_Library_UnitTest.dll
+C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\obj\Debug\BPMVE_XPDL_Library_UnitTest.pdb

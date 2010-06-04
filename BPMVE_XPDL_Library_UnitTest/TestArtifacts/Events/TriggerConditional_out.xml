@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerConditional xmlns:p1="otherNS" ConditionName="ConditionName1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+</TriggerConditional>

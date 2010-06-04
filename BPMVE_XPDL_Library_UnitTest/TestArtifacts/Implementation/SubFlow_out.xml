@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SubFlow xmlns:p1="otherNS" Id="Token1" Name="Name1" PackageRef="Token1" InstanceDataField="InstanceDataField1" StartActivityId="Token1" StartActivitySetId="Token1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <ActualParameters>
+    <ActualParameter ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+    <ActualParameter ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+    <ActualParameter ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+  </ActualParameters>
+  <EndPoint>
+    <ExternalReference xref="Token1" location="http://uri1" namespace="http://uri1" />
+  </EndPoint>
+</SubFlow>

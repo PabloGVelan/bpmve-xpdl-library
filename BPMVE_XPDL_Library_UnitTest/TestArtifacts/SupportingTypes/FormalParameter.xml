@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormalParameter Id="Token1" Mode="IN" Name="Name1" ReadOnly="false" Required="false" IsArray="false" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <InitialValue ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</InitialValue>
+  <Description>Description1</Description>
+</FormalParameter>

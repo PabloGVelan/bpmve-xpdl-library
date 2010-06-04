@@ -1,0 +1,6 @@
+﻿<Split Type="Complex" OutgoingCondition="OutgoingCondition">
+  <TransactionRefs>
+    <TransitionRef Id="Id" Name="Name" />
+    <TransitionRef Id="Id" Name="Name" />
+  </TransactionRefs>
+</Split>

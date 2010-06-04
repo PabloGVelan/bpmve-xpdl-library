@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.ConformanceClass">
+    <Position X="5.75" Y="7.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAACAAAAAIAAAAAAAAAQAAA=</HashCode>
+      <FileName>PackageDefinition\ConformanceClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ExternalPackage">
+    <Position X="10.25" Y="3.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAACAAAAggAAAAAQAAAQAAIBAAAAAAAAABAA=</HashCode>
+      <FileName>PackageDefinition\ExternalPackage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.LayoutInfo">
+    <Position X="10.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAACAAAAAgAAAAIAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>PackageDefinition\LayoutInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Package">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <AssociationLine Name="PackageHeader" Type="BPMVE_XPDL_Library.PackageHeader" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3" />
+        <Point X="4.625" Y="3" />
+        <Point X="4.625" Y="1.75" />
+        <Point X="5.75" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ConformanceClass" Type="BPMVE_XPDL_Library.ConformanceClass" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3" />
+        <Point X="4.625" Y="3" />
+        <Point X="4.625" Y="8.398" />
+        <Point X="5.75" Y="8.398" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QCkCAEIACJCADACgoAECiIQRAAQQAJARACAAEBAoARk=</HashCode>
+      <FileName>PackageDefinition\Package.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PackageHeader" />
+      <Property Name="ConformanceClass" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.PackageHeader">
+    <Position X="5.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>DAAQAEAAAADgAAAAgCAAAAAACAAEAIZAAAAACABEoAg=</HashCode>
+      <FileName>PackageDefinition\PackageHeader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LayoutInfo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.VendorExtension">
+    <Position X="11" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAAAAAhAAAAAAAAAgAAMAAAAAAAAAQgAA=</HashCode>
+      <FileName>PackageDefinition\VendorExtension.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

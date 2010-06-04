@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.Color">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAiAAgAAAAAAAAAAgAJAEAAAAABAAAAA=</HashCode>
+      <FileName>SupportingTypes\Color.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Page">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABACAAIAAgACAAEQAAAQAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\Page.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Participant">
+    <Position X="7.75" Y="4.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AANSAAAAABCgAAAggAAAAAQAAIQAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\Participant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.PartnerLink">
+    <Position X="0.5" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAASABAAAgACAAAQAAQQAAIAAAAAAAIAAAAg=</HashCode>
+      <FileName>SupportingTypes\PartnerLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.PartnerRole">
+    <Position X="5.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAACAQAAAgAAAAAAgAAAAAIAAAAAgEAIABAA=</HashCode>
+      <FileName>SupportingTypes\PartnerRole.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.RedefinableHeader">
+    <Position X="3.75" Y="4.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>oAAAAACAAACQACAAkAABAAAIAAIAAIAAAgAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\RedefinableHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.WebServiceFaultCatch">
+    <Position X="8.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAgIAAAAAAAEAAAIggAAAAMAIAAAA=</HashCode>
+      <FileName>SupportingTypes\WebServiceFaultCatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

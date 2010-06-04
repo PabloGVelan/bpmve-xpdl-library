@@ -1,0 +1,5 @@
+﻿<TimeEstimation>
+  <WaitingTime>Time</WaitingTime>
+  <WorkingTime>Time</WorkingTime>
+  <Duration>Value</Duration>
+</TimeEstimation>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pool xmlns:p1="otherNS" Id="Token1" Name="Name1" Process="Token1" Participant="Token1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Lanes>
+    <Lane Id="Token1" Name="Name1">
+      <Object Id="Token1" Name="Name1">
+        <Categories>
+          <Category Id="Token1" Name="Name1" />
+          <Category Id="Token2" Name="Name2" />
+          <Category Id="Token3" Name="Name3" />
+        </Categories>
+        <Documentation>Documentation1</Documentation>
+      </Object>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId1" IsVisible="true" PageId="Token1" BorderColor="BorderColor1" FillColor="FillColor1" LaneId="Token1" Height="1" Width="1" Shape="Shape1">
+          <Coordinates XCoordinate="1" YCoordinate="1" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId2" IsVisible="true" PageId="Token2" BorderColor="BorderColor2" FillColor="FillColor2" LaneId="Token2" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape2">
+          <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId3" IsVisible="false" PageId="Token3" BorderColor="BorderColor3" FillColor="FillColor3" LaneId="Token3" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape3">
+          <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Performers>
+        <Performer>Performer1</Performer>
+        <Performer>Performer2</Performer>
+        <Performer>Performer3</Performer>
+      </Performers>
+    </Lane>
+    <Lane Id="Token2" Name="Name2">
+      <Object Id="Token2" Name="Name2">
+        <Categories>
+          <Category Id="Token4" Name="Name4" />
+          <Category Id="Token5" Name="Name5" />
+          <Category Id="Token6" Name="Name6" />
+        </Categories>
+        <Documentation>Documentation2</Documentation>
+      </Object>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId4" IsVisible="true" PageId="Token4" BorderColor="BorderColor4" FillColor="FillColor4" LaneId="Token4" Height="-0.10000002384185791" Width="-0.10000002384185791" Shape="Shape4">
+          <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId5" IsVisible="false" PageId="Token5" BorderColor="BorderColor5" FillColor="FillColor5" LaneId="Token5" Height="2.1000000238418579" Width="2.1000000238418579" Shape="Shape5">
+          <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId6" IsVisible="true" PageId="Token6" BorderColor="BorderColor6" FillColor="FillColor6" LaneId="Token6" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape6">
+          <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Performers>
+        <Performer>Performer4</Performer>
+        <Performer>Performer5</Performer>
+        <Performer>Performer6</Performer>
+      </Performers>
+    </Lane>
+    <Lane Id="Token3" Name="Name3">
+      <Object Id="Token3" Name="Name3">
+        <Categories>
+          <Category Id="Token7" Name="Name7" />
+          <Category Id="Token8" Name="Name8" />
+          <Category Id="Token9" Name="Name9" />
+        </Categories>
+        <Documentation>Documentation3</Documentation>
+      </Object>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId7" IsVisible="false" PageId="Token7" BorderColor="BorderColor7" FillColor="FillColor7" LaneId="Token7" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape7">
+          <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId8" IsVisible="true" PageId="Token8" BorderColor="BorderColor8" FillColor="FillColor8" LaneId="Token8" Height="-1.2000000476837158" Width="-1.2000000476837158" Shape="Shape8">
+          <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId9" IsVisible="false" PageId="Token9" BorderColor="BorderColor9" FillColor="FillColor9" LaneId="Token9" Height="3.2000000476837158" Width="3.2000000476837158" Shape="Shape9">
+          <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+      <Performers>
+        <Performer>Performer7</Performer>
+        <Performer>Performer8</Performer>
+        <Performer>Performer9</Performer>
+      </Performers>
+    </Lane>
+  </Lanes>
+</Pool>

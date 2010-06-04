@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\BPMVE_XPDL_Library_UnitTest.dll" total="234" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-06-04" time="22:22:00">
+  <environment nunit-version="2.5.5.10112" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Users\Renfred\Desktop\BPMVE_XPDL_Library" machine-name="RENFRED-PC" user="Renfred" user-domain="Renfred-PC" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Renfred\Desktop\BPMVE_XPDL_Library\BPMVE_XPDL_Library_UnitTest\bin\Debug\BPMVE_XPDL_Library_UnitTest.dll" executed="True" result="Success" success="True" time="50.814" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="BPMVE_XPDL_Library_UnitTest" executed="True" result="Success" success="True" time="50.798" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ActivityTests" executed="True" result="Success" success="True" time="4.750" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.ActivityFull" executed="True" result="Success" success="True" time="0.125" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.ActivityVSXML" executed="True" result="Success" success="True" time="0.578" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.BlockActivityFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.BlockActivityVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.JoinFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.JoinVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.LoopFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.LoopMultiFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.LoopMultiInstanceVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.LoopStandardFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.LoopStandardVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.LoopVSXML" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.RouteFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.RouteVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.SplitFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.SplitVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.TransitionRestrictionFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ActivityTests.TransitionRestrictionVSXML" executed="True" result="Success" success="True" time="0.234" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ApplicationTypesTests" executed="True" result="Success" success="True" time="1.469" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_BusinessRuleFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_EJBFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_FormFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_POJOFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_ScriptFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_WebServiceFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationType_XSLTFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ApplicationTypesTests.ApplicationTypeFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ArtifactsTests" executed="True" result="Success" success="True" time="1.188" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ArtifactsTests.ArtifactFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ArtifactsTests.ArtifactVSXML" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ArtifactsTests.DataObjectFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ArtifactsTests.DataObjectVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ArtifactsTests.GroupFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ArtifactsTests.GroupVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ConnectingObjectsTests" executed="True" result="Success" success="True" time="1.453" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ConnectingObjectsTests.AssociationFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ConnectingObjectsTests.AssociationVSXML" executed="True" result="Success" success="True" time="0.234" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ConnectingObjectsTests.MessageFlowFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ConnectingObjectsTests.MessageFlowVSXML" executed="True" result="Success" success="True" time="0.266" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ConnectingObjectsTests.TransitionFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ConnectingObjectsTests.TransitionVSXML" executed="True" result="Success" success="True" time="0.313" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="EventsTests" executed="True" result="Success" success="True" time="7.328" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.EndEventFull" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.EndEventVSXML" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.EventFull" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.EventVSXML" executed="True" result="Success" success="True" time="0.313" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.IntermediateEventFull" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.IntermediateEventVSXML" executed="True" result="Success" success="True" time="0.297" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.ResultErrorFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.ResultErrorVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.ResultMultipleFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.ResultMultipleVSXML" executed="True" result="Success" success="True" time="0.359" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.StartEventFull" executed="True" result="Success" success="True" time="0.078" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.StartEventVSXML" executed="True" result="Success" success="True" time="0.266" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerConditionalFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerConditionalVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerIntermediateMultipleVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerIntMultipleFull" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerMultipleFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerMultipleVSXML" executed="True" result="Success" success="True" time="0.266" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultCancelFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultCancelVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultCompensationFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultCompensationVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultLinkFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultLinkVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultMessageFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultMessageVSXML" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultSignalFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerResultSignalVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerRuleFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerRuleVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerTimerFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.EventsTests.TriggerTimerVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="GraphicalElementsSupportingTypesTests" executed="True" result="Success" success="True" time="2.422" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.CostStructureFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.CostStructureVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.DeadlineFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.DeadlineVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.IconFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.IconVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.IORulesFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.IORulesVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.ResourceCostFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.ResourceCostVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.SimulationInformationFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.SimulationInformationVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.TransactionFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicalElementsSupportingTypesTests.TransactionVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="GraphicsInfosTests" executed="True" result="Success" success="True" time="0.828" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicsInfosTests.ConnectorGraphicsInfoFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicsInfosTests.ConnectorGraphicsInfoVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicsInfosTests.NodeGraphicsInfoFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.GraphicsInfosTests.NodeGraphicsInfoVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ImplementationTests" executed="True" result="Success" success="True" time="5.828" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.ImplementationFull" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.ImplementationVSXML" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.NoImplementationFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.NoImplementationVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.ReferenceFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.ReferenceVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.SubFlowFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.SubFlowVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskApplicationFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskApplicationVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskFull" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskManualFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskManualVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskReceiveFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskReceiveVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskReferenceFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskReferenceVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskScriptFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskScriptVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskSendFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskSendVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskServiceFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskServiceVSXML" executed="True" result="Success" success="True" time="0.219" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskUserFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskUserVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ImplementationTests.TaskVSXML" executed="True" result="Success" success="True" time="0.234" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PackageTests" executed="True" result="Success" success="True" time="4.031" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.ConformanceClassFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.ConformanceClassVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.ExternalPackageFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.ExternalPackageVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.LayoutInfoFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.LayoutInfoVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.PackageFull" executed="True" result="Success" success="True" time="0.313" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.PackageHeaderFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.PackageHeaderVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.PackageVSXML" executed="True" result="Success" success="True" time="1.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.VendorExtensionFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.PackageTests.VendorExtensionVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ProcessDefinitionTests" executed="True" result="Success" success="True" time="4.031" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.ActivitySetFull" executed="True" result="Success" success="True" time="0.109" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.ActivitySetVSXML" executed="True" result="Success" success="True" time="0.609" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.ApplicationFull" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.ApplicationVSXML" executed="True" result="Success" success="True" time="0.297" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.ProcessHeaderFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.ProcessHeaderVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.WorkflowProcessFull" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.ProcessDefinitionTests.WorkflowProcessVSXML" executed="True" result="Success" success="True" time="0.797" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="SupportingTypesTests" executed="True" result="Success" success="True" time="16.344" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ArtifactInputFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ArtifactInputVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.AssignmentFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.AssignmentVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.AuthorFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.AuthorVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CategoryFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CategoryVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CodepageFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CodepageVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ColorFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ConditionFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ConditionVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CoordinatesFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CoordinatesVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CostFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CostVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CountryKeyFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.CountryKeyVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DataFieldFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DataFieldVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DataMappingFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DataMappingVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DateFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DescriptionFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DescriptionVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DocumentationFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DocumentationVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DurationFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.DurationVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ExprTypeFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ExprTypeVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ExtAttrFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ExtAttrVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ExtRefFull" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ExtRefVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.FormalParamFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.FormalParamVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.InputFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.InputSetFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.InputSetVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.InputVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.LimitFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.LimitVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.MessageTypeFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.MessageTypeVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.OutputFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.OutputSetFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.OutputSetVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.OutputVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PageFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PageVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ParticipantFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ParticipantTypeFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ParticipantTypeVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ParticipantVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PartnerFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PartnerLinkFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PartnerLinkTypeFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PartnerLinkTypeVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PartnerLinkVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PartnerRoleFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PerformerFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PerformerVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PriorityFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PriorityVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PropertyInputFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.PropertyInputVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.RedefinableHeaderFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.RedefinableHeaderVSXML" executed="True" result="Success" success="True" time="0.188" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ResponsibleFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ResponsibleVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.RoleFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ScriptFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ScriptVSXML" executed="True" result="Success" success="True" time="0.156" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ServiceFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.TimeEstimationFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.TimeEstimationVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.TimeFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.TransitionRefFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.TransitionRefVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.UnitFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ValidFromFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ValidFromVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ValidToFull" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.ValidToVSXML" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.VendorFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.VendorVSXML" executed="True" result="Success" success="True" time="0.172" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.VersionFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.VersionVSXML" executed="True" result="Success" success="True" time="0.281" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.WebServiceFaultCatchFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.WebServiceFaultCatchVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.WebServiceOperationFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SupportingTypesTests.WebServiceOperationVSXML" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="SwimlanesTests" executed="True" result="Success" success="True" time="0.906" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SwimlanesTests.LaneFull" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SwimlanesTests.LaneVSXML" executed="True" result="Success" success="True" time="0.266" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SwimlanesTests.PoolFull" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.SwimlanesTests.PoolVSXML" executed="True" result="Success" success="True" time="0.234" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TIBCOTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+            <results>
+              <test-case name="BPMVE_XPDL_Library_UnitTest.TIBCOTests.ComplexTest" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+              <test-case name="BPMVE_XPDL_Library_UnitTest.TIBCOTests.SimpleTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

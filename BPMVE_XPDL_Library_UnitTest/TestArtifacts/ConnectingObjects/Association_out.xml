@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Association xmlns:p1="otherNS" Id="Token1" Name="Name1" Source="Token1" Target="Token1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Object Id="Token1" Name="Name1">
+    <Categories>
+      <Category Id="Token1" Name="Name1" />
+      <Category Id="Token2" Name="Name2" />
+      <Category Id="Token3" Name="Name3" />
+    </Categories>
+    <Documentation>Documentation1</Documentation>
+  </Object>
+  <ConnectorGraphicsInfos>
+    <ConnectorGraphicsInfo ToolId="Token1" IsVisible="true" PageId="Token1" BorderColor="BorderColor1" FillColor="FillColor1" Style="Style1">
+      <Coordinates XCoordinate="1" YCoordinate="1" />
+      <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+      <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="Token2" IsVisible="true" PageId="Token2" BorderColor="BorderColor2" FillColor="FillColor2" Style="Style2">
+      <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+      <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+      <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="Token3" IsVisible="false" PageId="Token3" BorderColor="BorderColor3" FillColor="FillColor3" Style="Style3">
+      <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+      <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+      <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+    </ConnectorGraphicsInfo>
+  </ConnectorGraphicsInfos>
+</Association>

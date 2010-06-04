@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.ConnectorGraphicsInfo">
+    <Position X="8" Y="1.5" Width="3" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.GraphicsInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="0.875" />
+        <Point X="9.625" Y="0.875" />
+        <Point X="9.625" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EgACSAAAAACAEAAAgAAAAAACIAAABIAABAAAAAgQAAQ=</HashCode>
+      <FileName>GraphicElements\ConnectorGraphicsInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.NodeGraphicsInfo">
+    <Position X="4.25" Y="1.5" Width="3" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.GraphicsInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="0.875" />
+        <Point X="6" Y="0.875" />
+        <Point X="6" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EgAGQAAGBACAUMAAgACAAEAiIAAABIAAAAAAACgQgAQ=</HashCode>
+      <FileName>GraphicElements\NodeGraphicsInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.GraphicsInfo">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EgACQAAAAAAAEAAAAAAAAAACIAAABAAAAAAAAAgQAAQ=</HashCode>
+      <FileName>GraphicElements\GraphicsInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

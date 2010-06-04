@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Enum Name="BPMVE_XPDL_Library.ArtifactTypeEnum">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ArtifactTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.AssignmentTimeEnum">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\AssignmentTimeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.AssociationDirectionEnum">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enums\AssociationDirectionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.BasicTypeEnum">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAQAAAAAAAAQAAAgQBAAAAAAAgAQA=</HashCode>
+      <FileName>Enums\BasicTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.BPMNConformanceEnum">
+    <Position X="0.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enums\BPMNConformanceEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.CatchThrowEnum">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>Enums\CatchThrowEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ConditionTypeEnum">
+    <Position X="2.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAACAAAAAAAAAAAAAAACAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Enums\ConditionTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.CostUnitOfTimeEnum">
+    <Position X="2.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAACIAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\CostUnitOfTimeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.DirectionEnum">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Enums\DirectionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.DurationUnitEnum">
+    <Position X="2.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAAAAAAAAAIAAAAAACIEAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\DurationUnitEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.EndEventTriggerEnum">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAAAQAAEAAAAAAAAAIAAAAAAAAEIAEAAAA=</HashCode>
+      <FileName>Enums\EndEventTriggerEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.EndPointTypeEnum">
+    <Position X="4.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\EndPointTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ExclusiveTypeEnum">
+    <Position X="4.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ExclusiveTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ExecutionSyncMode">
+    <Position X="4.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ExecutionSyncMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.FormalParameterMode">
+    <Position X="4.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Enums\FormalParameterMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.GatewayTypeEnum">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAQAAAAgAAAAAACAAAAAAgIAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Enums\GatewayTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.GraphConformanceEnum">
+    <Position X="7" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Enums\GraphConformanceEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.IconShapeEnum">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAgAhAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\IconShapeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ImplementationEnum">
+    <Position X="7" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ImplementationEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.InstantiationEnum">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\InstantiationEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.IntermediateEventTriggerEnum">
+    <Position X="9.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAAAQAAEAAAAAAAAAIAAAAAAAAAYAEEAAA=</HashCode>
+      <FileName>Enums\IntermediateEventTriggerEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.MI_FlowConditionEnum">
+    <Position X="9.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAIA=</HashCode>
+      <FileName>Enums\MI_FlowConditionEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.OrderingEnum">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAA=</HashCode>
+      <FileName>Enums\OrderingEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.OrientationEnum">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\OrientationEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ParticipantTypeEnum">
+    <Position X="9.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJIAAAAAAEAAAAAAAAAAAAAAAAAAAAAQEAAA=</HashCode>
+      <FileName>Enums\ParticipantTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ProcessAccessLevelEnum">
+    <Position X="12" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Enums\ProcessAccessLevelEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ProcessStatusEnum">
+    <Position X="12" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAMAAAAAAAAAAQAAAAAgAAAAAAEAAgA=</HashCode>
+      <FileName>Enums\ProcessStatusEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ProcessTypeEnum">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enums\ProcessTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.PublicationStatusEnum">
+    <Position X="12" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\PublicationStatusEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.RoleTypeEnum">
+    <Position X="12" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\RoleTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.StartAndFinishModeEnum">
+    <Position X="14.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\StartAndFinishModeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.StartEventTriggerEnum">
+    <Position X="14.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAIAEEAAA=</HashCode>
+      <FileName>Enums\StartEventTriggerEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.TestTimeEnum">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAA=</HashCode>
+      <FileName>Enums\TestTimeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.TransactionMethodEnum">
+    <Position X="14.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>Enums\TransactionMethodEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.ViewEnum">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Enums\ViewEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BPMVE_XPDL_Library.LoopTypeEnum">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\LoopTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

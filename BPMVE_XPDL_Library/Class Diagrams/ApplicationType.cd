@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.ApplicationType">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <AssociationLine Name="EJB" Type="BPMVE_XPDL_Library.ApplicationType_EJB" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="0.688" />
+        <Point X="6" Y="0.688" />
+        <Point X="6" Y="1" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="POJO" Type="BPMVE_XPDL_Library.ApplicationType_POJO" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="3.786" />
+        <Point X="1.875" Y="4.875" />
+        <Point X="5.625" Y="4.875" />
+        <Point X="5.625" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="XSLT" Type="BPMVE_XPDL_Library.ApplicationType_XSLT" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="3.786" />
+        <Point X="1.875" Y="4.875" />
+        <Point X="11.312" Y="4.875" />
+        <Point X="11.312" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Script" Type="BPMVE_XPDL_Library.ApplicationType_Script" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="0.688" />
+        <Point X="12.625" Y="0.688" />
+        <Point X="12.625" Y="1" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="WebService" Type="BPMVE_XPDL_Library.ApplicationType_WebService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="0.687" />
+        <Point X="9.875" Y="0.687" />
+        <Point X="9.875" Y="1" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="BusinessRule" Type="BPMVE_XPDL_Library.ApplicationType_BusinessRule" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="3.786" />
+        <Point X="1.875" Y="4.875" />
+        <Point X="8.625" Y="4.875" />
+        <Point X="8.625" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Form" Type="BPMVE_XPDL_Library.ApplicationType_Form" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="3.786" />
+        <Point X="1.875" Y="4.875" />
+        <Point X="14.188" Y="4.875" />
+        <Point X="14.188" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EEAIAAAQAACAAAABgAEAQIAAAAEAAIAAAACgQAEgAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EJB" />
+      <Property Name="POJO" />
+      <Property Name="XSLT" />
+      <Property Name="Script" />
+      <Property Name="WebService" />
+      <Property Name="BusinessRule" />
+      <Property Name="Form" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_BusinessRule">
+    <Position X="6.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAgAIAAAAAAAAAQIIAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_BusinessRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_EJB">
+    <Position X="3.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIASAAAAAgAAgAAAABAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_EJB.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_Form">
+    <Position X="12" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAARAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_Form.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_POJO">
+    <Position X="3.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAIgAEAAAAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_POJO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_Script">
+    <Position X="10.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAQAAABAAAAAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_Script.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_WebService">
+    <Position X="6.5" Y="1" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAACAQAAAgAAAAAAAACAAAIAAAAAQCAAAAoA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_WebService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ApplicationType_XSLT">
+    <Position X="9.25" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAIAAAAAAAAAQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessDefinition\ApplicationType_XSLT.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

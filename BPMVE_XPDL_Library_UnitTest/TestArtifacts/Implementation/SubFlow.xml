@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubFlow Id="Token1" Name="Name1" Execution="SYNCHR" View="COLLAPSED" PackageRef="Token1" InstanceDataField="InstanceDataField1" StartActivitySetId="Token1" StartActivityId="Token1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <ActualParameters>
+    <ActualParameter ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</ActualParameter>
+    <ActualParameter ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</ActualParameter>
+    <ActualParameter ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</ActualParameter>
+  </ActualParameters>
+  <EndPoint EndPointType="WSDL">
+    <ExternalReference xref="Token1" location="http://uri1" namespace="http://uri1" />
+  </EndPoint>
+</SubFlow>

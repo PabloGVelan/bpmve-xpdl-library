@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.Join">
+    <Position X="12.25" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACACAAAAAgAAAAABAAAAAAIAAAQAAAAACAAA=</HashCode>
+      <FileName>GraphicElements\Join.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Loop">
+    <Position X="2.5" Y="0.5" Width="3" />
+    <AssociationLine Name="LoopMultiInstance" Type="BPMVE_XPDL_Library.LoopMultiInstance" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.875" Y="3.017" />
+        <Point X="3.875" Y="3.392" />
+        <Point X="7.125" Y="3.392" />
+        <Point X="7.125" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="LoopStandard" Type="BPMVE_XPDL_Library.LoopStandard" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.875" Y="3.017" />
+        <Point X="3.875" Y="3.392" />
+        <Point X="3" Y="3.392" />
+        <Point X="3" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACAAAAAgAABAAABAAAAAIAgAAAAAABAAAA=</HashCode>
+      <FileName>GraphicElements\Loop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LoopMultiInstance" />
+      <Property Name="LoopStandard" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.LoopMultiInstance">
+    <Position X="4.25" Y="4.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgBABCCAAAAgAAQAAAAgAAAAIAAAAAEAAgAAgA=</HashCode>
+      <FileName>GraphicElements\LoopMultiInstance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.LoopStandard">
+    <Position X="0.5" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAEAAgAAAAAAIAABgAEEAAAAig=</HashCode>
+      <FileName>GraphicElements\LoopStandard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Split">
+    <Position X="8.5" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAAgAAAAAAAAIAAJIAAAQAAAAACAAA=</HashCode>
+      <FileName>GraphicElements\Split.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TransitionRestriction">
+    <Position X="10.75" Y="0.5" Width="2.25" />
+    <AssociationLine Name="Join" Type="BPMVE_XPDL_Library.Join" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.938" Y="2.824" />
+        <Point X="11.938" Y="3.379" />
+        <Point X="14.75" Y="3.379" />
+        <Point X="14.75" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Split" Type="BPMVE_XPDL_Library.Split" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.938" Y="2.824" />
+        <Point X="11.938" Y="3.379" />
+        <Point X="10.5" Y="3.379" />
+        <Point X="10.5" Y="4.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAgAgAAAAAAAAAAAAIAQAgAAAAAAAAg=</HashCode>
+      <FileName>GraphicElements\TransitionRestriction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Join" />
+      <Property Name="Split" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

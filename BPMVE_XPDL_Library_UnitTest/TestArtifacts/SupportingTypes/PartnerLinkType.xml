@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PartnerLinkType Id="Token1" name="name1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Role portType="portType1" Name="Name1" />
+  <Role portType="portType2" Name="Name2" />
+</PartnerLinkType>

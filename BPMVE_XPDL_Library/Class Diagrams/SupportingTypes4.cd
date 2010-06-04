@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.DataMapping">
+    <Position X="9.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgCQAAAAAAAgAAIAAABEgAACAAAA=</HashCode>
+      <FileName>SupportingTypes\DataMapping.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.ExternalReference">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAgAoAAAAAAAAAUIAAAEAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\ExternalReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.InputSet">
+    <Position X="3.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAAAAAgAACAABAEAAAAIBAACAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\InputSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.PartnerLinkType">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAgAAAAAQAAgQAAIAAAAAAABAAAAA=</HashCode>
+      <FileName>SupportingTypes\PartnerLinkType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Script">
+    <Position X="9.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAABAAgAAAAAAAAAICAoAAAQAAAAAAAAA=</HashCode>
+      <FileName>SupportingTypes\Script.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Service">
+    <Position X="0.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAACAQAAAgAAAAAAgAAAAAIAAAAAgAAAABAA=</HashCode>
+      <FileName>SupportingTypes\Service.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TimeEstimation">
+    <Position X="3.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAGCAAAAgACAAAAAAAAAAIABACAAAAAAEAA=</HashCode>
+      <FileName>SupportingTypes\TimeEstimation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.WebServiceOperation">
+    <Position X="6.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAACAABAAgAAAEAAAAAAAQIAAAAAEAAAAAAg=</HashCode>
+      <FileName>SupportingTypes\WebServiceOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

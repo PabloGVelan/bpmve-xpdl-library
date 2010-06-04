@@ -1,0 +1,4 @@
+﻿<DataMapping Formal="Formal" Direction="INOUT">
+  <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+</DataMapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lane Id="Token1" Name="Name1" ParentLane="Token1" ParentPool="Token1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Object Id="Token1" Name="Name1">
+    <Categories>
+      <Category Id="Token1" Name="Name1" />
+      <Category Id="Token2" Name="Name2" />
+      <Category Id="Token3" Name="Name3" />
+    </Categories>
+    <Documentation>Documentation1</Documentation>
+  </Object>
+  <NodeGraphicsInfos>
+    <NodeGraphicsInfo ToolId="ToolId1" IsVisible="true" Page="Token1" PageId="Token1" LaneId="Token1" Height="1" Width="1" BorderColor="BorderColor1" FillColor="FillColor1" Shape="Shape1">
+      <Coordinates XCoordinate="1" YCoordinate="1" />
+    </NodeGraphicsInfo>
+    <NodeGraphicsInfo ToolId="ToolId2" IsVisible="true" Page="Token2" PageId="Token2" LaneId="Token2" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" BorderColor="BorderColor2" FillColor="FillColor2" Shape="Shape2">
+      <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+    </NodeGraphicsInfo>
+    <NodeGraphicsInfo ToolId="ToolId3" IsVisible="false" Page="Token3" PageId="Token3" LaneId="Token3" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" BorderColor="BorderColor3" FillColor="FillColor3" Shape="Shape3">
+      <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+    </NodeGraphicsInfo>
+  </NodeGraphicsInfos>
+  <Performers>
+    <Performer>Performer1</Performer>
+    <Performer>Performer2</Performer>
+    <Performer>Performer3</Performer>
+  </Performers>
+  <NestedLane LaneId="Token1" />
+  <NestedLane LaneId="Token2" />
+  <NestedLane LaneId="Token3" />
+</Lane>

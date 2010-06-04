@@ -1,0 +1,9 @@
+﻿<Loop LoopType="MultiInstance">
+  <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+    <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </LoopMultiInstance>
+  <LoopStandard LoopCounter="1" LoopMaximum="2">
+    <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </LoopStandard>
+</Loop>

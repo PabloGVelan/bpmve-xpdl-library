@@ -1,0 +1,3 @@
+﻿<TriggerConditional ConditionName="ConditionName">
+  <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+</TriggerConditional>

@@ -1,0 +1,5 @@
+﻿<NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+  <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+  <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+  <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+</NodeGraphicsInfo>

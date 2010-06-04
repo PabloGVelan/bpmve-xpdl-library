@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PartnerLink xmlns:p1="otherNS" name="name1" Id="Token1" PartnerLinkTypeId="Token1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <MyRole RoleName="RoleName1" />
+  <PartnerRole RoleName="RoleName1" ServiceName="ServiceName1" PortName="PortName1">
+    <EndPoint>
+      <ExternalReference xref="Token1" location="http://uri1" namespace="http://uri1" />
+    </EndPoint>
+  </PartnerRole>
+</PartnerLink>

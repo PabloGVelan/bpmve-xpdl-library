@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.ResultError">
+    <Position X="0.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAAgAAAAAAAAAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\ResultError.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerConditional">
+    <Position X="10" Y="2.25" Width="2.75" />
+    <InheritanceLine Type="BPMVE_XPDL_Library.TriggerResult" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="1.368" />
+        <Point X="12" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAACAIAQAAABAAAAIAA=</HashCode>
+      <FileName>TriggerResult\TriggerConditional.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerMultiple">
+    <Position X="7.25" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAIAABCAAAAAgAAoAAAAAAAAAIAgAAAAAAAAAAE=</HashCode>
+      <FileName>TriggerResult\TriggerMultiple.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResult">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResultCancel">
+    <Position X="0.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResultCancel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResultCompensation">
+    <Position X="3.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAACAAEAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResultCompensation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResultLink">
+    <Position X="6.5" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAQAAQQAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResultLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.TriggerResultMessage">
+    <Position X="3" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAAgIAAAAAAAQAAAIAAAAAAKAAAAAA=</HashCode>
+      <FileName>TriggerResult\TriggerResultMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

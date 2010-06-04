@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CostStructure xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <ResourceCosts>
+    <ResourceCostName>ResourceCostName1</ResourceCostName>
+    <ResourceCost>1</ResourceCost>
+    <CostUnitOfTime>second</CostUnitOfTime>
+  </ResourceCosts>
+  <ResourceCosts>
+    <ResourceCostName>ResourceCostName2</ResourceCostName>
+    <ResourceCost>-79228162514264337593543950335</ResourceCost>
+    <CostUnitOfTime>minute</CostUnitOfTime>
+  </ResourceCosts>
+  <ResourceCosts>
+    <ResourceCostName>ResourceCostName3</ResourceCostName>
+    <ResourceCost>79228162514264337593543950335</ResourceCost>
+    <CostUnitOfTime>hour</CostUnitOfTime>
+  </ResourceCosts>
+</CostStructure>

@@ -1,0 +1,25 @@
+﻿<ApplicationType_WebService InputMsgName="InputMsgName" OutputMsgName="OutputMsgName">
+  <WebServiceOperation OperationName="OperationName">
+    <Service ServiceName="ServiceName" PortName="PortName">
+      <EndPoint EndPointType="Service">
+        <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+      </EndPoint>
+    </Service>
+    <Partner PartnerLinkId="PartnerLinkId" />
+  </WebServiceOperation>
+  <WebServiceFaultCatch FaultName="FaultName">
+    <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </Message>
+    <TransitionRef Id="Id" Name="Name" />
+  </WebServiceFaultCatch>
+</ApplicationType_WebService>

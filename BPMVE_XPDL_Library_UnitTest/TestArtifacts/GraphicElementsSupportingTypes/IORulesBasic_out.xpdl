@@ -1,0 +1,7 @@
+﻿<IORules>
+  <Expression>
+    <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </Expression>
+</IORules>

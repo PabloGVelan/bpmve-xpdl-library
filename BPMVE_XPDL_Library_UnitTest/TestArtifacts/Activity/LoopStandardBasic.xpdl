@@ -1,0 +1,3 @@
+﻿<LoopStandard LoopCounter="1" LoopMaximum="2">
+  <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+</LoopStandard>

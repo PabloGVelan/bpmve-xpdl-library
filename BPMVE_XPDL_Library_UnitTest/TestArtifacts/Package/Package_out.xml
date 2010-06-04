@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:p1="otherNS" Id="Token1" Name="Name1" Language="Language1" QueryLanguage="QueryLanguage1" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <PackageHeader>
+    <XPDLVersion>XPDLVersion1</XPDLVersion>
+    <Vendor>Vendor1</Vendor>
+    <Created>Created1</Created>
+    <ModificationDate>ModificationDate1</ModificationDate>
+    <Description>Description1</Description>
+    <Documentation>Documentation1</Documentation>
+    <PriorityUnit>PriorityUnit1</PriorityUnit>
+    <CostUnit>CostUnit1</CostUnit>
+    <VendorExtensions>
+      <VendorExtension ToolId="ToolId1" schemaLocation="http://uri1" extensionDescription="http://uri1" />
+      <VendorExtension ToolId="ToolId2" schemaLocation="http://uri2" extensionDescription="http://uri2" />
+      <VendorExtension ToolId="ToolId3" schemaLocation="http://uri3" extensionDescription="http://uri3" />
+    </VendorExtensions>
+    <LayoutInfo PixelsPerMillimeter="1" />
+  </PackageHeader>
+  <RedefinableHeader PublicationStatus="UNDER_REVISION">
+    <Author>Author1</Author>
+    <Version>Version1</Version>
+    <Codepage>Codepage1</Codepage>
+    <Countrykey>Countrykey1</Countrykey>
+    <Responsibles>
+      <Responsible>Responsible1</Responsible>
+      <Responsible>Responsible2</Responsible>
+      <Responsible>Responsible3</Responsible>
+    </Responsibles>
+  </RedefinableHeader>
+  <ConformanceClass />
+  <Script Type="Type1" Version="Version1" Grammar="http://uri1" />
+  <ExternalPackages>
+    <ExternalPackage href="href1" Id="Token1" Name="Name1">
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token1" Value="Value1" />
+        <ExtendedAttribute Name="Token2" Value="Value2" />
+        <ExtendedAttribute Name="Token3" Value="Value3" />
+      </ExtendedAttributes>
+    </ExternalPackage>
+    <ExternalPackage href="href2" Id="Token2" Name="Name2">
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token4" Value="Value4" />
+        <ExtendedAttribute Name="Token5" Value="Value5" />
+        <ExtendedAttribute Name="Token6" Value="Value6" />
+      </ExtendedAttributes>
+    </ExternalPackage>
+    <ExternalPackage href="href3" Id="Token3" Name="Name3">
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Token7" Value="Value7" />
+        <ExtendedAttribute Name="Token8" Value="Value8" />
+        <ExtendedAttribute Name="Token9" Value="Value9" />
+      </ExtendedAttributes>
+    </ExternalPackage>
+  </ExternalPackages>
+  <TypeDeclarations>
+    <TypeDeclaration />
+    <TypeDeclaration />
+    <TypeDeclaration />
+  </TypeDeclarations>
+  <Participants>
+    <Participant Id="Token1" Name="Name1">
+      <ParticipantType Type="RESOURCE_SET" />
+      <ExternalReference xref="Token1" location="http://uri1" namespace="http://uri1" />
+    </Participant>
+    <Participant Id="Token2" Name="Name2">
+      <ParticipantType Type="RESOURCE" />
+      <ExternalReference xref="Token2" location="http://uri2" namespace="http://uri2" />
+    </Participant>
+    <Participant Id="Token3" Name="Name3">
+      <ParticipantType Type="ROLE" />
+      <ExternalReference xref="Token3" location="http://uri3" namespace="http://uri3" />
+    </Participant>
+  </Participants>
+  <Applications>
+    <Application Id="Token1" Name="Name1">
+      <Type>
+        <Ejb>
+          <JndiName>JndiName1</JndiName>
+          <HomeClass>HomeClass1</HomeClass>
+          <Method>Method1</Method>
+        </Ejb>
+      </Type>
+    </Application>
+    <Application Id="Token2" Name="Name2">
+      <Type>
+        <Ejb>
+          <JndiName>JndiName2</JndiName>
+          <HomeClass>HomeClass2</HomeClass>
+          <Method>Method2</Method>
+        </Ejb>
+      </Type>
+    </Application>
+    <Application Id="Token3" Name="Name3">
+      <Type>
+        <Ejb>
+          <JndiName>JndiName3</JndiName>
+          <HomeClass>HomeClass3</HomeClass>
+          <Method>Method3</Method>
+        </Ejb>
+      </Type>
+    </Application>
+  </Applications>
+  <DataFields>
+    <DataField Id="Token1" Name="Name1">
+      <InitialValue ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+    </DataField>
+    <DataField Id="Token2" Name="Name2" ReadOnly="true" IsArray="true" Correlation="true">
+      <InitialValue ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+    </DataField>
+    <DataField Id="Token3" Name="Name3">
+      <InitialValue ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+    </DataField>
+  </DataFields>
+  <PartnerLinkTypes />
+  <Pages>
+    <Page Name="Name1" Id="Token1" Height="1" />
+    <Page Name="Name2" Id="Token2" Height="-1.7976931348623157E+308" />
+    <Page Name="Name3" Id="Token3" Height="1.7976931348623157E+308" />
+  </Pages>
+  <Pools>
+    <Pool Id="Token1" Name="Name1" Process="Token1" Participant="Token1">
+      <Lanes>
+        <Lane Id="Token1" Name="Name1">
+          <Object Id="Token1" Name="Name1">
+            <Categories>
+              <Category Id="Token1" Name="Name1" />
+              <Category Id="Token2" Name="Name2" />
+              <Category Id="Token3" Name="Name3" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId1" IsVisible="true" PageId="Token1" BorderColor="BorderColor1" FillColor="FillColor1" LaneId="Token1" Height="1" Width="1" Shape="Shape1">
+              <Coordinates XCoordinate="1" YCoordinate="1" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId2" IsVisible="true" PageId="Token2" BorderColor="BorderColor2" FillColor="FillColor2" LaneId="Token2" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape2">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId3" IsVisible="false" PageId="Token3" BorderColor="BorderColor3" FillColor="FillColor3" LaneId="Token3" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape3">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer1</Performer>
+            <Performer>Performer2</Performer>
+            <Performer>Performer3</Performer>
+          </Performers>
+        </Lane>
+        <Lane Id="Token2" Name="Name2">
+          <Object Id="Token2" Name="Name2">
+            <Categories>
+              <Category Id="Token4" Name="Name4" />
+              <Category Id="Token5" Name="Name5" />
+              <Category Id="Token6" Name="Name6" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId4" IsVisible="true" PageId="Token4" BorderColor="BorderColor4" FillColor="FillColor4" LaneId="Token4" Height="-0.10000002384185791" Width="-0.10000002384185791" Shape="Shape4">
+              <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId5" IsVisible="false" PageId="Token5" BorderColor="BorderColor5" FillColor="FillColor5" LaneId="Token5" Height="2.1000000238418579" Width="2.1000000238418579" Shape="Shape5">
+              <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId6" IsVisible="true" PageId="Token6" BorderColor="BorderColor6" FillColor="FillColor6" LaneId="Token6" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape6">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer4</Performer>
+            <Performer>Performer5</Performer>
+            <Performer>Performer6</Performer>
+          </Performers>
+        </Lane>
+        <Lane Id="Token3" Name="Name3">
+          <Object Id="Token3" Name="Name3">
+            <Categories>
+              <Category Id="Token7" Name="Name7" />
+              <Category Id="Token8" Name="Name8" />
+              <Category Id="Token9" Name="Name9" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId7" IsVisible="false" PageId="Token7" BorderColor="BorderColor7" FillColor="FillColor7" LaneId="Token7" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape7">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId8" IsVisible="true" PageId="Token8" BorderColor="BorderColor8" FillColor="FillColor8" LaneId="Token8" Height="-1.2000000476837158" Width="-1.2000000476837158" Shape="Shape8">
+              <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId9" IsVisible="false" PageId="Token9" BorderColor="BorderColor9" FillColor="FillColor9" LaneId="Token9" Height="3.2000000476837158" Width="3.2000000476837158" Shape="Shape9">
+              <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer7</Performer>
+            <Performer>Performer8</Performer>
+            <Performer>Performer9</Performer>
+          </Performers>
+        </Lane>
+      </Lanes>
+    </Pool>
+    <Pool Id="Token2" Name="Name2" Process="Token2" Participant="Token2" BoundaryVisible="false" MainPool="true">
+      <Lanes>
+        <Lane Id="Token4" Name="Name4">
+          <Object Id="Token4" Name="Name4">
+            <Categories>
+              <Category Id="Token10" Name="Name10" />
+              <Category Id="Token11" Name="Name11" />
+              <Category Id="Token12" Name="Name12" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId10" IsVisible="true" PageId="Token10" BorderColor="BorderColor10" FillColor="FillColor10" LaneId="Token10" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape10">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId11" IsVisible="false" PageId="Token11" BorderColor="BorderColor11" FillColor="FillColor11" LaneId="Token11" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape11">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId12" IsVisible="true" PageId="Token12" BorderColor="BorderColor12" FillColor="FillColor12" LaneId="Token12" Height="-2.3000000715255737" Width="-2.3000000715255737" Shape="Shape12">
+              <Coordinates XCoordinate="-2.3000000715255737" YCoordinate="-2.3000000715255737" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer10</Performer>
+            <Performer>Performer11</Performer>
+            <Performer>Performer12</Performer>
+          </Performers>
+        </Lane>
+        <Lane Id="Token5" Name="Name5">
+          <Object Id="Token5" Name="Name5">
+            <Categories>
+              <Category Id="Token13" Name="Name13" />
+              <Category Id="Token14" Name="Name14" />
+              <Category Id="Token15" Name="Name15" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId13" IsVisible="false" PageId="Token13" BorderColor="BorderColor13" FillColor="FillColor13" LaneId="Token13" Height="4.3000000715255737" Width="4.3000000715255737" Shape="Shape13">
+              <Coordinates XCoordinate="4.3000000715255737" YCoordinate="4.3000000715255737" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId14" IsVisible="true" PageId="Token14" BorderColor="BorderColor14" FillColor="FillColor14" LaneId="Token14" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape14">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId15" IsVisible="false" PageId="Token15" BorderColor="BorderColor15" FillColor="FillColor15" LaneId="Token15" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape15">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer13</Performer>
+            <Performer>Performer14</Performer>
+            <Performer>Performer15</Performer>
+          </Performers>
+        </Lane>
+        <Lane Id="Token6" Name="Name6">
+          <Object Id="Token6" Name="Name6">
+            <Categories>
+              <Category Id="Token16" Name="Name16" />
+              <Category Id="Token17" Name="Name17" />
+              <Category Id="Token18" Name="Name18" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId16" IsVisible="true" PageId="Token16" BorderColor="BorderColor16" FillColor="FillColor16" LaneId="Token16" Height="-3.4000000953674316" Width="-3.4000000953674316" Shape="Shape16">
+              <Coordinates XCoordinate="-3.4000000953674316" YCoordinate="-3.4000000953674316" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId17" IsVisible="false" PageId="Token17" BorderColor="BorderColor17" FillColor="FillColor17" LaneId="Token17" Height="5.4000000953674316" Width="5.4000000953674316" Shape="Shape17">
+              <Coordinates XCoordinate="5.4000000953674316" YCoordinate="5.4000000953674316" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId18" IsVisible="true" PageId="Token18" BorderColor="BorderColor18" FillColor="FillColor18" LaneId="Token18" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape18">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer16</Performer>
+            <Performer>Performer17</Performer>
+            <Performer>Performer18</Performer>
+          </Performers>
+        </Lane>
+      </Lanes>
+    </Pool>
+    <Pool Id="Token3" Name="Name3" Orientation="VERTICAL" Process="Token3" Participant="Token3">
+      <Lanes>
+        <Lane Id="Token7" Name="Name7">
+          <Object Id="Token7" Name="Name7">
+            <Categories>
+              <Category Id="Token19" Name="Name19" />
+              <Category Id="Token20" Name="Name20" />
+              <Category Id="Token21" Name="Name21" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId19" IsVisible="false" PageId="Token19" BorderColor="BorderColor19" FillColor="FillColor19" LaneId="Token19" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape19">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId20" IsVisible="true" PageId="Token20" BorderColor="BorderColor20" FillColor="FillColor20" LaneId="Token20" Height="-4.5000001192092896" Width="-4.5000001192092896" Shape="Shape20">
+              <Coordinates XCoordinate="-4.5000001192092896" YCoordinate="-4.5000001192092896" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId21" IsVisible="false" PageId="Token21" BorderColor="BorderColor21" FillColor="FillColor21" LaneId="Token21" Height="6.5000001192092896" Width="6.5000001192092896" Shape="Shape21">
+              <Coordinates XCoordinate="6.5000001192092896" YCoordinate="6.5000001192092896" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer19</Performer>
+            <Performer>Performer20</Performer>
+            <Performer>Performer21</Performer>
+          </Performers>
+        </Lane>
+        <Lane Id="Token8" Name="Name8">
+          <Object Id="Token8" Name="Name8">
+            <Categories>
+              <Category Id="Token22" Name="Name22" />
+              <Category Id="Token23" Name="Name23" />
+              <Category Id="Token24" Name="Name24" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId22" IsVisible="true" PageId="Token22" BorderColor="BorderColor22" FillColor="FillColor22" LaneId="Token22" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape22">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId23" IsVisible="false" PageId="Token23" BorderColor="BorderColor23" FillColor="FillColor23" LaneId="Token23" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape23">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId24" IsVisible="true" PageId="Token24" BorderColor="BorderColor24" FillColor="FillColor24" LaneId="Token24" Height="-5.6000001430511475" Width="-5.6000001430511475" Shape="Shape24">
+              <Coordinates XCoordinate="-5.6000001430511475" YCoordinate="-5.6000001430511475" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer22</Performer>
+            <Performer>Performer23</Performer>
+            <Performer>Performer24</Performer>
+          </Performers>
+        </Lane>
+        <Lane Id="Token9" Name="Name9">
+          <Object Id="Token9" Name="Name9">
+            <Categories>
+              <Category Id="Token25" Name="Name25" />
+              <Category Id="Token26" Name="Name26" />
+              <Category Id="Token27" Name="Name27" />
+            </Categories>
+          </Object>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId25" IsVisible="false" PageId="Token25" BorderColor="BorderColor25" FillColor="FillColor25" LaneId="Token25" Height="7.6000001430511475" Width="7.6000001430511475" Shape="Shape25">
+              <Coordinates XCoordinate="7.6000001430511475" YCoordinate="7.6000001430511475" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId26" IsVisible="true" PageId="Token26" BorderColor="BorderColor26" FillColor="FillColor26" LaneId="Token26" Height="-1.7976931348623157E+308" Width="-1.7976931348623157E+308" Shape="Shape26">
+              <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId27" IsVisible="false" PageId="Token27" BorderColor="BorderColor27" FillColor="FillColor27" LaneId="Token27" Height="1.7976931348623157E+308" Width="1.7976931348623157E+308" Shape="Shape27">
+              <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+          <Performers>
+            <Performer>Performer25</Performer>
+            <Performer>Performer26</Performer>
+            <Performer>Performer27</Performer>
+          </Performers>
+        </Lane>
+      </Lanes>
+    </Pool>
+  </Pools>
+  <MessageFlows>
+    <MessageFlow Id="Token1" Name="Name1" Source="Token1" Target="Token1">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="Token1" IsVisible="true" PageId="Token1" BorderColor="BorderColor1" FillColor="FillColor1" Style="Style1" />
+        <ConnectorGraphicsInfo ToolId="Token2" IsVisible="true" PageId="Token2" BorderColor="BorderColor2" FillColor="FillColor2" Style="Style2" />
+        <ConnectorGraphicsInfo ToolId="Token3" IsVisible="false" PageId="Token3" BorderColor="BorderColor3" FillColor="FillColor3" Style="Style3" />
+      </ConnectorGraphicsInfos>
+      <Message Id="Token1" Name="Name1" From="Token1" To="Token1" FaultName="Token1">
+        <ActualParameters>
+          <ActualParameter ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+          <ActualParameter ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+          <ActualParameter ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+        </ActualParameters>
+      </Message>
+    </MessageFlow>
+    <MessageFlow Id="Token2" Name="Name2" Source="Token2" Target="Token2">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="Token4" IsVisible="true" PageId="Token4" BorderColor="BorderColor4" FillColor="FillColor4" Style="Style4" />
+        <ConnectorGraphicsInfo ToolId="Token5" IsVisible="false" PageId="Token5" BorderColor="BorderColor5" FillColor="FillColor5" Style="Style5" />
+        <ConnectorGraphicsInfo ToolId="Token6" IsVisible="true" PageId="Token6" BorderColor="BorderColor6" FillColor="FillColor6" Style="Style6" />
+      </ConnectorGraphicsInfos>
+      <Message Id="Token2" Name="Name2" From="Token2" To="Token2" FaultName="Token2">
+        <ActualParameters>
+          <ActualParameter ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+          <ActualParameter ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+          <ActualParameter ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+        </ActualParameters>
+      </Message>
+    </MessageFlow>
+    <MessageFlow Id="Token3" Name="Name3" Source="Token3" Target="Token3">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="Token7" IsVisible="false" PageId="Token7" BorderColor="BorderColor7" FillColor="FillColor7" Style="Style7" />
+        <ConnectorGraphicsInfo ToolId="Token8" IsVisible="true" PageId="Token8" BorderColor="BorderColor8" FillColor="FillColor8" Style="Style8" />
+        <ConnectorGraphicsInfo ToolId="Token9" IsVisible="false" PageId="Token9" BorderColor="BorderColor9" FillColor="FillColor9" Style="Style9" />
+      </ConnectorGraphicsInfos>
+      <Message Id="Token3" Name="Name3" From="Token3" To="Token3" FaultName="Token3">
+        <ActualParameters>
+          <ActualParameter ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+          <ActualParameter ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+          <ActualParameter ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+        </ActualParameters>
+      </Message>
+    </MessageFlow>
+  </MessageFlows>
+  <Associations>
+    <Association Id="Token1" Name="Name1" Source="Token1" Target="Token1">
+      <Object Id="Token10" Name="Name10">
+        <Categories>
+          <Category Id="Token28" Name="Name28" />
+          <Category Id="Token29" Name="Name29" />
+          <Category Id="Token30" Name="Name30" />
+        </Categories>
+      </Object>
+    </Association>
+    <Association Id="Token2" Name="Name2" Source="Token2" Target="Token2">
+      <Object Id="Token11" Name="Name11">
+        <Categories>
+          <Category Id="Token31" Name="Name31" />
+          <Category Id="Token32" Name="Name32" />
+          <Category Id="Token33" Name="Name33" />
+        </Categories>
+      </Object>
+    </Association>
+    <Association Id="Token3" Name="Name3" Source="Token3" Target="Token3" AssociationDirection="To">
+      <Object Id="Token12" Name="Name12">
+        <Categories>
+          <Category Id="Token34" Name="Name34" />
+          <Category Id="Token35" Name="Name35" />
+          <Category Id="Token36" Name="Name36" />
+        </Categories>
+      </Object>
+    </Association>
+  </Associations>
+  <Artifacts>
+    <Artifact Id="Token1" Name="Name1" ArtifactType="DataObject" TextAnnotation="TextAnnotation1" Group="Group1">
+      <Group Id="Token1" Name="Name1">
+        <Object Id="Token1" />
+        <Object Id="Token2" />
+        <Object Id="Token3" />
+      </Group>
+      <DataObject Id="Token1" Name="Name1" State="State1" RequiredForStart="true" ProducedAtCompletion="true">
+        <DataField Id="Token1" />
+        <DataField Id="Token2" />
+        <DataField Id="Token3" />
+      </DataObject>
+    </Artifact>
+    <Artifact Id="Token2" Name="Name2" ArtifactType="Group" TextAnnotation="TextAnnotation2" Group="Group2">
+      <Group Id="Token2" Name="Name2">
+        <Object Id="Token4" />
+        <Object Id="Token5" />
+        <Object Id="Token6" />
+      </Group>
+      <DataObject Id="Token2" Name="Name2" State="State2">
+        <DataField Id="Token4" />
+        <DataField Id="Token5" />
+        <DataField Id="Token6" />
+      </DataObject>
+    </Artifact>
+    <Artifact Id="Token3" Name="Name3" TextAnnotation="TextAnnotation3" Group="Group3">
+      <Group Id="Token3" Name="Name3">
+        <Object Id="Token7" />
+        <Object Id="Token8" />
+        <Object Id="Token9" />
+      </Group>
+      <DataObject Id="Token3" Name="Name3" State="State3" RequiredForStart="true" ProducedAtCompletion="true">
+        <DataField Id="Token7" />
+        <DataField Id="Token8" />
+        <DataField Id="Token9" />
+      </DataObject>
+    </Artifact>
+  </Artifacts>
+  <WorkflowProcesses>
+    <WorkflowProcess Id="Token1" Name="Name1" AdHocCompletionCondition="AdHocCompletionCondition1" DefaultStartActivityId="Token1" DefaultStartActivitySetId="Token1">
+      <ProcessHeader>
+        <Priority>Priority1</Priority>
+        <Limit>Limit1</Limit>
+        <ValidFrom>ValidFrom1</ValidFrom>
+        <ValidTo>ValidTo1</ValidTo>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime1</WaitingTime>
+          <WorkingTime>WorkingTime1</WorkingTime>
+          <Duration>Duration1</Duration>
+        </TimeEstimation>
+      </ProcessHeader>
+      <InputSets>
+        <InputSet />
+        <InputSet />
+        <InputSet />
+      </InputSets>
+      <OutputSets>
+        <OutputSet />
+        <OutputSet />
+        <OutputSet />
+      </OutputSets>
+      <ActivitySets>
+        <ActivitySet Id="Token1" Name="Name1" AdHocCompletionCondition="AdHocCompletionCondition1" DefaultStartActivityId="Token1">
+          <Activities>
+            <Activity Id="Token1" Name="Name1" IsForCompensation="true" StartActivity="true">
+              <Route IncomingCondition="IncomingCondition1" OutgoingCondition="OutgoingCondition1" />
+              <Transaction TransactionId="TransactionId1" TransactionProtocol="TransactionProtocol1" TransactionMethod="Compensate" />
+              <SimulationInformation>
+                <Cost>Cost1</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime2</WaitingTime>
+                  <WorkingTime>WorkingTime2</WorkingTime>
+                  <Duration>Duration2</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="1" YCOORD="1" WIDTH="1" HEIGHT="1" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="1" LoopMaximum="1" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+                  <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+                  <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+                  <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token2" Name="Name2" StartMode="Manual" FinishMode="Manual" IsATransaction="true">
+              <Route GatewayType="XOR" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition2" OutgoingCondition="OutgoingCondition2" />
+              <Transaction TransactionId="TransactionId2" TransactionProtocol="TransactionProtocol2" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost2</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime3</WaitingTime>
+                  <WorkingTime>WorkingTime3</WorkingTime>
+                  <Duration>Duration3</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+                  <Expression ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+                  <Expression ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+                  <Expression ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token3" Name="Name3" IsForCompensation="true" StartActivity="true" Status="Ready" StartQuantity="-792" CompletionQuantity="-792">
+              <Route ExclusiveType="Event" IncomingCondition="IncomingCondition3" OutgoingCondition="OutgoingCondition3" />
+              <Transaction TransactionId="TransactionId3" TransactionProtocol="TransactionProtocol3" TransactionMethod="Image" />
+              <SimulationInformation>
+                <Cost>Cost3</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime4</WaitingTime>
+                  <WorkingTime>WorkingTime4</WorkingTime>
+                  <Duration>Duration4</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Rectangle" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+                  <Expression ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+                  <Expression ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+                  <Expression ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+        <ActivitySet Id="Token2" Name="Name2" AdHoc="true" AdHocOrdering="Sequential" AdHocCompletionCondition="AdHocCompletionCondition2" DefaultStartActivityId="Token2">
+          <Activities>
+            <Activity Id="Token4" Name="Name4" Status="Active" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+              <Route GatewayType="OR" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition4" OutgoingCondition="OutgoingCondition4" />
+              <Transaction TransactionId="TransactionId4" TransactionProtocol="TransactionProtocol4" TransactionMethod="Compensate" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost4</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime5</WaitingTime>
+                  <WorkingTime>WorkingTime5</WorkingTime>
+                  <Duration>Duration5</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon SHAPE="Ellipse" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard>
+                  <LoopCondition ScriptType="ScriptType4" ScriptVersion="ScriptVersion4" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" />
+                  <Expression ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" />
+                  <Expression ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" />
+                  <Expression ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token5" Name="Name5" IsForCompensation="true" StartActivity="true" Status="Cancelled" StartQuantity="0" CompletionQuantity="0">
+              <Route GatewayType="Inclusive" ExclusiveType="Event" IncomingCondition="IncomingCondition5" OutgoingCondition="OutgoingCondition5" />
+              <Transaction TransactionId="TransactionId5" TransactionProtocol="TransactionProtocol5" />
+              <SimulationInformation>
+                <Cost>Cost5</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime6</WaitingTime>
+                  <WorkingTime>WorkingTime6</WorkingTime>
+                  <Duration>Duration6</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="2" YCOORD="2" WIDTH="2" HEIGHT="2" SHAPE="Diamond" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="2" LoopMaximum="2" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType5" ScriptVersion="ScriptVersion5" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType13" ScriptVersion="ScriptVersion13" />
+                  <Expression ScriptType="ScriptType13" ScriptVersion="ScriptVersion13" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType14" ScriptVersion="ScriptVersion14" />
+                  <Expression ScriptType="ScriptType14" ScriptVersion="ScriptVersion14" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType15" ScriptVersion="ScriptVersion15" />
+                  <Expression ScriptType="ScriptType15" ScriptVersion="ScriptVersion15" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token6" Name="Name6" Status="Aborting" StartMode="Manual" FinishMode="Manual" StartQuantity="2" CompletionQuantity="2" IsATransaction="true">
+              <Route GatewayType="Complex" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition6" OutgoingCondition="OutgoingCondition6" />
+              <Transaction TransactionId="TransactionId6" TransactionProtocol="TransactionProtocol6" TransactionMethod="Image" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost6</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime7</WaitingTime>
+                  <WorkingTime>WorkingTime7</WorkingTime>
+                  <Duration>Duration7</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="Ellipse" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType6" ScriptVersion="ScriptVersion6" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType16" ScriptVersion="ScriptVersion16" />
+                  <Expression ScriptType="ScriptType16" ScriptVersion="ScriptVersion16" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType17" ScriptVersion="ScriptVersion17" />
+                  <Expression ScriptType="ScriptType17" ScriptVersion="ScriptVersion17" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType18" ScriptVersion="ScriptVersion18" />
+                  <Expression ScriptType="ScriptType18" ScriptVersion="ScriptVersion18" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+        <ActivitySet Id="Token3" Name="Name3" AdHocCompletionCondition="AdHocCompletionCondition3" DefaultStartActivityId="Token3">
+          <Activities>
+            <Activity Id="Token7" Name="Name7" IsForCompensation="true" StartActivity="true" Status="Aborted" StartQuantity="-792" CompletionQuantity="-792">
+              <Route GatewayType="AND" ExclusiveType="Event" IncomingCondition="IncomingCondition7" OutgoingCondition="OutgoingCondition7" />
+              <Transaction TransactionId="TransactionId7" TransactionProtocol="TransactionProtocol7" TransactionMethod="Compensate" />
+              <SimulationInformation>
+                <Cost>Cost7</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime8</WaitingTime>
+                  <WorkingTime>WorkingTime8</WorkingTime>
+                  <Duration>Duration8</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="UpTriangle" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType7" ScriptVersion="ScriptVersion7" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType19" ScriptVersion="ScriptVersion19" />
+                  <Expression ScriptType="ScriptType19" ScriptVersion="ScriptVersion19" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType20" ScriptVersion="ScriptVersion20" />
+                  <Expression ScriptType="ScriptType20" ScriptVersion="ScriptVersion20" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType21" ScriptVersion="ScriptVersion21" />
+                  <Expression ScriptType="ScriptType21" ScriptVersion="ScriptVersion21" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token8" Name="Name8" Status="Completing" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+              <Route GatewayType="Parallel" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition8" OutgoingCondition="OutgoingCondition8" />
+              <Transaction TransactionId="TransactionId8" TransactionProtocol="TransactionProtocol8" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost8</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime9</WaitingTime>
+                  <WorkingTime>WorkingTime9</WorkingTime>
+                  <Duration>Duration9</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-1" YCOORD="-1" WIDTH="-1" HEIGHT="-1" SHAPE="DownTriangle" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-1" LoopMaximum="-1">
+                  <LoopCondition ScriptType="ScriptType8" ScriptVersion="ScriptVersion8" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType22" ScriptVersion="ScriptVersion22" />
+                  <Expression ScriptType="ScriptType22" ScriptVersion="ScriptVersion22" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType23" ScriptVersion="ScriptVersion23" />
+                  <Expression ScriptType="ScriptType23" ScriptVersion="ScriptVersion23" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType24" ScriptVersion="ScriptVersion24" />
+                  <Expression ScriptType="ScriptType24" ScriptVersion="ScriptVersion24" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token9" Name="Name9" IsForCompensation="true" StartActivity="true" Status="Completed" StartQuantity="-1" CompletionQuantity="-1">
+              <Route GatewayType="XOR" ExclusiveType="Event" IncomingCondition="IncomingCondition9" OutgoingCondition="OutgoingCondition9" />
+              <Transaction TransactionId="TransactionId9" TransactionProtocol="TransactionProtocol9" TransactionMethod="Image" />
+              <SimulationInformation>
+                <Cost>Cost9</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime10</WaitingTime>
+                  <WorkingTime>WorkingTime10</WorkingTime>
+                  <Duration>Duration10</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="3" YCOORD="3" WIDTH="3" HEIGHT="3" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="3" LoopMaximum="3" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType9" ScriptVersion="ScriptVersion9" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType25" ScriptVersion="ScriptVersion25" />
+                  <Expression ScriptType="ScriptType25" ScriptVersion="ScriptVersion25" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType26" ScriptVersion="ScriptVersion26" />
+                  <Expression ScriptType="ScriptType26" ScriptVersion="ScriptVersion26" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType27" ScriptVersion="ScriptVersion27" />
+                  <Expression ScriptType="ScriptType27" ScriptVersion="ScriptVersion27" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+      </ActivitySets>
+      <PartnerLinks>
+        <PartnerLink name="name1" Id="Token1" PartnerLinkTypeId="Token1">
+          <MyRole RoleName="RoleName1" />
+          <PartnerRole RoleName="RoleName1" ServiceName="ServiceName1" PortName="PortName1">
+            <EndPoint>
+              <ExternalReference xref="Token4" location="http://uri4" namespace="http://uri4" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+        <PartnerLink name="name2" Id="Token2" PartnerLinkTypeId="Token2">
+          <MyRole RoleName="RoleName2" />
+          <PartnerRole RoleName="RoleName2" ServiceName="ServiceName2" PortName="PortName2">
+            <EndPoint>
+              <ExternalReference xref="Token5" location="http://uri5" namespace="http://uri5" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+        <PartnerLink name="name3" Id="Token3" PartnerLinkTypeId="Token3">
+          <MyRole RoleName="RoleName3" />
+          <PartnerRole RoleName="RoleName3" ServiceName="ServiceName3" PortName="PortName3">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Token6" location="http://uri6" namespace="http://uri6" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+      </PartnerLinks>
+    </WorkflowProcess>
+    <WorkflowProcess Id="Token2" Name="Name2" SuppressJoinFailure="true" EnableInstanceCompensation="true" AdHoc="true" AdHocOrdering="Sequential" AdHocCompletionCondition="AdHocCompletionCondition2" DefaultStartActivityId="Token2" DefaultStartActivitySetId="Token2">
+      <ProcessHeader DurationUnit="M">
+        <Priority>Priority2</Priority>
+        <Limit>Limit2</Limit>
+        <ValidFrom>ValidFrom2</ValidFrom>
+        <ValidTo>ValidTo2</ValidTo>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime11</WaitingTime>
+          <WorkingTime>WorkingTime11</WorkingTime>
+          <Duration>Duration11</Duration>
+        </TimeEstimation>
+      </ProcessHeader>
+      <InputSets>
+        <InputSet />
+        <InputSet />
+        <InputSet />
+      </InputSets>
+      <OutputSets>
+        <OutputSet />
+        <OutputSet />
+        <OutputSet />
+      </OutputSets>
+      <ActivitySets>
+        <ActivitySet Id="Token4" Name="Name4" AdHoc="true" AdHocOrdering="Sequential" AdHocCompletionCondition="AdHocCompletionCondition4" DefaultStartActivityId="Token4">
+          <Activities>
+            <Activity Id="Token10" Name="Name10" StartMode="Manual" FinishMode="Manual" StartQuantity="3" CompletionQuantity="3" IsATransaction="true">
+              <Route Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition10" OutgoingCondition="OutgoingCondition10" />
+              <Transaction TransactionId="TransactionId10" TransactionProtocol="TransactionProtocol10" TransactionMethod="Compensate" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost10</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime12</WaitingTime>
+                  <WorkingTime>WorkingTime12</WorkingTime>
+                  <Duration>Duration12</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="Rectangle" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType10" ScriptVersion="ScriptVersion10" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType28" ScriptVersion="ScriptVersion28" />
+                  <Expression ScriptType="ScriptType28" ScriptVersion="ScriptVersion28" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType29" ScriptVersion="ScriptVersion29" />
+                  <Expression ScriptType="ScriptType29" ScriptVersion="ScriptVersion29" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType30" ScriptVersion="ScriptVersion30" />
+                  <Expression ScriptType="ScriptType30" ScriptVersion="ScriptVersion30" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token11" Name="Name11" IsForCompensation="true" StartActivity="true" Status="Ready" StartQuantity="-792" CompletionQuantity="-792">
+              <Route GatewayType="OR" ExclusiveType="Event" IncomingCondition="IncomingCondition11" OutgoingCondition="OutgoingCondition11" />
+              <Transaction TransactionId="TransactionId11" TransactionProtocol="TransactionProtocol11" />
+              <SimulationInformation>
+                <Cost>Cost11</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime13</WaitingTime>
+                  <WorkingTime>WorkingTime13</WorkingTime>
+                  <Duration>Duration13</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Ellipse" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType11" ScriptVersion="ScriptVersion11" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType31" ScriptVersion="ScriptVersion31" />
+                  <Expression ScriptType="ScriptType31" ScriptVersion="ScriptVersion31" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType32" ScriptVersion="ScriptVersion32" />
+                  <Expression ScriptType="ScriptType32" ScriptVersion="ScriptVersion32" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType33" ScriptVersion="ScriptVersion33" />
+                  <Expression ScriptType="ScriptType33" ScriptVersion="ScriptVersion33" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token12" Name="Name12" Status="Active" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+              <Route GatewayType="Inclusive" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition12" OutgoingCondition="OutgoingCondition12" />
+              <Transaction TransactionId="TransactionId12" TransactionProtocol="TransactionProtocol12" TransactionMethod="Image" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost12</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime14</WaitingTime>
+                  <WorkingTime>WorkingTime14</WorkingTime>
+                  <Duration>Duration14</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-2" YCOORD="-2" WIDTH="-2" HEIGHT="-2" SHAPE="Diamond" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-2" LoopMaximum="-2">
+                  <LoopCondition ScriptType="ScriptType12" ScriptVersion="ScriptVersion12" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType34" ScriptVersion="ScriptVersion34" />
+                  <Expression ScriptType="ScriptType34" ScriptVersion="ScriptVersion34" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType35" ScriptVersion="ScriptVersion35" />
+                  <Expression ScriptType="ScriptType35" ScriptVersion="ScriptVersion35" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType36" ScriptVersion="ScriptVersion36" />
+                  <Expression ScriptType="ScriptType36" ScriptVersion="ScriptVersion36" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+        <ActivitySet Id="Token5" Name="Name5" AdHocCompletionCondition="AdHocCompletionCondition5" DefaultStartActivityId="Token5">
+          <Activities>
+            <Activity Id="Token13" Name="Name13" IsForCompensation="true" StartActivity="true" Status="Cancelled" StartQuantity="-2" CompletionQuantity="-2">
+              <Route GatewayType="Complex" ExclusiveType="Event" IncomingCondition="IncomingCondition13" OutgoingCondition="OutgoingCondition13" />
+              <Transaction TransactionId="TransactionId13" TransactionProtocol="TransactionProtocol13" TransactionMethod="Compensate" />
+              <SimulationInformation>
+                <Cost>Cost13</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime15</WaitingTime>
+                  <WorkingTime>WorkingTime15</WorkingTime>
+                  <Duration>Duration15</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="4" YCOORD="4" WIDTH="4" HEIGHT="4" SHAPE="Ellipse" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="4" LoopMaximum="4" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType13" ScriptVersion="ScriptVersion13" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType37" ScriptVersion="ScriptVersion37" />
+                  <Expression ScriptType="ScriptType37" ScriptVersion="ScriptVersion37" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType38" ScriptVersion="ScriptVersion38" />
+                  <Expression ScriptType="ScriptType38" ScriptVersion="ScriptVersion38" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType39" ScriptVersion="ScriptVersion39" />
+                  <Expression ScriptType="ScriptType39" ScriptVersion="ScriptVersion39" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token14" Name="Name14" Status="Aborting" StartMode="Manual" FinishMode="Manual" StartQuantity="4" CompletionQuantity="4" IsATransaction="true">
+              <Route GatewayType="AND" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition14" OutgoingCondition="OutgoingCondition14" />
+              <Transaction TransactionId="TransactionId14" TransactionProtocol="TransactionProtocol14" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost14</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime16</WaitingTime>
+                  <WorkingTime>WorkingTime16</WorkingTime>
+                  <Duration>Duration16</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="UpTriangle" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType14" ScriptVersion="ScriptVersion14" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType40" ScriptVersion="ScriptVersion40" />
+                  <Expression ScriptType="ScriptType40" ScriptVersion="ScriptVersion40" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType41" ScriptVersion="ScriptVersion41" />
+                  <Expression ScriptType="ScriptType41" ScriptVersion="ScriptVersion41" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType42" ScriptVersion="ScriptVersion42" />
+                  <Expression ScriptType="ScriptType42" ScriptVersion="ScriptVersion42" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token15" Name="Name15" IsForCompensation="true" StartActivity="true" Status="Aborted" StartQuantity="-792" CompletionQuantity="-792">
+              <Route GatewayType="Parallel" ExclusiveType="Event" IncomingCondition="IncomingCondition15" OutgoingCondition="OutgoingCondition15" />
+              <Transaction TransactionId="TransactionId15" TransactionProtocol="TransactionProtocol15" TransactionMethod="Image" />
+              <SimulationInformation>
+                <Cost>Cost15</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime17</WaitingTime>
+                  <WorkingTime>WorkingTime17</WorkingTime>
+                  <Duration>Duration17</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="DownTriangle" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType15" ScriptVersion="ScriptVersion15" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType43" ScriptVersion="ScriptVersion43" />
+                  <Expression ScriptType="ScriptType43" ScriptVersion="ScriptVersion43" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType44" ScriptVersion="ScriptVersion44" />
+                  <Expression ScriptType="ScriptType44" ScriptVersion="ScriptVersion44" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType45" ScriptVersion="ScriptVersion45" />
+                  <Expression ScriptType="ScriptType45" ScriptVersion="ScriptVersion45" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+        <ActivitySet Id="Token6" Name="Name6" AdHoc="true" AdHocOrdering="Sequential" AdHocCompletionCondition="AdHocCompletionCondition6" DefaultStartActivityId="Token6">
+          <Activities>
+            <Activity Id="Token16" Name="Name16" Status="Completing" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+              <Route GatewayType="XOR" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition16" OutgoingCondition="OutgoingCondition16" />
+              <Transaction TransactionId="TransactionId16" TransactionProtocol="TransactionProtocol16" TransactionMethod="Compensate" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost16</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime18</WaitingTime>
+                  <WorkingTime>WorkingTime18</WorkingTime>
+                  <Duration>Duration18</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-3" YCOORD="-3" WIDTH="-3" HEIGHT="-3" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-3" LoopMaximum="-3">
+                  <LoopCondition ScriptType="ScriptType16" ScriptVersion="ScriptVersion16" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType46" ScriptVersion="ScriptVersion46" />
+                  <Expression ScriptType="ScriptType46" ScriptVersion="ScriptVersion46" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType47" ScriptVersion="ScriptVersion47" />
+                  <Expression ScriptType="ScriptType47" ScriptVersion="ScriptVersion47" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType48" ScriptVersion="ScriptVersion48" />
+                  <Expression ScriptType="ScriptType48" ScriptVersion="ScriptVersion48" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token17" Name="Name17" IsForCompensation="true" StartActivity="true" Status="Completed" StartQuantity="-3" CompletionQuantity="-3">
+              <Route ExclusiveType="Event" IncomingCondition="IncomingCondition17" OutgoingCondition="OutgoingCondition17" />
+              <Transaction TransactionId="TransactionId17" TransactionProtocol="TransactionProtocol17" />
+              <SimulationInformation>
+                <Cost>Cost17</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime19</WaitingTime>
+                  <WorkingTime>WorkingTime19</WorkingTime>
+                  <Duration>Duration19</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="5" YCOORD="5" WIDTH="5" HEIGHT="5" SHAPE="Rectangle" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="5" LoopMaximum="5" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType17" ScriptVersion="ScriptVersion17" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType49" ScriptVersion="ScriptVersion49" />
+                  <Expression ScriptType="ScriptType49" ScriptVersion="ScriptVersion49" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType50" ScriptVersion="ScriptVersion50" />
+                  <Expression ScriptType="ScriptType50" ScriptVersion="ScriptVersion50" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType51" ScriptVersion="ScriptVersion51" />
+                  <Expression ScriptType="ScriptType51" ScriptVersion="ScriptVersion51" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token18" Name="Name18" StartMode="Manual" FinishMode="Manual" StartQuantity="5" CompletionQuantity="5" IsATransaction="true">
+              <Route GatewayType="OR" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition18" OutgoingCondition="OutgoingCondition18" />
+              <Transaction TransactionId="TransactionId18" TransactionProtocol="TransactionProtocol18" TransactionMethod="Image" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost18</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime20</WaitingTime>
+                  <WorkingTime>WorkingTime20</WorkingTime>
+                  <Duration>Duration20</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="Ellipse" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType18" ScriptVersion="ScriptVersion18" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType52" ScriptVersion="ScriptVersion52" />
+                  <Expression ScriptType="ScriptType52" ScriptVersion="ScriptVersion52" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType53" ScriptVersion="ScriptVersion53" />
+                  <Expression ScriptType="ScriptType53" ScriptVersion="ScriptVersion53" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType54" ScriptVersion="ScriptVersion54" />
+                  <Expression ScriptType="ScriptType54" ScriptVersion="ScriptVersion54" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+      </ActivitySets>
+      <PartnerLinks>
+        <PartnerLink name="name4" Id="Token4" PartnerLinkTypeId="Token4">
+          <MyRole RoleName="RoleName4" />
+          <PartnerRole RoleName="RoleName4" ServiceName="ServiceName4" PortName="PortName4">
+            <EndPoint>
+              <ExternalReference xref="Token7" location="http://uri7" namespace="http://uri7" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+        <PartnerLink name="name5" Id="Token5" PartnerLinkTypeId="Token5">
+          <MyRole RoleName="RoleName5" />
+          <PartnerRole RoleName="RoleName5" ServiceName="ServiceName5" PortName="PortName5">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Token8" location="http://uri8" namespace="http://uri8" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+        <PartnerLink name="name6" Id="Token6" PartnerLinkTypeId="Token6">
+          <MyRole RoleName="RoleName6" />
+          <PartnerRole RoleName="RoleName6" ServiceName="ServiceName6" PortName="PortName6">
+            <EndPoint>
+              <ExternalReference xref="Token9" location="http://uri9" namespace="http://uri9" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+      </PartnerLinks>
+    </WorkflowProcess>
+    <WorkflowProcess Id="Token3" Name="Name3" AccessLevel="PRIVATE" ProcessType="Private" Status="Ready" AdHocCompletionCondition="AdHocCompletionCondition3" DefaultStartActivityId="Token3" DefaultStartActivitySetId="Token3">
+      <ProcessHeader DurationUnit="D">
+        <Priority>Priority3</Priority>
+        <Limit>Limit3</Limit>
+        <ValidFrom>ValidFrom3</ValidFrom>
+        <ValidTo>ValidTo3</ValidTo>
+        <TimeEstimation>
+          <WaitingTime>WaitingTime21</WaitingTime>
+          <WorkingTime>WorkingTime21</WorkingTime>
+          <Duration>Duration21</Duration>
+        </TimeEstimation>
+      </ProcessHeader>
+      <InputSets>
+        <InputSet />
+        <InputSet />
+        <InputSet />
+      </InputSets>
+      <OutputSets>
+        <OutputSet />
+        <OutputSet />
+        <OutputSet />
+      </OutputSets>
+      <ActivitySets>
+        <ActivitySet Id="Token7" Name="Name7" AdHocCompletionCondition="AdHocCompletionCondition7" DefaultStartActivityId="Token7">
+          <Activities>
+            <Activity Id="Token19" Name="Name19" IsForCompensation="true" StartActivity="true" Status="Ready" StartQuantity="-792" CompletionQuantity="-792">
+              <Route GatewayType="Inclusive" ExclusiveType="Event" IncomingCondition="IncomingCondition19" OutgoingCondition="OutgoingCondition19" />
+              <Transaction TransactionId="TransactionId19" TransactionProtocol="TransactionProtocol19" TransactionMethod="Compensate" />
+              <SimulationInformation>
+                <Cost>Cost19</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime22</WaitingTime>
+                  <WorkingTime>WorkingTime22</WorkingTime>
+                  <Duration>Duration22</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Diamond" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType19" ScriptVersion="ScriptVersion19" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType55" ScriptVersion="ScriptVersion55" />
+                  <Expression ScriptType="ScriptType55" ScriptVersion="ScriptVersion55" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType56" ScriptVersion="ScriptVersion56" />
+                  <Expression ScriptType="ScriptType56" ScriptVersion="ScriptVersion56" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType57" ScriptVersion="ScriptVersion57" />
+                  <Expression ScriptType="ScriptType57" ScriptVersion="ScriptVersion57" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token20" Name="Name20" Status="Active" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+              <Route GatewayType="Complex" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition20" OutgoingCondition="OutgoingCondition20" />
+              <Transaction TransactionId="TransactionId20" TransactionProtocol="TransactionProtocol20" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost20</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime23</WaitingTime>
+                  <WorkingTime>WorkingTime23</WorkingTime>
+                  <Duration>Duration23</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-4" YCOORD="-4" WIDTH="-4" HEIGHT="-4" SHAPE="Ellipse" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-4" LoopMaximum="-4">
+                  <LoopCondition ScriptType="ScriptType20" ScriptVersion="ScriptVersion20" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType58" ScriptVersion="ScriptVersion58" />
+                  <Expression ScriptType="ScriptType58" ScriptVersion="ScriptVersion58" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType59" ScriptVersion="ScriptVersion59" />
+                  <Expression ScriptType="ScriptType59" ScriptVersion="ScriptVersion59" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType60" ScriptVersion="ScriptVersion60" />
+                  <Expression ScriptType="ScriptType60" ScriptVersion="ScriptVersion60" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token21" Name="Name21" IsForCompensation="true" StartActivity="true" Status="Cancelled" StartQuantity="-4" CompletionQuantity="-4">
+              <Route GatewayType="AND" ExclusiveType="Event" IncomingCondition="IncomingCondition21" OutgoingCondition="OutgoingCondition21" />
+              <Transaction TransactionId="TransactionId21" TransactionProtocol="TransactionProtocol21" TransactionMethod="Image" />
+              <SimulationInformation>
+                <Cost>Cost21</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime24</WaitingTime>
+                  <WorkingTime>WorkingTime24</WorkingTime>
+                  <Duration>Duration24</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="6" YCOORD="6" WIDTH="6" HEIGHT="6" SHAPE="UpTriangle" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="6" LoopMaximum="6" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType21" ScriptVersion="ScriptVersion21" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType61" ScriptVersion="ScriptVersion61" />
+                  <Expression ScriptType="ScriptType61" ScriptVersion="ScriptVersion61" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType62" ScriptVersion="ScriptVersion62" />
+                  <Expression ScriptType="ScriptType62" ScriptVersion="ScriptVersion62" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType63" ScriptVersion="ScriptVersion63" />
+                  <Expression ScriptType="ScriptType63" ScriptVersion="ScriptVersion63" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+        <ActivitySet Id="Token8" Name="Name8" AdHoc="true" AdHocOrdering="Sequential" AdHocCompletionCondition="AdHocCompletionCondition8" DefaultStartActivityId="Token8">
+          <Activities>
+            <Activity Id="Token22" Name="Name22" Status="Aborting" StartMode="Manual" FinishMode="Manual" StartQuantity="6" CompletionQuantity="6" IsATransaction="true">
+              <Route GatewayType="Parallel" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition22" OutgoingCondition="OutgoingCondition22" />
+              <Transaction TransactionId="TransactionId22" TransactionProtocol="TransactionProtocol22" TransactionMethod="Compensate" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost22</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime25</WaitingTime>
+                  <WorkingTime>WorkingTime25</WorkingTime>
+                  <Duration>Duration25</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="DownTriangle" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType22" ScriptVersion="ScriptVersion22" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType64" ScriptVersion="ScriptVersion64" />
+                  <Expression ScriptType="ScriptType64" ScriptVersion="ScriptVersion64" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType65" ScriptVersion="ScriptVersion65" />
+                  <Expression ScriptType="ScriptType65" ScriptVersion="ScriptVersion65" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType66" ScriptVersion="ScriptVersion66" />
+                  <Expression ScriptType="ScriptType66" ScriptVersion="ScriptVersion66" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token23" Name="Name23" IsForCompensation="true" StartActivity="true" Status="Aborted" StartQuantity="-792" CompletionQuantity="-792">
+              <Route GatewayType="XOR" ExclusiveType="Event" IncomingCondition="IncomingCondition23" OutgoingCondition="OutgoingCondition23" />
+              <Transaction TransactionId="TransactionId23" TransactionProtocol="TransactionProtocol23" />
+              <SimulationInformation>
+                <Cost>Cost23</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime26</WaitingTime>
+                  <WorkingTime>WorkingTime26</WorkingTime>
+                  <Duration>Duration26</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType23" ScriptVersion="ScriptVersion23" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType67" ScriptVersion="ScriptVersion67" />
+                  <Expression ScriptType="ScriptType67" ScriptVersion="ScriptVersion67" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType68" ScriptVersion="ScriptVersion68" />
+                  <Expression ScriptType="ScriptType68" ScriptVersion="ScriptVersion68" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType69" ScriptVersion="ScriptVersion69" />
+                  <Expression ScriptType="ScriptType69" ScriptVersion="ScriptVersion69" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token24" Name="Name24" Status="Completing" StartMode="Manual" FinishMode="Manual" StartQuantity="792" CompletionQuantity="792" IsATransaction="true">
+              <Route Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition24" OutgoingCondition="OutgoingCondition24" />
+              <Transaction TransactionId="TransactionId24" TransactionProtocol="TransactionProtocol24" TransactionMethod="Image" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost24</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime27</WaitingTime>
+                  <WorkingTime>WorkingTime27</WorkingTime>
+                  <Duration>Duration27</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-5" YCOORD="-5" WIDTH="-5" HEIGHT="-5" SHAPE="Rectangle" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-5" LoopMaximum="-5">
+                  <LoopCondition ScriptType="ScriptType24" ScriptVersion="ScriptVersion24" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType70" ScriptVersion="ScriptVersion70" />
+                  <Expression ScriptType="ScriptType70" ScriptVersion="ScriptVersion70" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType71" ScriptVersion="ScriptVersion71" />
+                  <Expression ScriptType="ScriptType71" ScriptVersion="ScriptVersion71" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType72" ScriptVersion="ScriptVersion72" />
+                  <Expression ScriptType="ScriptType72" ScriptVersion="ScriptVersion72" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+        <ActivitySet Id="Token9" Name="Name9" AdHocCompletionCondition="AdHocCompletionCondition9" DefaultStartActivityId="Token9">
+          <Activities>
+            <Activity Id="Token25" Name="Name25" IsForCompensation="true" StartActivity="true" Status="Completed" StartQuantity="-5" CompletionQuantity="-5">
+              <Route GatewayType="OR" ExclusiveType="Event" IncomingCondition="IncomingCondition25" OutgoingCondition="OutgoingCondition25" />
+              <Transaction TransactionId="TransactionId25" TransactionProtocol="TransactionProtocol25" TransactionMethod="Compensate" />
+              <SimulationInformation>
+                <Cost>Cost25</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime28</WaitingTime>
+                  <WorkingTime>WorkingTime28</WorkingTime>
+                  <Duration>Duration28</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="7" YCOORD="7" WIDTH="7" HEIGHT="7" SHAPE="Ellipse" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="7" LoopMaximum="7" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType25" ScriptVersion="ScriptVersion25" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType73" ScriptVersion="ScriptVersion73" />
+                  <Expression ScriptType="ScriptType73" ScriptVersion="ScriptVersion73" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType74" ScriptVersion="ScriptVersion74" />
+                  <Expression ScriptType="ScriptType74" ScriptVersion="ScriptVersion74" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType75" ScriptVersion="ScriptVersion75" />
+                  <Expression ScriptType="ScriptType75" ScriptVersion="ScriptVersion75" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token26" Name="Name26" StartMode="Manual" FinishMode="Manual" StartQuantity="7" CompletionQuantity="7" IsATransaction="true">
+              <Route GatewayType="Inclusive" Instantiate="true" MarkerVisible="true" IncomingCondition="IncomingCondition26" OutgoingCondition="OutgoingCondition26" />
+              <Transaction TransactionId="TransactionId26" TransactionProtocol="TransactionProtocol26" />
+              <SimulationInformation Instantiation="MULTIPLE">
+                <Cost>Cost26</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime29</WaitingTime>
+                  <WorkingTime>WorkingTime29</WorkingTime>
+                  <Duration>Duration29</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="-792" YCOORD="-792" WIDTH="-792" HEIGHT="-792" SHAPE="Diamond" />
+              <IORules />
+              <Loop LoopType="MultiInstance">
+                <LoopStandard LoopCounter="-792" LoopMaximum="-792">
+                  <LoopCondition ScriptType="ScriptType26" ScriptVersion="ScriptVersion26" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment>
+                  <Target ScriptType="ScriptType76" ScriptVersion="ScriptVersion76" />
+                  <Expression ScriptType="ScriptType76" ScriptVersion="ScriptVersion76" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType77" ScriptVersion="ScriptVersion77" />
+                  <Expression ScriptType="ScriptType77" ScriptVersion="ScriptVersion77" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType78" ScriptVersion="ScriptVersion78" />
+                  <Expression ScriptType="ScriptType78" ScriptVersion="ScriptVersion78" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+            <Activity Id="Token27" Name="Name27" IsForCompensation="true" StartActivity="true" Status="Ready" StartQuantity="-792" CompletionQuantity="-792">
+              <Route GatewayType="Complex" ExclusiveType="Event" IncomingCondition="IncomingCondition27" OutgoingCondition="OutgoingCondition27" />
+              <Transaction TransactionId="TransactionId27" TransactionProtocol="TransactionProtocol27" TransactionMethod="Image" />
+              <SimulationInformation>
+                <Cost>Cost27</Cost>
+                <TimeEstimation>
+                  <WaitingTime>WaitingTime30</WaitingTime>
+                  <WorkingTime>WorkingTime30</WorkingTime>
+                  <Duration>Duration30</Duration>
+                </TimeEstimation>
+              </SimulationInformation>
+              <Icon XCOORD="792" YCOORD="792" WIDTH="792" HEIGHT="792" SHAPE="Ellipse" />
+              <IORules />
+              <Loop>
+                <LoopStandard LoopCounter="792" LoopMaximum="792" TestTime="Before">
+                  <LoopCondition ScriptType="ScriptType27" ScriptVersion="ScriptVersion27" />
+                </LoopStandard>
+              </Loop>
+              <Assignments>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType79" ScriptVersion="ScriptVersion79" />
+                  <Expression ScriptType="ScriptType79" ScriptVersion="ScriptVersion79" />
+                </Assignment>
+                <Assignment>
+                  <Target ScriptType="ScriptType80" ScriptVersion="ScriptVersion80" />
+                  <Expression ScriptType="ScriptType80" ScriptVersion="ScriptVersion80" />
+                </Assignment>
+                <Assignment AssignTime="End">
+                  <Target ScriptType="ScriptType81" ScriptVersion="ScriptVersion81" />
+                  <Expression ScriptType="ScriptType81" ScriptVersion="ScriptVersion81" />
+                </Assignment>
+              </Assignments>
+            </Activity>
+          </Activities>
+        </ActivitySet>
+      </ActivitySets>
+      <PartnerLinks>
+        <PartnerLink name="name7" Id="Token7" PartnerLinkTypeId="Token7">
+          <MyRole RoleName="RoleName7" />
+          <PartnerRole RoleName="RoleName7" ServiceName="ServiceName7" PortName="PortName7">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Token10" location="http://uri10" namespace="http://uri10" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+        <PartnerLink name="name8" Id="Token8" PartnerLinkTypeId="Token8">
+          <MyRole RoleName="RoleName8" />
+          <PartnerRole RoleName="RoleName8" ServiceName="ServiceName8" PortName="PortName8">
+            <EndPoint>
+              <ExternalReference xref="Token11" location="http://uri11" namespace="http://uri11" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+        <PartnerLink name="name9" Id="Token9" PartnerLinkTypeId="Token9">
+          <MyRole RoleName="RoleName9" />
+          <PartnerRole RoleName="RoleName9" ServiceName="ServiceName9" PortName="PortName9">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Token12" location="http://uri12" namespace="http://uri12" />
+            </EndPoint>
+          </PartnerRole>
+        </PartnerLink>
+      </PartnerLinks>
+    </WorkflowProcess>
+  </WorkflowProcesses>
+</Package>

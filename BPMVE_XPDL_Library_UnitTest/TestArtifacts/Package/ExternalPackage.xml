@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExternalPackage href="href1" Id="Token1" Name="Name1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Token1" Value="Value1">text</ExtendedAttribute>
+    <ExtendedAttribute Name="Token2" Value="Value2">text</ExtendedAttribute>
+    <ExtendedAttribute Name="Token3" Value="Value3">text</ExtendedAttribute>
+  </ExtendedAttributes>
+</ExternalPackage>

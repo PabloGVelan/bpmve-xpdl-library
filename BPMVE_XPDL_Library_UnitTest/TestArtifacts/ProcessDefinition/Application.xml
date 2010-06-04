@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application Id="Token1" Name="Name1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Description>Description1</Description>
+  <Type>
+    <Ejb>
+      <JndiName>JndiName1</JndiName>
+      <HomeClass>HomeClass1</HomeClass>
+      <Method>Method1</Method>
+    </Ejb>
+  </Type>
+  <FormalParameters>
+    <FormalParameter Id="Token1" Index="Token1" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+      <DataType>
+        <BasicType Type="STRING" />
+      </DataType>
+      <Description>Description1</Description>
+    </FormalParameter>
+    <FormalParameter Id="Token2" Index="Token2" Mode="IN" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+      <DataType>
+        <BasicType Type="FLOAT" />
+      </DataType>
+      <Description>Description2</Description>
+    </FormalParameter>
+    <FormalParameter Id="Token3" Index="Token3" Mode="OUT" xmlns="http://www.wfmc.org/2002/XPDL1.0">
+      <DataType>
+        <BasicType Type="INTEGER" />
+      </DataType>
+      <Description>Description3</Description>
+    </FormalParameter>
+    <Extensions>anyType</Extensions>
+  </FormalParameters>
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Token1" Value="Value1">text</ExtendedAttribute>
+    <ExtendedAttribute Name="Token2" Value="Value2">text</ExtendedAttribute>
+    <ExtendedAttribute Name="Token3" Value="Value3">text</ExtendedAttribute>
+  </ExtendedAttributes>
+</Application>

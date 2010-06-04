@@ -1,0 +1,1368 @@
+﻿<WorkflowProcess Id="Id" Name="Name" AccessLevel="PRIVATE" ProcessType="Collaboration" Status="Aborting" SuppressJoinFailure="true" EnableInstanceCompensation="true" AdHoc="true" AdHocCompletionCondition="AdhocCompletionCondition" DefaultStartActivityId="DefaultStartActivityId" DefaultStartActivitySetId="DefaultStartActivitySetId">
+  <RedefinableHeader PublicationStatus="UNDER_REVISION">
+    <Author>Author</Author>
+    <Codepage>Value</Codepage>
+    <Countrykey>Value</Countrykey>
+    <Responsibles>
+      <Responsible>Value</Responsible>
+    </Responsibles>
+  </RedefinableHeader>
+  <FormalParameters>
+    <FormalParameter Id="Id" Name="Name">
+      <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      <Description>Value</Description>
+      <Length>Length</Length>
+    </FormalParameter>
+    <FormalParameter Id="Id" Name="Name">
+      <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      <Description>Value</Description>
+      <Length>Length</Length>
+    </FormalParameter>
+  </FormalParameters>
+  <InputSets>
+    <InputSet>
+      <Input>
+        <Input ArtifactId="ArtifactId" />
+        <Input ArtifactId="ArtifactId" />
+      </Input>
+      <ArtifactInput>
+        <ArtifactInput ArtifactId="ArtifactId" />
+        <ArtifactInput ArtifactId="ArtifactId" />
+      </ArtifactInput>
+      <PropertyInput>
+        <PropertyInput PropertyId="PropertyId" />
+      </PropertyInput>
+    </InputSet>
+    <InputSet>
+      <Input>
+        <Input ArtifactId="ArtifactId" />
+        <Input ArtifactId="ArtifactId" />
+      </Input>
+      <ArtifactInput>
+        <ArtifactInput ArtifactId="ArtifactId" />
+        <ArtifactInput ArtifactId="ArtifactId" />
+      </ArtifactInput>
+      <PropertyInput>
+        <PropertyInput PropertyId="PropertyId" />
+      </PropertyInput>
+    </InputSet>
+  </InputSets>
+  <OutputSets>
+    <OutputSet>
+      <Output>
+        <Output ArtifactId="Value" />
+        <Output ArtifactId="Value" />
+      </Output>
+    </OutputSet>
+    <OutputSet>
+      <Output>
+        <Output ArtifactId="Value" />
+        <Output ArtifactId="Value" />
+      </Output>
+    </OutputSet>
+  </OutputSets>
+  <Participants>
+    <Participant Id="Id" Name="Name">
+      <ParticipantType />
+      <Description>Value</Description>
+      <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+    </Participant>
+    <Participant Id="Id" Name="Name">
+      <ParticipantType />
+      <Description>Value</Description>
+      <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+    </Participant>
+  </Participants>
+  <Applications>
+    <Application Id="Id" Name="Name">
+      <Description>Value</Description>
+      <Type>
+        <Ejb>
+          <JndiName>JndiName</JndiName>
+          <HomeClass>HomeClass</HomeClass>
+          <Method>Method</Method>
+        </Ejb>
+        <Pojo>
+          <Class>Class</Class>
+          <Method>Method</Method>
+        </Pojo>
+        <Xslt Location="Location" />
+        <Script>
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </Script>
+        <WebService InputMsgName="InputMsgName" OutputMsgName="OutputMsgName">
+          <WebServiceOperation OperationName="OperationName">
+            <Service ServiceName="ServiceName" PortName="PortName">
+              <EndPoint EndPointType="Service">
+                <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+              </EndPoint>
+            </Service>
+            <Partner PartnerLinkId="PartnerLinkId" />
+          </WebServiceOperation>
+          <WebServiceFaultCatch FaultName="FaultName">
+            <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+              <DataMappings>
+                <DataMapping Formal="Formal" Direction="INOUT">
+                  <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                  <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                </DataMapping>
+                <DataMapping Formal="Formal" Direction="INOUT">
+                  <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                  <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                </DataMapping>
+              </DataMappings>
+            </Message>
+            <TransitionRef Id="Id" Name="Name" />
+          </WebServiceFaultCatch>
+        </WebService>
+        <BusinessRule>
+          <RuleName>RuleName</RuleName>
+          <Location>Location</Location>
+        </BusinessRule>
+        <Form>
+          <FormLayout>FormLayout</FormLayout>
+        </Form>
+      </Type>
+      <FormalParameters>
+        <FormalParameter Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Description>Value</Description>
+          <Length>Length</Length>
+        </FormalParameter>
+        <FormalParameter Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Description>Value</Description>
+          <Length>Length</Length>
+        </FormalParameter>
+      </FormalParameters>
+      <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+    </Application>
+    <Application Id="Id" Name="Name">
+      <Description>Value</Description>
+      <Type>
+        <Ejb>
+          <JndiName>JndiName</JndiName>
+          <HomeClass>HomeClass</HomeClass>
+          <Method>Method</Method>
+        </Ejb>
+        <Pojo>
+          <Class>Class</Class>
+          <Method>Method</Method>
+        </Pojo>
+        <Xslt Location="Location" />
+        <Script>
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </Script>
+        <WebService InputMsgName="InputMsgName" OutputMsgName="OutputMsgName">
+          <WebServiceOperation OperationName="OperationName">
+            <Service ServiceName="ServiceName" PortName="PortName">
+              <EndPoint EndPointType="Service">
+                <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+              </EndPoint>
+            </Service>
+            <Partner PartnerLinkId="PartnerLinkId" />
+          </WebServiceOperation>
+          <WebServiceFaultCatch FaultName="FaultName">
+            <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+              <DataMappings>
+                <DataMapping Formal="Formal" Direction="INOUT">
+                  <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                  <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                </DataMapping>
+                <DataMapping Formal="Formal" Direction="INOUT">
+                  <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                  <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+                </DataMapping>
+              </DataMappings>
+            </Message>
+            <TransitionRef Id="Id" Name="Name" />
+          </WebServiceFaultCatch>
+        </WebService>
+        <BusinessRule>
+          <RuleName>RuleName</RuleName>
+          <Location>Location</Location>
+        </BusinessRule>
+        <Form>
+          <FormLayout>FormLayout</FormLayout>
+        </Form>
+      </Type>
+      <FormalParameters>
+        <FormalParameter Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Description>Value</Description>
+          <Length>Length</Length>
+        </FormalParameter>
+        <FormalParameter Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Description>Value</Description>
+          <Length>Length</Length>
+        </FormalParameter>
+      </FormalParameters>
+      <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+    </Application>
+  </Applications>
+  <DataFields>
+    <DataField Id="Id" Name="Name">
+      <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      <Length>Length</Length>
+      <Description>Value</Description>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+    </DataField>
+    <DataField Id="Id" Name="Name">
+      <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      <Length>Length</Length>
+      <Description>Value</Description>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+    </DataField>
+  </DataFields>
+  <ActivitySets>
+    <ActivitySet Id="Id" Name="Name" AdHoc="true" AdHocCompletionCondition="AdhocCompletionCondition" DefaultStartActivityId="DefaultStartActivityId">
+      <Activities>
+        <Activity Id="Id" Name="Name" IsForCompensation="true" StartActivity="true" Status="Aborted" StartMode="Manual" StartQuantity="2" IsATransaction="true">
+          <Description>Value</Description>
+          <Limit>Value</Limit>
+          <Transaction TransactionId="TransactionId" TransactionProtocol="TransactionProtocol" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Value</Performer>
+            <Performer>Value</Performer>
+          </Performers>
+          <Priority>Value</Priority>
+          <Deadline Execution="ASYNCHR">
+            <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <ExceptionName>ExceptionName</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Value</Cost>
+            <TimeEstimation>
+              <WaitingTime>Time</WaitingTime>
+              <WorkingTime>Time</WorkingTime>
+              <Duration>Value</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="1" YCOORD="2" WIDTH="4" HEIGHT="3" SHAPE="Diamond" />
+          <Documentation>Value</Documentation>
+          <TransactionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransactionRestriction>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <DataFields>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+          </DataFields>
+          <InputSets>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+          </InputSets>
+          <OutputSets>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+          </OutputSets>
+          <IORules>
+            <Expression>
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+              <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopMultiInstance>
+            <LoopStandard LoopCounter="1" LoopMaximum="2">
+              <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="Id" Name="Name" IsForCompensation="true" StartActivity="true" Status="Aborted" StartMode="Manual" StartQuantity="2" IsATransaction="true">
+          <Description>Value</Description>
+          <Limit>Value</Limit>
+          <Transaction TransactionId="TransactionId" TransactionProtocol="TransactionProtocol" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Value</Performer>
+            <Performer>Value</Performer>
+          </Performers>
+          <Priority>Value</Priority>
+          <Deadline Execution="ASYNCHR">
+            <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <ExceptionName>ExceptionName</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Value</Cost>
+            <TimeEstimation>
+              <WaitingTime>Time</WaitingTime>
+              <WorkingTime>Time</WorkingTime>
+              <Duration>Value</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="1" YCOORD="2" WIDTH="4" HEIGHT="3" SHAPE="Diamond" />
+          <Documentation>Value</Documentation>
+          <TransactionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransactionRestriction>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <DataFields>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+          </DataFields>
+          <InputSets>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+          </InputSets>
+          <OutputSets>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+          </OutputSets>
+          <IORules>
+            <Expression>
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+              <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopMultiInstance>
+            <LoopStandard LoopCounter="1" LoopMaximum="2">
+              <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transactions>
+        <Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <Condition>
+            <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </Condition>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+        </Transition>
+        <Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <Condition>
+            <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </Condition>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+        </Transition>
+      </Transactions>
+    </ActivitySet>
+    <ActivitySet Id="Id" Name="Name" AdHoc="true" AdHocCompletionCondition="AdhocCompletionCondition" DefaultStartActivityId="DefaultStartActivityId">
+      <Activities>
+        <Activity Id="Id" Name="Name" IsForCompensation="true" StartActivity="true" Status="Aborted" StartMode="Manual" StartQuantity="2" IsATransaction="true">
+          <Description>Value</Description>
+          <Limit>Value</Limit>
+          <Transaction TransactionId="TransactionId" TransactionProtocol="TransactionProtocol" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Value</Performer>
+            <Performer>Value</Performer>
+          </Performers>
+          <Priority>Value</Priority>
+          <Deadline Execution="ASYNCHR">
+            <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <ExceptionName>ExceptionName</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Value</Cost>
+            <TimeEstimation>
+              <WaitingTime>Time</WaitingTime>
+              <WorkingTime>Time</WorkingTime>
+              <Duration>Value</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="1" YCOORD="2" WIDTH="4" HEIGHT="3" SHAPE="Diamond" />
+          <Documentation>Value</Documentation>
+          <TransactionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransactionRestriction>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <DataFields>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+          </DataFields>
+          <InputSets>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+          </InputSets>
+          <OutputSets>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+          </OutputSets>
+          <IORules>
+            <Expression>
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+              <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopMultiInstance>
+            <LoopStandard LoopCounter="1" LoopMaximum="2">
+              <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+        <Activity Id="Id" Name="Name" IsForCompensation="true" StartActivity="true" Status="Aborted" StartMode="Manual" StartQuantity="2" IsATransaction="true">
+          <Description>Value</Description>
+          <Limit>Value</Limit>
+          <Transaction TransactionId="TransactionId" TransactionProtocol="TransactionProtocol" TransactionMethod="Compensate" />
+          <Performers>
+            <Performer>Value</Performer>
+            <Performer>Value</Performer>
+          </Performers>
+          <Priority>Value</Priority>
+          <Deadline Execution="ASYNCHR">
+            <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <ExceptionName>ExceptionName</ExceptionName>
+          </Deadline>
+          <SimulationInformation Instantiation="MULTIPLE">
+            <Cost>Value</Cost>
+            <TimeEstimation>
+              <WaitingTime>Time</WaitingTime>
+              <WorkingTime>Time</WorkingTime>
+              <Duration>Value</Duration>
+            </TimeEstimation>
+          </SimulationInformation>
+          <Icon XCOORD="1" YCOORD="2" WIDTH="4" HEIGHT="3" SHAPE="Diamond" />
+          <Documentation>Value</Documentation>
+          <TransactionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+            <TransitionRestriction>
+              <Join IncomingCondition="IncomingCondition" />
+              <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+                <TransactionRefs>
+                  <TransitionRef Id="Id" Name="Name" />
+                  <TransitionRef Id="Id" Name="Name" />
+                </TransactionRefs>
+              </Split>
+            </TransitionRestriction>
+          </TransactionRestriction>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <DataFields>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+            <DataField Id="Id" Name="Name">
+              <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Length>Length</Length>
+              <Description>Value</Description>
+              <ExtendedAttributes>
+                <ExtendedAttribute Name="Name" Value="Value" />
+                <ExtendedAttribute Name="Name" Value="Value" />
+              </ExtendedAttributes>
+            </DataField>
+          </DataFields>
+          <InputSets>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+            <InputSet>
+              <Input>
+                <Input ArtifactId="ArtifactId" />
+                <Input ArtifactId="ArtifactId" />
+              </Input>
+              <ArtifactInput>
+                <ArtifactInput ArtifactId="ArtifactId" />
+                <ArtifactInput ArtifactId="ArtifactId" />
+              </ArtifactInput>
+              <PropertyInput>
+                <PropertyInput PropertyId="PropertyId" />
+              </PropertyInput>
+            </InputSet>
+          </InputSets>
+          <OutputSets>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+            <OutputSet>
+              <Output>
+                <Output ArtifactId="Value" />
+                <Output ArtifactId="Value" />
+              </Output>
+            </OutputSet>
+          </OutputSets>
+          <IORules>
+            <Expression>
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </Expression>
+          </IORules>
+          <Loop LoopType="MultiInstance">
+            <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+              <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopMultiInstance>
+            <LoopStandard LoopCounter="1" LoopMaximum="2">
+              <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </LoopStandard>
+          </Loop>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+          <NodeGraphicsInfos>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+            <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </NodeGraphicsInfo>
+          </NodeGraphicsInfos>
+        </Activity>
+      </Activities>
+      <Transactions>
+        <Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <Condition>
+            <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </Condition>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+        </Transition>
+        <Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+          <ConnectorGraphicsInfos>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+            <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+              <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+            </ConnectorGraphicsInfo>
+          </ConnectorGraphicsInfos>
+          <Condition>
+            <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </Condition>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+          <Assignments>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+            <Assignment>
+              <Target ScriptVersion="2.1" />
+              <Expression ScriptType="UnknownType" />
+            </Assignment>
+          </Assignments>
+        </Transition>
+      </Transactions>
+    </ActivitySet>
+  </ActivitySets>
+  <Activities>
+    <Activity Id="Id" Name="Name" IsForCompensation="true" StartActivity="true" Status="Aborted" StartMode="Manual" StartQuantity="2" IsATransaction="true">
+      <Description>Value</Description>
+      <Limit>Value</Limit>
+      <Transaction TransactionId="TransactionId" TransactionProtocol="TransactionProtocol" TransactionMethod="Compensate" />
+      <Performers>
+        <Performer>Value</Performer>
+        <Performer>Value</Performer>
+      </Performers>
+      <Priority>Value</Priority>
+      <Deadline Execution="ASYNCHR">
+        <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <ExceptionName>ExceptionName</ExceptionName>
+      </Deadline>
+      <SimulationInformation Instantiation="MULTIPLE">
+        <Cost>Value</Cost>
+        <TimeEstimation>
+          <WaitingTime>Time</WaitingTime>
+          <WorkingTime>Time</WorkingTime>
+          <Duration>Value</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="1" YCOORD="2" WIDTH="4" HEIGHT="3" SHAPE="Diamond" />
+      <Documentation>Value</Documentation>
+      <TransactionRestriction>
+        <TransitionRestriction>
+          <Join IncomingCondition="IncomingCondition" />
+          <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+            <TransactionRefs>
+              <TransitionRef Id="Id" Name="Name" />
+              <TransitionRef Id="Id" Name="Name" />
+            </TransactionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join IncomingCondition="IncomingCondition" />
+          <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+            <TransactionRefs>
+              <TransitionRef Id="Id" Name="Name" />
+              <TransitionRef Id="Id" Name="Name" />
+            </TransactionRefs>
+          </Split>
+        </TransitionRestriction>
+      </TransactionRestriction>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Length>Length</Length>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+        </DataField>
+        <DataField Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Length>Length</Length>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet>
+          <Input>
+            <Input ArtifactId="ArtifactId" />
+            <Input ArtifactId="ArtifactId" />
+          </Input>
+          <ArtifactInput>
+            <ArtifactInput ArtifactId="ArtifactId" />
+            <ArtifactInput ArtifactId="ArtifactId" />
+          </ArtifactInput>
+          <PropertyInput>
+            <PropertyInput PropertyId="PropertyId" />
+          </PropertyInput>
+        </InputSet>
+        <InputSet>
+          <Input>
+            <Input ArtifactId="ArtifactId" />
+            <Input ArtifactId="ArtifactId" />
+          </Input>
+          <ArtifactInput>
+            <ArtifactInput ArtifactId="ArtifactId" />
+            <ArtifactInput ArtifactId="ArtifactId" />
+          </ArtifactInput>
+          <PropertyInput>
+            <PropertyInput PropertyId="PropertyId" />
+          </PropertyInput>
+        </InputSet>
+      </InputSets>
+      <OutputSets>
+        <OutputSet>
+          <Output>
+            <Output ArtifactId="Value" />
+            <Output ArtifactId="Value" />
+          </Output>
+        </OutputSet>
+        <OutputSet>
+          <Output>
+            <Output ArtifactId="Value" />
+            <Output ArtifactId="Value" />
+          </Output>
+        </OutputSet>
+      </OutputSets>
+      <IORules>
+        <Expression>
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </Expression>
+      </IORules>
+      <Loop LoopType="MultiInstance">
+        <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+          <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </LoopMultiInstance>
+        <LoopStandard LoopCounter="1" LoopMaximum="2">
+          <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+      </Assignments>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Activity>
+    <Activity Id="Id" Name="Name" IsForCompensation="true" StartActivity="true" Status="Aborted" StartMode="Manual" StartQuantity="2" IsATransaction="true">
+      <Description>Value</Description>
+      <Limit>Value</Limit>
+      <Transaction TransactionId="TransactionId" TransactionProtocol="TransactionProtocol" TransactionMethod="Compensate" />
+      <Performers>
+        <Performer>Value</Performer>
+        <Performer>Value</Performer>
+      </Performers>
+      <Priority>Value</Priority>
+      <Deadline Execution="ASYNCHR">
+        <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <ExceptionName>ExceptionName</ExceptionName>
+      </Deadline>
+      <SimulationInformation Instantiation="MULTIPLE">
+        <Cost>Value</Cost>
+        <TimeEstimation>
+          <WaitingTime>Time</WaitingTime>
+          <WorkingTime>Time</WorkingTime>
+          <Duration>Value</Duration>
+        </TimeEstimation>
+      </SimulationInformation>
+      <Icon XCOORD="1" YCOORD="2" WIDTH="4" HEIGHT="3" SHAPE="Diamond" />
+      <Documentation>Value</Documentation>
+      <TransactionRestriction>
+        <TransitionRestriction>
+          <Join IncomingCondition="IncomingCondition" />
+          <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+            <TransactionRefs>
+              <TransitionRef Id="Id" Name="Name" />
+              <TransitionRef Id="Id" Name="Name" />
+            </TransactionRefs>
+          </Split>
+        </TransitionRestriction>
+        <TransitionRestriction>
+          <Join IncomingCondition="IncomingCondition" />
+          <Split Type="Complex" OutgoingCondition="OutgoingCondition">
+            <TransactionRefs>
+              <TransitionRef Id="Id" Name="Name" />
+              <TransitionRef Id="Id" Name="Name" />
+            </TransactionRefs>
+          </Split>
+        </TransitionRestriction>
+      </TransactionRestriction>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+      <DataFields>
+        <DataField Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Length>Length</Length>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+        </DataField>
+        <DataField Id="Id" Name="Name">
+          <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Length>Length</Length>
+          <Description>Value</Description>
+          <ExtendedAttributes>
+            <ExtendedAttribute Name="Name" Value="Value" />
+            <ExtendedAttribute Name="Name" Value="Value" />
+          </ExtendedAttributes>
+        </DataField>
+      </DataFields>
+      <InputSets>
+        <InputSet>
+          <Input>
+            <Input ArtifactId="ArtifactId" />
+            <Input ArtifactId="ArtifactId" />
+          </Input>
+          <ArtifactInput>
+            <ArtifactInput ArtifactId="ArtifactId" />
+            <ArtifactInput ArtifactId="ArtifactId" />
+          </ArtifactInput>
+          <PropertyInput>
+            <PropertyInput PropertyId="PropertyId" />
+          </PropertyInput>
+        </InputSet>
+        <InputSet>
+          <Input>
+            <Input ArtifactId="ArtifactId" />
+            <Input ArtifactId="ArtifactId" />
+          </Input>
+          <ArtifactInput>
+            <ArtifactInput ArtifactId="ArtifactId" />
+            <ArtifactInput ArtifactId="ArtifactId" />
+          </ArtifactInput>
+          <PropertyInput>
+            <PropertyInput PropertyId="PropertyId" />
+          </PropertyInput>
+        </InputSet>
+      </InputSets>
+      <OutputSets>
+        <OutputSet>
+          <Output>
+            <Output ArtifactId="Value" />
+            <Output ArtifactId="Value" />
+          </Output>
+        </OutputSet>
+        <OutputSet>
+          <Output>
+            <Output ArtifactId="Value" />
+            <Output ArtifactId="Value" />
+          </Output>
+        </OutputSet>
+      </OutputSets>
+      <IORules>
+        <Expression>
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </Expression>
+      </IORules>
+      <Loop LoopType="MultiInstance">
+        <LoopMultiInstance LoopCounter="1" MI_FlowCondition="One">
+          <MI_Condition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <ComplexMI_FlowCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </LoopMultiInstance>
+        <LoopStandard LoopCounter="1" LoopMaximum="2">
+          <LoopCondition ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </LoopStandard>
+      </Loop>
+      <Assignments>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+      </Assignments>
+      <NodeGraphicsInfos>
+        <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </NodeGraphicsInfo>
+        <NodeGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" LaneId="LandId" Height="2" Width="4" Shape="Shape" OpenSimColor="3,3,3" OpenSimLocation="OpenSimLocation">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </NodeGraphicsInfo>
+      </NodeGraphicsInfos>
+    </Activity>
+  </Activities>
+  <Transitions>
+    <Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </ConnectorGraphicsInfo>
+        <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <Condition>
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </Condition>
+      <Description>Value</Description>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+      <Assignments>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+      </Assignments>
+    </Transition>
+    <Transition Id="Id" Name="Name" From="From" To="To" Quantity="4">
+      <ConnectorGraphicsInfos>
+        <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </ConnectorGraphicsInfo>
+        <ConnectorGraphicsInfo ToolId="ToolId" IsVisible="true" PageId="PageId" BorderColor="0,0,0" FillColor="1,1,1" Style="Style">
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+          <Coordinates XCoordinate="1.0" YCoordinate="2.0" />
+        </ConnectorGraphicsInfo>
+      </ConnectorGraphicsInfos>
+      <Condition>
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </Condition>
+      <Description>Value</Description>
+      <ExtendedAttributes>
+        <ExtendedAttribute Name="Name" Value="Value" />
+        <ExtendedAttribute Name="Name" Value="Value" />
+      </ExtendedAttributes>
+      <Assignments>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+        <Assignment>
+          <Target ScriptVersion="2.1" />
+          <Expression ScriptType="UnknownType" />
+        </Assignment>
+      </Assignments>
+    </Transition>
+  </Transitions>
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Name" Value="Value" />
+    <ExtendedAttribute Name="Name" Value="Value" />
+  </ExtendedAttributes>
+  <Assignments>
+    <Assignment>
+      <Target ScriptVersion="2.1" />
+      <Expression ScriptType="UnknownType" />
+    </Assignment>
+    <Assignment>
+      <Target ScriptVersion="2.1" />
+      <Expression ScriptType="UnknownType" />
+    </Assignment>
+  </Assignments>
+  <PartnerLinks>
+    <PartnerLink name="Name" Id="Id" PartnerLinkTypeId="PartnerLinkId">
+      <MyRole RoleName="RoleName" />
+      <PartnerRole RoleName="RoleName" ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </PartnerRole>
+    </PartnerLink>
+    <PartnerLink name="Name" Id="Id" PartnerLinkTypeId="PartnerLinkId">
+      <MyRole RoleName="RoleName" />
+      <PartnerRole RoleName="RoleName" ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </PartnerRole>
+    </PartnerLink>
+  </PartnerLinks>
+</WorkflowProcess>

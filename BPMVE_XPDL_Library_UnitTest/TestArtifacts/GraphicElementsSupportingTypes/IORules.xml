@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IORules xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Expression>
+  <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Expression>
+  <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Expression>
+</IORules>

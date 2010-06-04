@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BPMVE_XPDL_Library.Implementation">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <AssociationLine Name="NoImplementation" Type="BPMVE_XPDL_Library.NoImplementation" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.75" />
+        <Point X="4.25" Y="1.75" />
+        <Point X="4.25" Y="0.524" />
+        <Point X="10.078" Y="0.524" />
+        <Point X="10.078" Y="1" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Task" Type="BPMVE_XPDL_Library.Task" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.75" />
+        <Point X="4.238" Y="1.75" />
+        <Point X="4.238" Y="3.122" />
+        <Point X="6.781" Y="3.122" />
+        <Point X="6.781" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="SubFlow" Type="BPMVE_XPDL_Library.SubFlow" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.75" />
+        <Point X="4.249" Y="1.75" />
+        <Point X="4.249" Y="3.125" />
+        <Point X="10.688" Y="3.125" />
+        <Point X="10.688" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Reference" Type="BPMVE_XPDL_Library.Reference" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.75" />
+        <Point X="4.25" Y="1.75" />
+        <Point X="4.25" Y="0.524" />
+        <Point X="6.938" Y="0.524" />
+        <Point X="6.938" Y="1" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAACAAAAAgAAAAgAAAAAAAIgAAEAAAADAAAA=</HashCode>
+      <FileName>Implementation\Implementation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NoImplementation" />
+      <Property Name="Task" />
+      <Property Name="SubFlow" />
+      <Property Name="Reference" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Reference">
+    <Position X="4.5" Y="1" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAACAAEAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.SubFlow">
+    <Position X="8.25" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAADiAFAAACEQAAAgIAAAAQAAAQBEIAAQAAoIAAgAAA=</HashCode>
+      <FileName>Implementation\SubFlow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.Task">
+    <Position X="4.5" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAIAIQAAAACAAAAEgAAAABGgAAAAAIRAAAAYAABAAIE=</HashCode>
+      <FileName>Implementation\Task.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BPMVE_XPDL_Library.NoImplementation">
+    <Position X="7.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\NoImplementation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

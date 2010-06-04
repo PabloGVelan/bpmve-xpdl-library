@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Transition Id="Token1" From="Token1" To="Token1" Name="Name1" Quantity="1" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Condition Type="CONDITION">text<Xpression xmlns="http://www.wfmc.org/2002/XPDL1.0">text</Xpression></Condition>
+  <Description>Description1</Description>
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Token1" Value="Value1">text</ExtendedAttribute>
+    <ExtendedAttribute Name="Token2" Value="Value2">text</ExtendedAttribute>
+    <ExtendedAttribute Name="Token3" Value="Value3">text</ExtendedAttribute>
+  </ExtendedAttributes>
+  <Assignments>
+    <Assignment AssignTime="Start">
+      <Target ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Target>
+      <Expression ScriptType="ScriptType1" ScriptVersion="ScriptVersion1" ScriptGrammar="http://uri1">text</Expression>
+    </Assignment>
+    <Assignment AssignTime="Start">
+      <Target ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Target>
+      <Expression ScriptType="ScriptType2" ScriptVersion="ScriptVersion2" ScriptGrammar="http://uri2">text</Expression>
+    </Assignment>
+    <Assignment AssignTime="End">
+      <Target ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Target>
+      <Expression ScriptType="ScriptType3" ScriptVersion="ScriptVersion3" ScriptGrammar="http://uri3">text</Expression>
+    </Assignment>
+  </Assignments>
+  <Object Id="Token1" Name="Name1">
+    <Categories>
+      <Category Id="Token1" Name="Name1" />
+      <Category Id="Token2" Name="Name2" />
+      <Category Id="Token3" Name="Name3" />
+    </Categories>
+    <Documentation>Documentation1</Documentation>
+  </Object>
+  <ConnectorGraphicsInfos>
+    <ConnectorGraphicsInfo ToolId="Token1" IsVisible="true" Page="Token1" PageId="Token1" Style="Style1" BorderColor="BorderColor1" FillColor="FillColor1">
+      <Coordinates XCoordinate="1" YCoordinate="1" />
+      <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+      <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="Token2" IsVisible="true" Page="Token2" PageId="Token2" Style="Style2" BorderColor="BorderColor2" FillColor="FillColor2">
+      <Coordinates XCoordinate="-0.10000002384185791" YCoordinate="-0.10000002384185791" />
+      <Coordinates XCoordinate="2.1000000238418579" YCoordinate="2.1000000238418579" />
+      <Coordinates XCoordinate="-1.7976931348623157E+308" YCoordinate="-1.7976931348623157E+308" />
+    </ConnectorGraphicsInfo>
+    <ConnectorGraphicsInfo ToolId="Token3" IsVisible="false" Page="Token3" PageId="Token3" Style="Style3" BorderColor="BorderColor3" FillColor="FillColor3">
+      <Coordinates XCoordinate="1.7976931348623157E+308" YCoordinate="1.7976931348623157E+308" />
+      <Coordinates XCoordinate="-1.2000000476837158" YCoordinate="-1.2000000476837158" />
+      <Coordinates XCoordinate="3.2000000476837158" YCoordinate="3.2000000476837158" />
+    </ConnectorGraphicsInfo>
+  </ConnectorGraphicsInfos>
+</Transition>

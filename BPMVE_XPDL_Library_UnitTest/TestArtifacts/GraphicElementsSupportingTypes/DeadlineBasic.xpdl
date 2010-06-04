@@ -1,0 +1,4 @@
+﻿<Deadline Execution="ASYNCHR">
+  <DeadlineDuration ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  <ExceptionName>ExceptionName</ExceptionName>
+</Deadline>

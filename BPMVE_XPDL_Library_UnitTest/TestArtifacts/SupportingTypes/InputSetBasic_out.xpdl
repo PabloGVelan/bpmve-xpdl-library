@@ -1,0 +1,13 @@
+﻿<InputSet>
+  <Input>
+    <Input ArtifactId="ArtifactId" />
+    <Input ArtifactId="ArtifactId" />
+  </Input>
+  <ArtifactInput>
+    <ArtifactInput ArtifactId="ArtifactId" />
+    <ArtifactInput ArtifactId="ArtifactId" />
+  </ArtifactInput>
+  <PropertyInput>
+    <PropertyInput PropertyId="PropertyId" />
+  </PropertyInput>
+</InputSet>

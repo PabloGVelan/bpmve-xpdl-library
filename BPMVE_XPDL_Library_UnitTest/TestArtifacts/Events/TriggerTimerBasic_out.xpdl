@@ -1,0 +1,4 @@
+﻿<TriggerTimer>
+  <TimeDate ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  <TimeCycle ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+</TriggerTimer>

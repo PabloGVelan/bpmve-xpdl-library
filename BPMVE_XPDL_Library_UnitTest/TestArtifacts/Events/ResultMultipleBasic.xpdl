@@ -1,0 +1,27 @@
+﻿<ResultMultiple>
+  <TriggerResultMessage CatchThrow="THROW">
+    <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </Message>
+    <ExtendedAttributes OperationName="OperationName">
+      <Service ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </Service>
+      <Partner PartnerLinkId="PartnerLinkId" />
+    </ExtendedAttributes>
+  </TriggerResultMessage>
+  <TriggerResultLink Name="Name" />
+  <TriggerResultCompensation ActivityId="ActivityId" />
+  <ResultError ErrorCode="ErrorCode" />
+</ResultMultiple>

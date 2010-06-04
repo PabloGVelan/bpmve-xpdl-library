@@ -1,0 +1,22 @@
+﻿<Pool Id="Id" Name="Name" Process="Process" Participant="Participant" MainPool="true">
+  <Lanes>
+    <Lane Id="Id" Name="Name">
+      <Object />
+      <Performers>
+        <Performer>Value</Performer>
+      </Performers>
+      <NestedLanes>
+        <Lane Id="NestedId" Name="NestedName" />
+      </NestedLanes>
+    </Lane>
+    <Lane Id="Id" Name="Name">
+      <Object />
+      <Performers>
+        <Performer>Value</Performer>
+      </Performers>
+      <NestedLanes>
+        <Lane Id="NestedId" Name="NestedName" />
+      </NestedLanes>
+    </Lane>
+  </Lanes>
+</Pool>

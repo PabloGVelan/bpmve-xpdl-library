@@ -1,0 +1,206 @@
+﻿<Event>
+  <StartEvent Trigger="Conditional">
+    <TriggerResultMessage CatchThrow="THROW">
+      <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+        <DataMappings>
+          <DataMapping Formal="Formal" Direction="INOUT">
+            <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </DataMapping>
+          <DataMapping Formal="Formal" Direction="INOUT">
+            <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </DataMapping>
+        </DataMappings>
+      </Message>
+      <ExtendedAttributes OperationName="OperationName">
+        <Service ServiceName="ServiceName" PortName="PortName">
+          <EndPoint EndPointType="Service">
+            <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+          </EndPoint>
+        </Service>
+        <Partner PartnerLinkId="PartnerLinkId" />
+      </ExtendedAttributes>
+    </TriggerResultMessage>
+    <TriggerTimer>
+      <TimeDate ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      <TimeCycle ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    </TriggerTimer>
+    <TriggerConditional ConditionName="ConditionName">
+      <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    </TriggerConditional>
+    <TriggerResultSignal Name="Name">
+      <Properties>
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </Properties>
+    </TriggerResultSignal>
+    <TriggerMultiple>
+      <TriggerResultMessage CatchThrow="THROW">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <ExtendedAttributes OperationName="OperationName">
+          <Service ServiceName="ServiceName" PortName="PortName">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+            </EndPoint>
+          </Service>
+          <Partner PartnerLinkId="PartnerLinkId" />
+        </ExtendedAttributes>
+      </TriggerResultMessage>
+      <TriggerTimer>
+        <TimeDate ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TimeCycle ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </TriggerTimer>
+      <TriggerConditional ConditionName="ConditionName">
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </TriggerConditional>
+      <TriggerResultLink Name="Name" />
+    </TriggerMultiple>
+  </StartEvent>
+  <EndEvent Result="Cancel" Implementation="Unspecified">
+    <TriggerResultMessage CatchThrow="THROW">
+      <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+        <DataMappings>
+          <DataMapping Formal="Formal" Direction="INOUT">
+            <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </DataMapping>
+          <DataMapping Formal="Formal" Direction="INOUT">
+            <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </DataMapping>
+        </DataMappings>
+      </Message>
+      <ExtendedAttributes OperationName="OperationName">
+        <Service ServiceName="ServiceName" PortName="PortName">
+          <EndPoint EndPointType="Service">
+            <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+          </EndPoint>
+        </Service>
+        <Partner PartnerLinkId="PartnerLinkId" />
+      </ExtendedAttributes>
+    </TriggerResultMessage>
+    <ResultError ErrorCode="ErrorCode" />
+    <TriggerResultCompensation ActivityId="ActivityId" />
+    <TriggerResultSignal Name="Name">
+      <Properties>
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </Properties>
+    </TriggerResultSignal>
+    <ResultMultiple>
+      <TriggerResultMessage CatchThrow="THROW">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <ExtendedAttributes OperationName="OperationName">
+          <Service ServiceName="ServiceName" PortName="PortName">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+            </EndPoint>
+          </Service>
+          <Partner PartnerLinkId="PartnerLinkId" />
+        </ExtendedAttributes>
+      </TriggerResultMessage>
+      <TriggerResultLink Name="Name" />
+      <TriggerResultCompensation ActivityId="ActivityId" />
+      <ResultError ErrorCode="ErrorCode" />
+    </ResultMultiple>
+  </EndEvent>
+  <IntermediateEvent Implementation="Other" Target="Target">
+    <TriggerResultMessage CatchThrow="THROW">
+      <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+        <DataMappings>
+          <DataMapping Formal="Formal" Direction="INOUT">
+            <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </DataMapping>
+          <DataMapping Formal="Formal" Direction="INOUT">
+            <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          </DataMapping>
+        </DataMappings>
+      </Message>
+      <ExtendedAttributes OperationName="OperationName">
+        <Service ServiceName="ServiceName" PortName="PortName">
+          <EndPoint EndPointType="Service">
+            <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+          </EndPoint>
+        </Service>
+        <Partner PartnerLinkId="PartnerLinkId" />
+      </ExtendedAttributes>
+    </TriggerResultMessage>
+    <TriggerTimer>
+      <TimeDate ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      <TimeCycle ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    </TriggerTimer>
+    <ResultError ErrorCode="ErrorCode" />
+    <TriggerResultCompensation ActivityId="ActivityId" />
+    <TriggerConditional ConditionName="ConditionName">
+      <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    </TriggerConditional>
+    <TriggerResultLink Name="Name" />
+    <TriggerResultCancel />
+    <TriggerResultSignal Name="Name">
+      <Properties>
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </Properties>
+    </TriggerResultSignal>
+    <TriggerIntermediateMultiple>
+      <TriggerResultMessage CatchThrow="THROW">
+        <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+          <DataMappings>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+            <DataMapping Formal="Formal" Direction="INOUT">
+              <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+              <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+            </DataMapping>
+          </DataMappings>
+        </Message>
+        <ExtendedAttributes OperationName="OperationName">
+          <Service ServiceName="ServiceName" PortName="PortName">
+            <EndPoint EndPointType="Service">
+              <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+            </EndPoint>
+          </Service>
+          <Partner PartnerLinkId="PartnerLinkId" />
+        </ExtendedAttributes>
+      </TriggerResultMessage>
+      <TriggerTimer>
+        <TimeDate ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        <TimeCycle ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </TriggerTimer>
+      <ResultError ErrorCode="ErrorCode" />
+      <TriggerResultCompensation ActivityId="ActivityId" />
+      <TriggerConditional ConditionName="ConditionName">
+        <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+      </TriggerConditional>
+      <TriggerResultLink Name="Name" />
+    </TriggerIntermediateMultiple>
+    <Implementation>Compensation</Implementation>
+  </IntermediateEvent>
+</Event>

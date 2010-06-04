@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RedefinableHeader PublicationStatus="UNDER_REVISION" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Author>Author1</Author>
+  <Version>Version1</Version>
+  <Codepage>Codepage1</Codepage>
+  <Countrykey>Countrykey1</Countrykey>
+  <Responsibles>
+    <Responsible>Responsible1</Responsible>
+    <Responsible>Responsible2</Responsible>
+    <Responsible>Responsible3</Responsible>
+  </Responsibles>
+</RedefinableHeader>

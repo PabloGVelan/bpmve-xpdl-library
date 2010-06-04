@@ -1,0 +1,4 @@
+﻿<PartnerLinkType Id="Id" Name="Name">
+  <Role portType="PortType" Name="Name" />
+  <Role portType="PortType" Name="Name" />
+</PartnerLinkType>

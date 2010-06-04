@@ -1,0 +1,5 @@
+﻿<Service ServiceName="ServiceName" PortName="PortName">
+  <EndPoint EndPointType="Service">
+    <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+  </EndPoint>
+</Service>

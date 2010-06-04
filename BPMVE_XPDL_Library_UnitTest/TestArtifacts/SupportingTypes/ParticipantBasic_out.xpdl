@@ -1,0 +1,8 @@
+﻿<Participant Id="Id" Name="Name">
+  <ParticipantType />
+  <Description>Value</Description>
+  <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Name" Value="Value" />
+  </ExtendedAttributes>
+</Participant>

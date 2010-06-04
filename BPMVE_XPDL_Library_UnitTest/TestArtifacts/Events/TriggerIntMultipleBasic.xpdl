@@ -1,0 +1,34 @@
+﻿<TriggerIntermediateMultiple>
+  <TriggerResultMessage CatchThrow="THROW">
+    <Message Id="Id" Name="Name" From="From" To="To" FaultName="FaultName">
+      <DataMappings>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+        <DataMapping Formal="Formal" Direction="INOUT">
+          <Actual ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+          <TestValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+        </DataMapping>
+      </DataMappings>
+    </Message>
+    <ExtendedAttributes OperationName="OperationName">
+      <Service ServiceName="ServiceName" PortName="PortName">
+        <EndPoint EndPointType="Service">
+          <ExternalReference xref="Xref" location="Location" namespace="Namespace_XPDL" />
+        </EndPoint>
+      </Service>
+      <Partner PartnerLinkId="PartnerLinkId" />
+    </ExtendedAttributes>
+  </TriggerResultMessage>
+  <TriggerTimer>
+    <TimeDate ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+    <TimeCycle ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </TriggerTimer>
+  <ResultError ErrorCode="ErrorCode" />
+  <TriggerResultCompensation ActivityId="ActivityId" />
+  <TriggerConditional ConditionName="ConditionName">
+    <Expression ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  </TriggerConditional>
+  <TriggerResultLink Name="Name" />
+</TriggerIntermediateMultiple>

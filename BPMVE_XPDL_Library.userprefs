@@ -1,0 +1,56 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BPMVE_XPDL_Library_UnitTest/Utilities.cs" ctype="Workbench">
+    <Files>
+      <File FileName="BPMVE_XPDL_Library_UnitTest/Utilities.cs" Line="163" Column="25" />
+      <File FileName="BPMVE_XPDL_Library/PackageDefinition/Package.cs" Line="58" Column="39" />
+      <File FileName="BPMVE_XPDL_Library_UnitTest/TIBCOTests.cs" Line="37" Column="25" />
+      <File FileName="BPMVE_XPDL_Library/Utilities.cs" Line="219" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BPMVE_XPDL_Library" expanded="True">
+            <Node name="PackageDefinition" expanded="True">
+              <Node name="LayoutInfo.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node name="BPMVE_XPDL_Library_UnitTest" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True">
+          <Node name="BPMVE_XPDL_Library_UnitTest" expanded="True">
+            <Node name="BPMVE_XPDL_Library_UnitTest" expanded="True">
+              <Option id="ShowProjects" value="True" />
+              <Option id="NestedNamespaces" value="True" />
+              <Option id="PublicProtectedApiOnly" value="False" />
+              <Option id="PublicApiOnly" value="False" />
+              <Option id="GroupByAccess" value="False" />
+              <Option id="GroupByType" value="True" />
+              <Node name="BPMVE_XPDL_Library_UnitTest.TIBCOTests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Renfred/Projects/BPMVE_XPDL_Library/BPMVE_XPDL_Library_UnitTest/Utilities.cs" line="303" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+  <AuthorInfo Name="Renfred" Email="renfred@me.com" Copyright="" ctype="AuthorInformation" />
+</Properties>

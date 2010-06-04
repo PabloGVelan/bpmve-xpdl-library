@@ -1,0 +1,9 @@
+﻿<Lane Id="Id" Name="Name">
+  <Object />
+  <Performers>
+    <Performer>Value</Performer>
+  </Performers>
+  <NestedLanes>
+    <Lane Id="NestedId" Name="NestedName" />
+  </NestedLanes>
+</Lane>

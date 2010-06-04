@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimulationInformation Instantiation="ONCE" xmlns:p1="otherNS" xmlns="http://www.wfmc.org/2008/XPDL2.1">
+  <Cost>Cost1</Cost>
+  <TimeEstimation>
+    <WaitingTime>WaitingTime1</WaitingTime>
+    <WorkingTime>WorkingTime1</WorkingTime>
+    <Duration>Duration1</Duration>
+  </TimeEstimation>
+</SimulationInformation>

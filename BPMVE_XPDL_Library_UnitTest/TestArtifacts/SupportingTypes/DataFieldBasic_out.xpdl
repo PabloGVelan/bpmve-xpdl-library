@@ -1,0 +1,9 @@
+﻿<DataField Id="Id" Name="Name">
+  <InitialValue ScriptType="ScriptType" ScriptGrammer="ScriptGrammar" ScriptVersion="ScriptVersion" />
+  <Length>Length</Length>
+  <Description>Value</Description>
+  <ExtendedAttributes>
+    <ExtendedAttribute Name="Name" Value="Value" />
+    <ExtendedAttribute Name="Name" Value="Value" />
+  </ExtendedAttributes>
+</DataField>
